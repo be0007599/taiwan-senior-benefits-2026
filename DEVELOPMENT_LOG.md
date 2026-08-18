@@ -715,3 +715,11 @@ P0 的第一版資料檔已完成。下一步先建立22縣市敬老卡獨立方
 - 使用 OpenAI Sites 作為遠端手機可存取的 HTTPS 託管服務，不連結使用者的 GitHub 或 Vercel 帳號。
 - 新增 `.openai/hosting.json`、`@openai/sites-vite-plugin` 與 Cloudflare Workers 相容的靜態資產入口。
 - 建置流程會產出 Sites 所需的 `dist/server/index.js` 與託管中繼資料；正式發布仍沿用相同的211筆資料與前端覆蓋驗證。
+
+## 2026-08-18 GitHub 版本管理與 Pages 公開準備
+
+- 建立 GitHub Repository `be0007599/taiwan-senior-benefits-2026`，並將本機 `main` 與初始提交推送完成。
+- 公開前檢查完整 Git 歷史與受追蹤檔案，未發現 API 金鑰、密碼、權杖或使用者手機截圖；`.codex-remote-attachments/` 已加入忽略清單。
+- OpenAI Sites 的私人網址在未帶登入授權的手機瀏覽器會回傳401，瀏覽器可能顯示為404，因此不適合作為一般長者直接使用的公開入口。
+- 新增 GitHub Pages 自動部署流程，`main` 更新後會以 pnpm 建置並發布；Vite 正式資產路徑已配合專案網址 `/taiwan-senior-benefits-2026/`。
+- 專案負責人已確認公開；GitHub Repository 已改為 Public，Pages 發布來源已設為 GitHub Actions，推送後由工作流程自動發布。

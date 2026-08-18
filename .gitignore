@@ -3,3 +3,4 @@ dist/
 qa/
 *.log
 .wrangler/
+.codex-remote-attachments/
