@@ -191,7 +191,7 @@ function ProfileForm({ profile, onUpdate, onSubmit, errors, advancedOpen, onTogg
         {errors.age ? <span className="field-error" id="age-error">{errors.age}</span> : null}
       </label>
 
-      <button className="submit-button" type="submit"><Search aria-hidden="true" />開始查詢</button>
+      {!advancedOpen ? <button className="submit-button" type="submit"><Search aria-hidden="true" />開始查詢</button> : null}
 
       <button className="advanced-toggle" type="button" aria-expanded={advancedOpen} aria-controls="advanced-fields"
         onClick={onToggleAdvanced}>
@@ -217,6 +217,8 @@ function ProfileForm({ profile, onUpdate, onSubmit, errors, advancedOpen, onTogg
             options={[["yes", "是"], ["no", "否"], ["unknown", "不確定"]]} />
         </div>
       </div> : null}
+
+      {advancedOpen ? <button className="submit-button after-advanced" type="submit"><Search aria-hidden="true" />開始查詢</button> : null}
 
       <p className="privacy-note"><LockKeyhole aria-hidden="true" />這些資料只用於本次查詢，不會儲存。</p>
     </form>
@@ -309,7 +311,16 @@ function App() {
       return
     }
     setSubmittedProfile({ ...profile, age })
-    requestAnimationFrame(() => resultsRef.current?.focus())
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      const firstResult = resultsRef.current?.querySelector('.result-item')
+      const firstSummary = firstResult?.querySelector('.result-summary')
+      if (firstResult && firstSummary) {
+        firstSummary.focus({ preventScroll: true })
+        firstResult.scrollIntoView({ block: 'start' })
+      } else {
+        resultsRef.current?.focus()
+      }
+    }))
   }
 
   const editProfile = () => {
