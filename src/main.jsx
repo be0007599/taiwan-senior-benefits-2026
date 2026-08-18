@@ -149,13 +149,12 @@ function App() {
   const [filter, setFilter] = useState('all')
   const [query, setQuery] = useState('')
   const [browseAll, setBrowseAll] = useState(false)
-  const [includeExpired, setIncludeExpired] = useState(false)
   const [expanded, setExpanded] = useState(null)
   const deferredQuery = useDeferredValue(query)
 
   const matches = useMemo(() => filterBenefits(benefits, {
-    profile, category: filter, query: deferredQuery, browseAll, includeExpired,
-  }), [profile, filter, deferredQuery, browseAll, includeExpired])
+    profile, category: filter, query: deferredQuery, browseAll,
+  }), [profile, filter, deferredQuery, browseAll])
 
   const update = key => value => setProfile(p => ({ ...p, [key]: value }))
 
@@ -207,8 +206,6 @@ function App() {
           <div className="browse-options">
             <label className="toggle"><input type="checkbox" checked={browseAll} onChange={event => setBrowseAll(event.target.checked)} />
               <span>瀏覽此縣市全部福利，不依資格隱藏</span></label>
-            <label className="toggle"><input type="checkbox" checked={includeExpired} onChange={event => setIncludeExpired(event.target.checked)} />
-              <span>包含已截止的歷史資料</span></label>
           </div>
         </div>
         <nav className="filters" aria-label="福利類別">
