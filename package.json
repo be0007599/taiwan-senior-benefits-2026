@@ -1,0 +1,24 @@
+{
+  "name": "taiwan-65-plus-benefits",
+  "version": "0.1.0",
+  "private": true,
+  "description": "台灣 65 歲以上福利官方核驗資料與長者友善查詢平台",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/prepare-sites-build.mjs",
+    "preview": "vite preview",
+    "validate:data": "node scripts/validate-data.mjs",
+    "audit:data": "node scripts/audit-data-quality.mjs",
+    "audit:frontend": "node scripts/audit-frontend-coverage.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "@openai/sites-vite-plugin": "0.1.0",
+    "lucide-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {}
+}

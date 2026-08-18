@@ -1,0 +1,231 @@
+[
+  {
+    "jurisdiction": "基隆市",
+    "verification_status": "verified",
+    "confirmed_summary": "設籍基隆且65歲以上可申請敬老卡並免費不限次搭乘市公車；115年度施政計畫列65至99歲重陽敬老慰問金1,000元、百歲以上6,000元及禮品。",
+    "remaining_gaps": ["其他地方長者補助逐項資料"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "基隆市敬老卡", "url": "https://www.klcg.gov.tw/tw/klcg1/4143-280929.html", "publisher": "基隆市政府" },
+      { "title": "基隆市政府115年度施政計畫", "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1766543794964.pdf", "publisher": "基隆市政府" }
+    ]
+  },
+  {
+    "jurisdiction": "臺北市",
+    "verification_status": "verified",
+    "confirmed_summary": "民國115年7月起敬老卡每月600點；115年重陽敬老金依年齡分為1,500元、3,000元及10,000元。",
+    "remaining_gaps": ["地方健康檢查、假牙、獨居關懷等方案拆分成獨立資料"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "臺北市敬老卡點數與使用範圍", "url": "https://dosw.gov.taipei/cp.aspx?n=59C18B4C973AED21", "publisher": "臺北市政府社會局" },
+      { "title": "臺北市115年重陽敬老禮金", "url": "https://www.gov.taipei/News_Content.aspx?n=EEC70A4186D4C828&s=A21B31605A9C8237&sms=87415A8B9CE81B16", "publisher": "臺北市政府" }
+    ]
+  },
+  {
+    "jurisdiction": "新北市",
+    "verification_status": "verified",
+    "confirmed_summary": "民國115年7月起敬老卡每月600點；115年重陽敬老金依年齡分為1,500元、2,000元、5,000元及20,000元。",
+    "remaining_gaps": ["完整健保補助投保類別", "地方照顧與健康方案拆分"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "新北市重陽敬老禮金", "url": "https://www.sw.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=c88dc1550b5791675b53145f3441d318&id=bd3ac04bd17eafde", "publisher": "新北市政府社會局" },
+      { "title": "新北市老人健保補助", "url": "https://lkk.ntpc.gov.tw/new/home.jsp?id=8c4540120c916d8b", "publisher": "新北市政府" }
+    ]
+  },
+  {
+    "jurisdiction": "桃園市",
+    "verification_status": "verified",
+    "confirmed_summary": "敬老卡每月800點、復興區1,000點；現行市府資料列三節與重陽禮金每次2,500元，99歲以上重陽20,000元。",
+    "remaining_gaps": ["各現金方案排富條件結構化", "地方健康與照顧方案拆分"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "桃園市老人福利問答", "url": "https://sab.tycg.gov.tw/News_Content.aspx?n=7467&s=1469836&sms=12017", "publisher": "桃園市政府社會局" }
+    ]
+  },
+  {
+    "jurisdiction": "新竹市",
+    "verification_status": "verified",
+    "confirmed_summary": "敬老卡每月800點；已確認安老津貼、重陽敬老金及民國115年愛老津貼計畫存在，現金方案須個別判斷資格。",
+    "remaining_gaps": ["安老津貼所得財產條件完整結構化", "115年愛老津貼完整排富規則"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "新竹市敬老卡", "url": "https://society.hccg.gov.tw/ch/home.jsp?dataserno=201603290054&id=123&mcustomize=onemessages_view.jsp", "publisher": "新竹市政府社會處" }
+    ]
+  },
+  {
+    "jurisdiction": "新竹縣",
+    "verification_status": "verified",
+    "confirmed_summary": "敬老卡民國115年1月至9月每月500點，10月起提高為1,000點，並擴大使用範圍。",
+    "remaining_gaps": ["13鄉鎮市自辦重陽金與健保補助", "其他地方長者方案"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "新竹縣敬老卡115年升級", "url": "https://www.hsinchu.gov.tw/News_Content.aspx?n=153&s=311026&sms=8603", "publisher": "新竹縣政府" },
+      { "title": "新竹縣各鄉鎮市老人福利概況", "url": "https://civil.hsinchu.gov.tw/cp.aspx?n=1624&s=411", "publisher": "新竹縣政府民政處" }
+    ]
+  },
+  {
+    "jurisdiction": "苗栗縣",
+    "verification_status": "verified",
+    "confirmed_summary": "民國115年7月起敬老卡可於農會消費，每月最高使用100點；同月起一般80歲以上、原住民70歲以上老人健保補助。",
+    "remaining_gaps": ["健保補助正式實施期間與投保類別結構化", "重陽金與其他福利"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "苗栗縣敬老卡及老人健保政策", "url": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=708&s=966430&sms=9626", "publisher": "苗栗縣政府社會處" }
+    ]
+  },
+  {
+    "jurisdiction": "臺中市",
+    "verification_status": "verified",
+    "confirmed_summary": "重陽敬老禮金依年齡分為2,000元、3,000元、5,000元及10,000元；敬老愛心卡現行頁列每月約1,000點。",
+    "remaining_gaps": ["敬老卡115年度直接公告", "健保補助完整稅率與投保條件"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "臺中市重陽敬老禮金", "url": "https://www.society.taichung.gov.tw/13710/13735/13774/13783/2905980", "publisher": "臺中市政府社會局" }
+    ]
+  },
+  {
+    "jurisdiction": "彰化縣",
+    "verification_status": "verified",
+    "confirmed_summary": "重陽敬老禮金一般65至99歲1,000元；特定福利身分依年齡分級3,000元、6,000元、9,000元，100歲以上10,000元。",
+    "remaining_gaps": ["敬老卡每月總點數與完整使用範圍", "其他老人福利逐項資料"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "彰化縣重陽敬老禮金", "url": "https://www.chcg.gov.tw/DTO/social/07other/other01_con.aspx?cate_id=5692&data_id=26467&topsn=711", "publisher": "彰化縣政府" }
+    ]
+  },
+  {
+    "jurisdiction": "南投縣",
+    "verification_status": "verified",
+    "confirmed_summary": "民國115年4月起，符合規定的65歲以上老人及55歲以上原住民可獲健保自付額補助，最高至地區人口保費。",
+    "remaining_gaps": ["重陽敬老禮金115年公告", "敬老卡月點數與使用範圍"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "南投縣老人及原住民健保費補助問答集", "url": "https://www.nantou.gov.tw/getfile.php?path=upload%2FntBnwcrAAr6UFwqf.pdf", "publisher": "南投縣政府" }
+    ]
+  },
+  {
+    "jurisdiction": "雲林縣",
+    "verification_status": "verified",
+    "confirmed_summary": "敬老卡可免費搭乘縣內簽約客運；民國115年有弱勢老人假牙補助，縣府並列中低老人、照顧、修繕及醫療看護等服務。",
+    "remaining_gaps": ["115年重陽敬老禮金正式金額", "各項弱勢方案金額及申請期限"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "雲林縣老人福利服務", "url": "https://social.yunlin.gov.tw/cl.aspx?n=22756", "publisher": "雲林縣政府社會處" },
+      { "title": "雲林縣敬老卡", "url": "https://social.yunlin.gov.tw/News_Content.aspx?n=8164&s=379287", "publisher": "雲林縣政府社會處" }
+    ]
+  },
+  {
+    "jurisdiction": "嘉義市",
+    "verification_status": "verified",
+    "confirmed_summary": "健保署列民國115年7月起，設籍滿6個月且80歲以上長者，健保費最高補助至地區人口保費；社福卡可於臺鐵使用。",
+    "remaining_gaps": ["春節與重陽敬老禮金的115年主管機關公告", "地方老人福利完整清單"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "各級政府辦理健保費補助項目一覽表", "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html", "publisher": "衛生福利部中央健康保險署" }
+    ]
+  },
+  {
+    "jurisdiction": "嘉義縣",
+    "verification_status": "pending_confirmation",
+    "confirmed_summary": "已確認縣府有重陽敬老禮金申辦服務，且社福卡可於臺鐵折抵。",
+    "remaining_gaps": ["民國115年重陽敬老禮金正式金額", "敬老卡每月點數與完整使用範圍", "其他老人福利逐項資料"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "嘉義縣重陽敬老禮金申辦服務", "url": "https://www.gov.tw/News_Content_2_775468", "publisher": "數位發展部／嘉義縣政府" }
+    ]
+  },
+  {
+    "jurisdiction": "臺南市",
+    "verification_status": "verified",
+    "confirmed_summary": "民國115年重陽敬老金65至99歲1,500元、100歲以上10,000元；另有老人健保費補助及市區公車敬老優惠。",
+    "remaining_gaps": ["健保補助所得稅率與投保類別完整結構化", "地方健康照顧方案拆分"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "臺南市115年重陽敬老禮金", "url": "https://sab.tainan.gov.tw/News_Content.aspx?n=21368&s=7803998", "publisher": "臺南市政府社會局" }
+    ]
+  },
+  {
+    "jurisdiction": "高雄市",
+    "verification_status": "verified",
+    "confirmed_summary": "民國115年7月起敬老卡每月600點，可用於公共運輸、計程車、醫療掛號及運動文化等；115年另有長者健康檢查。",
+    "remaining_gaps": ["115年重陽敬老禮金正式金額", "健保補助完整排富條件"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "高雄市敬老卡", "url": "https://older.kcg.gov.tw/cp.aspx?Create=1&n=4B8F94057BD83363", "publisher": "高雄市政府社會局" },
+      { "title": "高雄市115年長者健康檢查", "url": "https://health.kcg.gov.tw/News_Content.aspx?n=51623F92649C1BE2&s=288C7776FAF29692&sms=F9373F0CFE2E3F24", "publisher": "高雄市政府衛生局" }
+    ]
+  },
+  {
+    "jurisdiction": "屏東縣",
+    "verification_status": "conflicting_sources",
+    "confirmed_summary": "民國115年符合弱勢身分的65歲以上長者及55歲以上原住民可接受縣府加值健檢；臺鐵現行頁列屏東社福卡單次折抵上限1,000點。",
+    "remaining_gaps": ["敬老卡每月總點數", "官方申辦頁與臺鐵單次折抵上限的差異", "重陽敬老禮金115年資料"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "115年各縣市長者健康檢查服務", "url": "https://www.gov.tw/News_Content_26_802152", "publisher": "數位發展部／各地方政府" },
+      { "title": "臺鐵各縣市社福卡點數使用規定", "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip00C/tipC21/view?lang=zh_TW&proCode=8ae4cac388f3efbd0188f764d94406ff&subCode=8ae4cac388f3efbd0188f766b49c0709", "publisher": "國營臺灣鐵路股份有限公司" }
+    ]
+  },
+  {
+    "jurisdiction": "宜蘭縣",
+    "verification_status": "pending_confirmation",
+    "confirmed_summary": "已確認設籍宜蘭且65歲以上可申請縣民／敬老卡，另有中低收入老人生活與特別照顧津貼。",
+    "remaining_gaps": ["敬老卡115年月額與完整使用範圍", "重陽敬老禮金", "地方健保與健康補助"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "宜蘭縣敬老卡", "url": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372390&sms=16134", "publisher": "宜蘭縣政府" }
+    ]
+  },
+  {
+    "jurisdiction": "花蓮縣",
+    "verification_status": "verified",
+    "confirmed_summary": "健保署列民國115年6月起，設籍並實際居住花蓮、65歲以上長者的健保費最高補助至地區人口保費。",
+    "remaining_gaps": ["假牙、計程車與重陽金加碼案最終生效狀態", "敬老卡與其他現行福利"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "花蓮縣老人經濟補助", "url": "https://sa.hl.gov.tw/Detail_sp/5484af3f35b0491eb9c4ce603bd07aa9", "publisher": "花蓮縣政府社會處" },
+      { "title": "各級政府辦理健保費補助項目一覽表", "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html", "publisher": "衛生福利部中央健康保險署" }
+    ]
+  },
+  {
+    "jurisdiction": "臺東縣",
+    "verification_status": "verified",
+    "confirmed_summary": "民國115年1月起，設籍滿1年且國內居住滿183日的70歲以上長者，健保費全額補助。",
+    "remaining_gaps": ["敬老卡每月1,500點是否仍為115年現行", "重陽敬老禮金與其他福利"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "各級政府辦理健保費補助項目一覽表", "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html", "publisher": "衛生福利部中央健康保險署" }
+    ]
+  },
+  {
+    "jurisdiction": "澎湖縣",
+    "verification_status": "verified",
+    "confirmed_summary": "設籍澎湖滿3年且65歲以上長者，115年春節、端午各5,000元；縣府現行福利頁列重陽節65至79歲5,000元、80至89歲6,000元、90至99歲8,000元、100歲以上15,000元。離島65歲以上老人另由中央全額補助健保費。",
+    "remaining_gaps": ["敬老卡縣內公車船完整使用規則", "其他地方補助逐項資料"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "澎湖縣老人福利服務", "url": "https://www.penghu.gov.tw/welfare/home.jsp?act=view&dataserno=202502130011&id=16", "publisher": "澎湖縣政府" }
+    ]
+  },
+  {
+    "jurisdiction": "金門縣",
+    "verification_status": "pending_confirmation",
+    "confirmed_summary": "縣府現行頁列老人福利津貼、重陽禮金、戰地老人慰助金、敬老卡、65歲以上健保、假牙及送餐等方案。",
+    "remaining_gaps": ["除百歲慰助外各項方案的115年金額與條件", "敬老卡完整使用規則"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "金門縣老人福利服務", "url": "https://www.kinmen.gov.tw/News_Content2.aspx?n=98E3CA7358C89100&s=BCF64D7F9DE7176A&sms=BF7D6D478B935644", "publisher": "金門縣政府" }
+    ]
+  },
+  {
+    "jurisdiction": "連江縣",
+    "verification_status": "pending_confirmation",
+    "confirmed_summary": "現行自治法規有65歲以上縣民卡、居家生活津貼及中低收入老人福利；離島65歲以上老人另有健保費補助。",
+    "remaining_gaps": ["縣民卡115年用途", "居家生活津貼115年金額", "其他地方老人福利"],
+    "last_verified_at": "2026-08-17",
+    "official_sources": [
+      { "title": "連江縣社會福利卡自治條例", "url": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000462&media=print", "publisher": "連江縣政府" },
+      { "title": "連江縣老人居家生活津貼自治條例", "url": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000440&media=print", "publisher": "連江縣政府" }
+    ]
+  }
+]

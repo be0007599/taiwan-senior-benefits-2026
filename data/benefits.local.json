@@ -1,0 +1,1925 @@
+[
+  {
+    "program_id": "keelung-senior-card",
+    "name": "基隆市敬老卡",
+    "plain_name": "基隆長者免費搭市區公車敬老卡",
+    "government_level": "county_city",
+    "jurisdiction": "基隆市",
+    "authority": "基隆市政府社會處",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍基隆市、年滿65歲之長者；其他身分依市府規定。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "須設籍基隆市。"
+    },
+    "benefit": {
+      "type": "discount",
+      "summary": "持卡可不限次數免費搭乘基隆市公車；跨縣市或其他運具依各運具規定。",
+      "frequency": "每次使用"
+    },
+    "application": {
+      "summary": "依市府公告備妥文件申辦。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "現行市府公告可確認免費搭乘市公車；卡片其他跨域優惠須另依運具規定。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "敬老卡免費搭乘市公車",
+        "url": "https://www.klcg.gov.tw/tw/klcg1/4143-280929.html",
+        "publisher": "基隆市政府",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taipei-senior-easycard",
+    "name": "臺北市敬老悠遊卡",
+    "plain_name": "臺北敬老卡每月600點",
+    "government_level": "county_city",
+    "jurisdiction": "臺北市",
+    "authority": "臺北市政府社會局",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍臺北市、年滿65歲長者，或年滿55歲原住民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍臺北市。"
+    },
+    "benefit": {
+      "type": "points",
+      "summary": "每月600點，依公告可用於公共運輸、敬老計程車、部分運動文化場館及醫療掛號等；各項單次扣點上限不同，未用完不累積。",
+      "amount_twd": 600,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "依社會局公告至區公所等受理地點申辦。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-07-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年7月起點數為每月600點。"
+    },
+    "stacking_notes": "臺鐵單趟可折抵上限屬個別運具規則，不等於每月總點數。",
+    "official_sources": [
+      {
+        "title": "臺北市敬老悠遊卡",
+        "url": "https://dosw.gov.taipei/cp.aspx?n=59C18B4C973AED21",
+        "publisher": "臺北市政府社會局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "new-taipei-senior-card",
+    "name": "新北市敬老卡",
+    "plain_name": "新北敬老卡每月600點",
+    "government_level": "county_city",
+    "jurisdiction": "新北市",
+    "authority": "新北市政府社會局",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍新北市、年滿65歲長者，或年滿55歲原住民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍新北市。"
+    },
+    "benefit": {
+      "type": "points",
+      "summary": "115年7月起每月600點，可依公告用於公車、捷運、臺鐵、計程車及部分醫療掛號等，未用完不累積。",
+      "amount_twd": 600,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "依新北市福利申辦頁向戶籍地區公所申請。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-07-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "以115年老人福利手冊及市府申辦頁核對。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "新北市敬老卡申辦",
+        "url": "https://welfare.ntpc.gov.tw/viewService/show/268435632",
+        "publisher": "新北市政府",
+        "source_type": "application_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taoyuan-senior-card",
+    "name": "桃園市敬老愛心卡",
+    "plain_name": "桃園敬老卡每月800點",
+    "government_level": "county_city",
+    "jurisdiction": "桃園市",
+    "authority": "桃園市政府社會局",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍桃園市且年滿65歲長者，原住民依市府較低年齡規定。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍桃園市。"
+    },
+    "benefit": {
+      "type": "points",
+      "summary": "一般每月800點；復興區符合資格者每月1,000點。可依公告用於大眾運輸、計程車及其他簽約服務。",
+      "amount_twd_min": 800,
+      "amount_twd_max": 1000,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "向區公所等市府公告受理地點申辦。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "復興區額度與一般地區不同，前台須依戶籍區分。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "桃園市敬老愛心卡福利點數",
+        "url": "https://sdgs.tycg.gov.tw/News_Content.aspx?n=17866&s=1261351",
+        "publisher": "桃園市政府",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "hsinchu-city-senior-card",
+    "name": "新竹市敬老卡",
+    "plain_name": "新竹市敬老卡每月800點",
+    "government_level": "county_city",
+    "jurisdiction": "新竹市",
+    "authority": "新竹市政府社會處",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍新竹市、年滿65歲長者，或年滿55歲原住民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍新竹市。"
+    },
+    "benefit": {
+      "type": "points",
+      "summary": "每月800點，依公告用於指定公共運輸及合作服務；各運具扣點上限另依規定。",
+      "amount_twd": 800,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "依市府申辦頁備妥文件申請。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2025-11-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "114年11月調高為800點，115年市府資料仍確認執行。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "新竹市敬老卡",
+        "url": "https://society.hccg.gov.tw/ch/home.jsp?dataserno=201603290054&id=123&mcustomize=onemessages_view.jsp",
+        "publisher": "新竹市政府社會處",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "hsinchu-county-senior-card",
+    "name": "新竹縣敬老愛心卡",
+    "plain_name": "新竹縣敬老卡115年10月起每月1000點",
+    "government_level": "county_city",
+    "jurisdiction": "新竹縣",
+    "authority": "新竹縣政府社會處",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍新竹縣、年滿65歲長者，或年滿55歲原住民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍新竹縣。"
+    },
+    "benefit": {
+      "type": "points",
+      "summary": "115年1月至9月每月500點；115年10月起調高為每月1,000點，使用範圍依縣府公告。",
+      "amount_twd_min": 500,
+      "amount_twd_max": 1000,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "依縣府公告向鄉鎮市公所申辦。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "目前查核日仍為每月500點；1,000點自115年10月1日才生效，前台須依日期顯示。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "新竹縣敬老愛心卡點數加碼",
+        "url": "https://www.hsinchu.gov.tw/News_Content.aspx?n=153&s=311026&sms=8603",
+        "publisher": "新竹縣政府",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "miaoli-senior-card",
+    "name": "苗栗縣敬老愛心卡",
+    "plain_name": "苗栗敬老卡每月700點",
+    "government_level": "county_city",
+    "jurisdiction": "苗栗縣",
+    "authority": "苗栗縣政府社會處",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍苗栗縣、年滿65歲長者，或年滿55歲原住民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍苗栗縣。"
+    },
+    "benefit": {
+      "type": "points",
+      "summary": "每月700點，限當月使用；可用於公告的客運、臺鐵、計程車等，115年7月起縣內指定農會小舖每月最高可用100點。",
+      "amount_twd": 700,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "備妥身分證、照片等文件至任一鄉鎮市公所申請。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-03-16",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "依115年3月16日修正要點及115年7月擴充公告。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "苗栗縣敬老愛心卡",
+        "url": "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=404900&sms=9468",
+        "publisher": "苗栗縣政府社會處",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taichung-senior-card",
+    "name": "臺中市敬老愛心卡",
+    "plain_name": "臺中敬老卡每月1000點",
+    "government_level": "county_city",
+    "jurisdiction": "臺中市",
+    "authority": "臺中市政府社會局",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍臺中市、年滿65歲長者，或年滿55歲原住民；符合規定的永久居留長者另有申辦計畫。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍臺中市；永久居留者依專案規定。"
+    },
+    "benefit": {
+      "type": "points",
+      "summary": "一般每月1,000點、原住民每月1,500點，限當月使用；可用於公告的公共運輸、計程車、就醫及運動設施等。",
+      "amount_twd_min": 1000,
+      "amount_twd_max": 1500,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "備妥身分證明及照片至各區公所申辦。",
+      "automatic": false,
+      "phone": "04-22289111#37423"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年現行交通局與社會局資料一致。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "敬老愛心卡申請說明",
+        "url": "https://www.traffic.taichung.gov.tw/content/index.asp?Parser=1%2C7%2C496%2C495",
+        "publisher": "臺中市政府交通局",
+        "source_type": "application_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "changhua-senior-card",
+    "name": "彰化縣敬老愛心卡",
+    "plain_name": "彰化敬老卡每月1000點",
+    "government_level": "county_city",
+    "jurisdiction": "彰化縣",
+    "authority": "彰化縣政府社會處",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍彰化縣、年滿65歲長者，或符合縣府規定之原住民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍彰化縣。"
+    },
+    "benefit": {
+      "type": "points",
+      "summary": "每月1,000點，可依公告用於公共運輸、臺鐵、計程車及醫療等；115年陸續增加運動中心與農漁會通路並設單項上限。",
+      "amount_twd": 1000,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "依社會處公告向戶籍地公所申辦。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年使用範圍有分階段新增，前台須顯示各服務生效日。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "彰化縣政府社會處老人福利",
+        "url": "https://www.chcg.gov.tw/DTO/social/00home/index01.aspx",
+        "publisher": "彰化縣政府社會處",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "nantou-senior-card",
+    "name": "南投縣敬老愛心卡",
+    "plain_name": "南投敬老卡每月1000點",
+    "government_level": "county_city",
+    "jurisdiction": "南投縣",
+    "authority": "南投縣政府社會及勞動處",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍南投縣、年滿65歲長者，或年滿55歲原住民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍南投縣。"
+    },
+    "benefit": {
+      "type": "points",
+      "summary": "每月1,000點，限當月使用；依公告可用於公共運輸、臺鐵及合作計程車等。",
+      "amount_twd": 1000,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "依縣府福利服務頁向鄉鎮市公所申辦。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "以115年官方FAQ核對。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "南投縣敬老愛心卡",
+        "url": "https://welfare.nantou.gov.tw/1486/1009",
+        "publisher": "南投縣政府",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "yunlin-senior-card",
+    "name": "雲林縣敬老愛心卡",
+    "plain_name": "雲林長者免費搭縣內簽約公車",
+    "government_level": "county_city",
+    "jurisdiction": "雲林縣",
+    "authority": "雲林縣政府社會處",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍雲林縣、年滿65歲長者，或符合縣府規定之原住民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍雲林縣。"
+    },
+    "benefit": {
+      "type": "discount",
+      "summary": "持卡可不限次數免費搭乘縣內簽約公車路線；外縣市捷運等依票證與運具規定享優惠，並非每月點數制。",
+      "frequency": "每次使用"
+    },
+    "application": {
+      "summary": "依社會處公告向戶籍地公所申辦。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "不可誤寫為固定月點數方案。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "雲林縣敬老愛心卡",
+        "url": "https://social.yunlin.gov.tw/News_Content.aspx?n=8164&s=379287",
+        "publisher": "雲林縣政府社會處",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "chiayi-city-senior-card",
+    "name": "嘉義市敬老卡",
+    "plain_name": "嘉義市敬老卡每月1200點",
+    "government_level": "county_city",
+    "jurisdiction": "嘉義市",
+    "authority": "嘉義市政府社會處",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍嘉義市、年滿65歲長者，或符合市府規定之原住民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍嘉義市。"
+    },
+    "benefit": {
+      "type": "points",
+      "summary": "每月1,200點，未使用不累積；依公告用於公共運輸等，各運具單次上限不同。",
+      "amount_twd": 1200,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "依市府公告備妥文件申辦。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "臺鐵現行單趟上限50點；舊文件數值不得沿用。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "嘉義市敬老卡福利點數",
+        "url": "https://east.chiayi.gov.tw/News_Content.aspx?n=993&s=232290",
+        "publisher": "嘉義市政府東區區公所",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "chiayi-county-senior-card",
+    "name": "嘉義縣敬老愛心卡",
+    "plain_name": "嘉義縣敬老愛心卡（115年細節待確認）",
+    "government_level": "county_city",
+    "jurisdiction": "嘉義縣",
+    "authority": "嘉義縣社會局",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "已確認嘉義縣發行敬老愛心卡；115年度完整年齡、點數與使用範圍仍待社會局直接公告核實。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "須符合嘉義縣主管機關規定。"
+    },
+    "benefit": {
+      "type": "mixed",
+      "summary": "可確認社福卡可使用於部分交通服務，臺鐵現行單趟點數折抵上限為200點；每月總額不得由單趟上限推定。",
+      "frequency": null
+    },
+    "application": {
+      "summary": "申辦條件與受理方式請先向嘉義縣社會局或戶籍地公所確認。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "pending_confirmation",
+      "last_verified_at": "2026-08-17",
+      "notes": "尚未取得115年由縣府主管機關明載每月點數及完整使用範圍的頁面。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "各縣市社福卡使用臺鐵點數規定",
+        "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip00C/tipC21/view?lang=zh_TW&proCode=8ae4cac388f3efbd0188f764d94406ff&subCode=8ae4cac388f3efbd0188f766b49c0709",
+        "publisher": "國營臺灣鐵路股份有限公司",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "tainan-senior-card",
+    "name": "臺南市敬老卡",
+    "plain_name": "臺南長者免費搭市區公車敬老卡",
+    "government_level": "county_city",
+    "jurisdiction": "臺南市",
+    "authority": "臺南市政府社會局",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍臺南市、年滿65歲長者，或年滿55歲原住民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍臺南市。"
+    },
+    "benefit": {
+      "type": "discount",
+      "summary": "持卡免費搭乘臺南市市區公車；市外公車、捷運、輕軌及臺鐵等依各運具規定享半價或其他優惠，並非固定月點數制。",
+      "frequency": "每次使用"
+    },
+    "application": {
+      "summary": "依市府頁面備妥文件至區公所申辦，初次製卡免費。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "市府頁面更新至115年。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "臺南市敬老卡申辦",
+        "url": "https://people.tainan.gov.tw/cp.aspx?n=34916",
+        "publisher": "臺南市政府民政局",
+        "source_type": "application_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "kaohsiung-senior-card",
+    "name": "高雄市敬老卡",
+    "plain_name": "高雄敬老卡每月600點",
+    "government_level": "county_city",
+    "jurisdiction": "高雄市",
+    "authority": "高雄市政府社會局",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍高雄市、年滿65歲長者，或年滿55歲原住民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍高雄市。"
+    },
+    "benefit": {
+      "type": "points",
+      "summary": "115年7月起每月600點；另有輕軌、小黃公車及幸福共享巴士等免費優惠，可依公告使用於大眾運輸、計程車、臺鐵、運動文化及醫療掛號等。",
+      "amount_twd": 600,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "依社會局銀髮族服務頁向區公所等受理地點申辦。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-07-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "以115年7月現行頁核對。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "高雄市敬老卡",
+        "url": "https://older.kcg.gov.tw/cp.aspx?Create=1&n=4B8F94057BD83363",
+        "publisher": "高雄市政府社會局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "pingtung-senior-card",
+    "name": "屏東縣敬老卡",
+    "plain_name": "屏東敬老卡（每月額度待主管機關確認）",
+    "government_level": "county_city",
+    "jurisdiction": "屏東縣",
+    "authority": "屏東縣政府社會處",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "屏東縣長者敬老卡方案存在；完整115年資格仍須以社會處最新說明確認。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "須符合屏東縣主管機關規定。"
+    },
+    "benefit": {
+      "type": "mixed",
+      "summary": "可用於縣府指定交通服務；官方資料的月點數與單趟折抵上限不能互相替代，目前不顯示推定月額。",
+      "frequency": null
+    },
+    "application": {
+      "summary": "請向屏東縣政府社會處或戶籍地公所確認最新申辦與點數。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "conflicting_sources",
+      "last_verified_at": "2026-08-17",
+      "notes": "不同官方頁面資訊年代與數值不一致；臺鐵頁的1,000點為單趟可折抵上限，不能解讀為縣府每月加值總額。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "各縣市社福卡使用臺鐵點數規定",
+        "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip00C/tipC21/view?lang=zh_TW&proCode=8ae4cac388f3efbd0188f764d94406ff&subCode=8ae4cac388f3efbd0188f766b49c0709",
+        "publisher": "國營臺灣鐵路股份有限公司",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "yilan-senior-card",
+    "name": "宜蘭縣敬老卡",
+    "plain_name": "宜蘭長者免費搭縣內公車敬老卡",
+    "government_level": "county_city",
+    "jurisdiction": "宜蘭縣",
+    "authority": "宜蘭縣政府社會處",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍宜蘭縣、年滿65歲長者。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "須設籍宜蘭縣。"
+    },
+    "benefit": {
+      "type": "discount",
+      "summary": "持卡免費搭乘宜蘭縣轄公車；自行儲值後於外縣市捷運等依運具規定享敬老票優惠，並非固定月點數制。",
+      "frequency": "每次使用"
+    },
+    "application": {
+      "summary": "依縣府申辦頁向戶籍所在地鄉鎮市公所申辦。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "縣府頁面於115年7月更新。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "宜蘭縣敬老卡申辦",
+        "url": "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&s=372390&sms=16134",
+        "publisher": "宜蘭縣政府",
+        "source_type": "application_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "hualien-senior-card",
+    "name": "花蓮縣敬老愛心卡",
+    "plain_name": "花蓮敬老卡與每月1000元敬老計程車補助",
+    "government_level": "county_city",
+    "jurisdiction": "花蓮縣",
+    "authority": "花蓮縣政府社會處",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍花蓮縣、年滿65歲長者；原住民依縣府規定。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍花蓮縣。"
+    },
+    "benefit": {
+      "type": "mixed",
+      "summary": "縣內由縣府經營或指定路線可免費搭乘；敬老計程車每月最高補助1,000元，單趟補助依現行規定計算。",
+      "amount_twd": 1000,
+      "frequency": "每月／每次使用"
+    },
+    "application": {
+      "summary": "依社會處公告申辦敬老卡及使用敬老計程車。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "調高至1,500元曾屬提案或預算議題；115年正式計畫仍採每月1,000元，不列未生效加碼。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "115年度花蓮縣敬老愛心計程車實施計畫",
+        "url": "https://sa.hl.gov.tw/Upload/202510140913013966461.pdf",
+        "publisher": "花蓮縣政府社會處",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taitung-senior-card",
+    "name": "臺東縣敬老愛心卡",
+    "plain_name": "臺東敬老卡每月1500點",
+    "government_level": "county_city",
+    "jurisdiction": "臺東縣",
+    "authority": "臺東縣政府社會處",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍臺東縣、年滿65歲長者，或符合縣府規定之原住民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍臺東縣。"
+    },
+    "benefit": {
+      "type": "points",
+      "summary": "每月1,500點，可依公告用於公共運輸、臺鐵與合作計程車等；各服務設有單次或比例限制。",
+      "amount_twd": 1500,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "依縣府公告向戶籍地公所申辦。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "官方頁可確認1,500點，仍須排入定期複查以取得更新的115年方案全文。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "臺東卡友好生活圈敬老愛心卡說明",
+        "url": "https://tour.taitung.gov.tw/zh-tw/news/details/5961",
+        "publisher": "臺東縣政府交通及觀光發展處",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "penghu-senior-ipass",
+    "name": "澎湖縣iPASS社福敬老卡",
+    "plain_name": "澎湖社福敬老卡與免費縣內公車船",
+    "government_level": "county_city",
+    "jurisdiction": "澎湖縣",
+    "authority": "澎湖縣政府社會處",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "澎湖縣發行iPASS社福敬老卡；115年度完整資格須由社會處現行申辦文件再次確認。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "須符合澎湖縣主管機關規定。"
+    },
+    "benefit": {
+      "type": "mixed",
+      "summary": "縣府業務頁確認老人免費乘車船制度；iPASS社福卡自行儲值後可依各運具規定享敬老優惠。",
+      "frequency": "每次使用"
+    },
+    "application": {
+      "summary": "依澎湖縣政府社會處申請表辦理，詳細資格與換補發規則請先確認。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "pending_confirmation",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年官網可確認卡片與免費乘車船制度，但同頁未完整列出敬老卡年齡、設籍及船舶範圍。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "澎湖iPASS社福卡",
+        "url": "https://www.penghu.gov.tw/society/home.jsp?act=view&dataserno=201606080001&id=247",
+        "publisher": "澎湖縣政府社會處",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "kinmen-senior-card",
+    "name": "金門縣敬老卡",
+    "plain_name": "金門長者免費搭縣內公車敬老卡",
+    "government_level": "county_city",
+    "jurisdiction": "金門縣",
+    "authority": "金門縣政府社會處",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "設籍金門縣、年滿65歲長者。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "須設籍金門縣。"
+    },
+    "benefit": {
+      "type": "discount",
+      "summary": "免費搭乘金門縣公車；外縣市臺鐵、公車及部分捷運依運具規定享半價優惠。",
+      "frequency": "每次使用"
+    },
+    "application": {
+      "summary": "依縣府說明向各鄉鎮戶政事務所等受理單位申辦。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "現行官方申辦頁可確認資格與主要交通優惠。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "金門縣敬老卡",
+        "url": "https://social.kinmen.gov.tw/cp.aspx?n=c8cde0088d2e9571&s=C58F878EF713E49F",
+        "publisher": "金門縣政府社會處",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "lienchiang-senior-card",
+    "name": "連江縣敬老卡",
+    "plain_name": "連江縣敬老卡（使用範圍待確認）",
+    "government_level": "county_city",
+    "jurisdiction": "連江縣",
+    "authority": "連江縣政府民政社會處",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "依連江縣社會福利卡自治法規，年滿65歲者可申請敬老卡。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "須符合連江縣社會福利卡自治法規。"
+    },
+    "benefit": {
+      "type": "mixed",
+      "summary": "法規確認敬老卡制度存在；115年完整交通、點數或其他使用範圍尚待主管機關現行公告核實。",
+      "frequency": null
+    },
+    "application": {
+      "summary": "依連江縣主管機關規定申辦；使用前請向民政社會處確認當年度範圍。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "pending_confirmation",
+      "last_verified_at": "2026-08-17",
+      "notes": "目前只以現行自治法規確認卡別與65歲門檻，不推定未在法規頁明列的優惠。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "連江縣社會福利卡自治法規",
+        "url": "https://law.matsu.gov.tw/LawContent.aspx?id=GL000462&media=print",
+        "publisher": "連江縣政府",
+        "source_type": "law"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "keelung-elderly-nhi-subsidy",
+    "name": "基隆市老人全民健康保險自付保險費補助",
+    "plain_name": "基隆65歲以上長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "基隆市",
+    "authority": "基隆市政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "年滿65歲，設籍基隆市滿3年且實際繼續設籍居住。",
+      "minimum_age": 65,
+      "residency": "設籍滿3年並實際繼續設籍居住。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "補助健保自付保險費，最高至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由基隆市政府按月提供合格名冊予健保署扣減；未獲補助者洽市府社政單位。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "健保署清單更新至115年7月14日。"
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taipei-elderly-nhi-subsidy",
+    "name": "臺北市老人及原住民全民健康保險自付保險費補助",
+    "plain_name": "臺北長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "臺北市",
+    "authority": "臺北市政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "年滿65歲長者或年滿55歲原住民，設籍並實際居住臺北市滿1年；最近一年所得未達申報標準或稅率未達20%，且未獲其他政府機關全額補助。未滿70歲中低收入老人另依規定。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "設籍並實際居住滿1年。",
+      "income": "最近一年所得未達申報標準或綜所稅率未達20%。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "補助健保自付保險費，最高至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由市府提供合格名冊予健保署扣減；未獲補助者洽市府社政單位。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "所得與扶養人條件須以稅捐核定資料判定。"
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "new-taipei-elderly-nhi-subsidy",
+    "name": "新北市老人及原住民全民健康保險自付保險費補助",
+    "plain_name": "新北特定投保身分長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "新北市",
+    "authority": "新北市政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "年滿65歲長者或55至64歲原住民，設籍滿1年，以健保第3類或第6類投保，最近一年綜所稅率5%以下，並符合農漁水利會員、榮民眷屬或地區人口等身分。65至69歲中低收入老人另有補助。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "設籍滿1年。",
+      "income": "最近一年綜所稅率5%以下。",
+      "identity": "限健保第3類或第6類及公告身分。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "補助健保自付保險費，最高至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由市府提供合格名冊予健保署扣減。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "不是所有65歲以上市民皆符合，投保類別是必要條件。"
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taoyuan-elderly-nhi-subsidy",
+    "name": "桃園市老人及原住民全民健康保險自付保險費補助",
+    "plain_name": "桃園長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "桃園市",
+    "authority": "桃園市政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "年滿65歲長者或年滿55歲原住民，設籍並實際居住滿1年；最近一年所得未達申報標準或綜所稅率未達20%，且未獲其他政府機關全額補助。未滿70歲中低收入老人另依規定。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "設籍並實際居住滿1年。",
+      "income": "所得未達申報標準或稅率未達20%。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "補助健保自付保險費，最高至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由市府提供合格名冊予健保署扣減。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "hsinchu-city-elderly-nhi-subsidy",
+    "name": "新竹市65至69歲中低收入老人健保費補助",
+    "plain_name": "新竹市65至69歲中低收入長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "新竹市",
+    "authority": "新竹市政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "設籍新竹市、年滿65歲至69歲且具中低收入老人身分。",
+      "minimum_age": 65,
+      "residency": "須設籍新竹市。",
+      "income": "須符合中低收入老人資格。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "補助健保自付保險費，最高至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由市府提供合格名冊予健保署扣減。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "70歲以上中低收入老人另由中央全額補助。"
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "hsinchu-county-elderly-nhi-subsidy",
+    "name": "新竹縣65至69歲中低收入老人健保費補助",
+    "plain_name": "新竹縣65至69歲中低收入長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "新竹縣",
+    "authority": "新竹縣政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "設籍新竹縣、年滿65歲至69歲且具中低收入老人身分。",
+      "minimum_age": 65,
+      "residency": "須設籍新竹縣。",
+      "income": "須符合中低收入老人資格。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "補助健保自付保險費，最高至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由縣府提供合格名冊予健保署扣減。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "miaoli-elderly-nhi-subsidy",
+    "name": "苗栗縣老人及原住民健保費補助",
+    "plain_name": "苗栗高齡長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "苗栗縣",
+    "authority": "苗栗縣政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "115年7月至116年12月：設籍苗栗縣滿1年，年滿80歲長者或年滿70歲原住民；65至69歲中低收入老人另有既有補助。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 70,
+      "residency": "高齡加碼方案須設籍滿1年。",
+      "income": "65至69歲方案須為中低收入老人。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "補助健保自付保險費，最高至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由縣府勾稽合格名冊並交健保署扣減，原則免申請。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-07-01",
+      "effective_to": "2027-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "minimum_age 65僅代表中低收入方案；一般長者加碼門檻為80歲。前台須分級判斷。"
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taichung-elderly-nhi-subsidy",
+    "name": "臺中市老人及原住民全民健康保險自付保險費補助",
+    "plain_name": "臺中長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "臺中市",
+    "authority": "臺中市政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "年滿65歲長者或年滿55歲原住民，設籍臺中市滿1年，最近一年所得未達申報標準或綜所稅率5%以下。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "設籍滿1年。",
+      "income": "所得未達申報標準或稅率5%以下。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "補助健保自付保險費，最高至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由市府提供合格名冊予健保署扣減。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "changhua-elderly-nhi-subsidy",
+    "name": "彰化縣65至69歲中低收入老人健保費補助",
+    "plain_name": "彰化65至69歲中低收入長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "彰化縣",
+    "authority": "彰化縣政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "設籍彰化縣、年滿65歲至69歲且具中低收入老人身分。",
+      "minimum_age": 65,
+      "residency": "須設籍彰化縣。",
+      "income": "須符合中低收入老人資格。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "補助健保自付保險費，最高至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由縣府提供合格名冊予健保署扣減。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "nantou-elderly-nhi-subsidy",
+    "name": "南投縣老人及原住民健保費補助",
+    "plain_name": "南投65歲以上長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "南投縣",
+    "authority": "南投縣政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "設籍南投縣、年滿65歲長者或年滿55歲原住民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍南投縣。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "補助健保自付保險費，最高至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由縣府提供合格名冊予健保署扣減。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-04-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "健保署列115年4月開辦。"
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "yunlin-elderly-nhi-subsidy",
+    "name": "雲林縣特定老人健保費補助",
+    "plain_name": "雲林中低收入、身障或百歲長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "雲林縣",
+    "authority": "雲林縣政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "包括65至69歲中低收入老人（限健保第3、6類）、設籍且年滿65歲之中度或輕度身障者，以及設籍年滿100歲長者；各組條件不同。",
+      "minimum_age": 65,
+      "residency": "須設籍雲林縣。",
+      "identity": "中低收入、特定身障程度或百歲長者。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "多數組別最高補助至地區人口保費；65歲以上輕度身障者補助四分之一。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由縣府提供合格名冊予健保署扣減。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "前台必須依身分分支，不可向所有65歲以上長者顯示為確定符合。"
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "chiayi-city-elderly-nhi-subsidy",
+    "name": "嘉義市老人健保費補助",
+    "plain_name": "嘉義市中低收入或80歲以上長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "嘉義市",
+    "authority": "嘉義市政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "65至69歲中低收入老人；或設籍嘉義市滿6個月且年滿80歲長者。",
+      "minimum_age": 65,
+      "residency": "80歲以上方案須設籍滿6個月。",
+      "income": "65至69歲方案須符合中低收入老人資格。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "補助健保自付保險費，最高至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由市府提供合格名冊予健保署扣減。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-07-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年7月新增80歲以上組；65至69歲中低收入組為既有方案。"
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "tainan-elderly-nhi-subsidy",
+    "name": "臺南市老人及原住民全民健康保險自付保險費補助",
+    "plain_name": "臺南長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "臺南市",
+    "authority": "臺南市政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "年滿65歲長者或年滿55歲原住民，設籍滿1年，最近一年所得未達申報標準或綜所稅率不超過5%，且未獲其他政府全額補助；另有中低收入及特定身障條件。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "設籍滿1年。",
+      "income": "所得未達申報標準或稅率不超過5%。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "一般最高補助至地區人口保費；符合資格且由職業工會按基本工資投保者可全額補助。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由市府提供合格名冊予健保署扣減，自符合資格次月起補助。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "kaohsiung-elderly-nhi-subsidy",
+    "name": "高雄市老人全民健康保險自付保險費補助",
+    "plain_name": "高雄特定所得長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "高雄市",
+    "authority": "高雄市政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "年滿65歲；包括未滿70歲中低收入老人、所得未達申報標準或稅率5%者，以及符合較寬稅率條件的中輕度身障長者。",
+      "minimum_age": 65,
+      "income": "依一般、中低收入或身障組別適用不同所得稅率門檻。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "補助健保自付保險費，最高至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由市府提供合格名冊予健保署扣減，自符合資格次月起補助。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "pingtung-elderly-nhi-subsidy",
+    "name": "屏東縣65至69歲中低收入老人健保費補助",
+    "plain_name": "屏東65至69歲中低收入長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "屏東縣",
+    "authority": "屏東縣政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "設籍屏東縣、年滿65歲至69歲且具中低收入老人身分。",
+      "minimum_age": 65,
+      "residency": "須設籍屏東縣。",
+      "income": "須符合中低收入老人資格。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "補助健保自付保險費，最高至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由縣府提供合格名冊予健保署扣減。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-07-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "健保署列115年7月開辦。"
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "yilan-elderly-nhi-subsidy",
+    "name": "宜蘭縣特定老人健保費補助",
+    "plain_name": "宜蘭中低收入或百歲長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "宜蘭縣",
+    "authority": "宜蘭縣政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "65至69歲中低收入老人；或設籍宜蘭縣、年滿100歲且最近一年綜所稅率不超過20%者。",
+      "minimum_age": 65,
+      "residency": "須設籍宜蘭縣。",
+      "income": "依中低收入或百歲組別適用不同條件。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "補助健保自付保險費，最高至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由縣府提供合格名冊予健保署扣減。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "hualien-elderly-nhi-subsidy",
+    "name": "花蓮縣老人健保費補助",
+    "plain_name": "花蓮65歲以上長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "花蓮縣",
+    "authority": "花蓮縣政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "設籍並實際居住花蓮縣，年滿65歲。",
+      "minimum_age": 65,
+      "residency": "須設籍並實際居住花蓮縣。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "補助健保自付保險費，最高至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由縣府提供合格名冊予健保署扣減。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-06-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "健保署列115年6月開辦。"
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taitung-elderly-nhi-subsidy",
+    "name": "臺東縣老人健保費補助",
+    "plain_name": "臺東中低收入或70歲以上長者健保費補助",
+    "government_level": "county_city",
+    "jurisdiction": "臺東縣",
+    "authority": "臺東縣政府",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "65至69歲中低收入老人；或設籍臺東縣滿1年、最近一年實際居住國內合計滿183天且年滿70歲者。",
+      "minimum_age": 65,
+      "residency": "70歲以上方案須設籍滿1年且最近一年居住國內滿183天。",
+      "income": "65至69歲方案須符合中低收入老人資格。"
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "70歲以上符合者全額補助；65至69歲中低收入老人最高補助至地區人口保費。",
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "由縣府提供合格名冊予健保署扣減。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年1月新增70歲以上全額補助。"
+    },
+    "official_sources": [
+      {
+        "title": "各級政府辦理健保費補助項目一覽表",
+        "url": "https://www.nhi.gov.tw/ch/cp-4721-0d598-2645-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  }
+]

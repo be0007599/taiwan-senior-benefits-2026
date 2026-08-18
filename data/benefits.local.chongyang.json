@@ -1,0 +1,637 @@
+[
+  {
+    "program_id": "keelung-chongyang-gift-2026",
+    "name": "基隆市115年重陽敬老慰問金",
+    "plain_name": "基隆重陽敬老金",
+    "government_level": "county_city",
+    "jurisdiction": "基隆市",
+    "authority": "基隆市政府社會處",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "115年符合基隆市重陽敬老慰問金名冊之65歲以上長者；原住民55歲以上亦依市府規定。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須符合基隆市115年造冊與設籍規定。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "65至99歲1,000元；百歲以上6,000元及敬老禮品。",
+      "amount_twd_min": 1000,
+      "amount_twd_max": 6000,
+      "frequency": "每年重陽節"
+    },
+    "application": {
+      "summary": "依市府及區公所造冊發放；異常或未領取者洽戶籍地區公所。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "依基隆市政府115年度施政計畫。"
+    },
+    "official_sources": [
+      {
+        "title": "基隆市政府115年度施政計畫",
+        "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01704/f1766543794964.pdf",
+        "publisher": "基隆市政府",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taipei-chongyang-gift-2026",
+    "name": "臺北市115年重陽敬老禮金",
+    "plain_name": "臺北重陽敬老金",
+    "government_level": "county_city",
+    "jurisdiction": "臺北市",
+    "authority": "臺北市政府社會局",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "重陽節當日年滿65歲並符合設籍臺北市條件之長者；原住民依自治條例較低年齡規定。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "115年7月18日以前設籍，至重陽節當日設籍滿3個月；其他條件依115年QA。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "依年齡級距發給1,500元、3,000元或10,000元。",
+      "amount_twd_min": 1500,
+      "amount_twd_max": 10000,
+      "frequency": "每年重陽節"
+    },
+    "application": {
+      "summary": "可申請匯款；未登記匯款者依市府與區公所公告方式領取。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "年齡級距須依115年社會局QA及自治條例判斷。"
+    },
+    "official_sources": [
+      {
+        "title": "臺北市115年重陽節禮金專區",
+        "url": "https://dosw.gov.taipei/cp.aspx?n=2AD02270ED65CBDD&s=A169FD28072206A9",
+        "publisher": "臺北市政府社會局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "new-taipei-chongyang-gift-2026",
+    "name": "新北市115年重陽節敬老禮金",
+    "plain_name": "新北重陽敬老金",
+    "government_level": "county_city",
+    "jurisdiction": "新北市",
+    "authority": "新北市政府社會局",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "115年10月年滿65歲，或年滿55歲原住民；須於10月底前設籍滿1年且至重陽節前1個月仍持續設籍。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "重陽節當月底前設籍滿1年，並符合持續設籍規定。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "65至79歲1,500元、80至89歲2,000元、90至99歲5,000元、百歲以上20,000元。",
+      "amount_twd_min": 1500,
+      "amount_twd_max": 20000,
+      "frequency": "每年重陽節"
+    },
+    "application": {
+      "summary": "現金原則免申請；需要匯款者須於115年8月27日前向區公所申請。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "official_sources": [
+      {
+        "title": "新北市政府115年重陽節敬老禮金",
+        "url": "https://www.sw.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=c88dc1550b5791675b53145f3441d318&id=bd3ac04bd17eafde",
+        "publisher": "新北市政府社會局",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taoyuan-chongyang-gift-2026",
+    "name": "桃園市115年重陽敬老禮金",
+    "plain_name": "桃園重陽敬老金",
+    "government_level": "county_city",
+    "jurisdiction": "桃園市",
+    "authority": "桃園市政府社會局",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "重陽節當日年滿65歲或年滿55歲原住民，設籍桃園市滿6個月且有居住事實。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "設籍滿6個月且有居住事實。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "65至98歲2,500元；99歲以上20,000元。",
+      "amount_twd_min": 2500,
+      "amount_twd_max": 20000,
+      "frequency": "每年重陽節"
+    },
+    "application": {
+      "summary": "已申請市府三節禮金者原則無須重複申請；新符合者依區公所通知提供帳戶。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "official_sources": [
+      {
+        "title": "桃園市重陽敬老金常見問題",
+        "url": "https://sab.tycg.gov.tw/News_Content.aspx?n=7372&s=684796&sms=11905",
+        "publisher": "桃園市政府社會局",
+        "source_type": "faq"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "hsinchu-city-chongyang-gift-2026",
+    "name": "新竹市115年重陽敬老禮金",
+    "plain_name": "新竹市重陽敬老金",
+    "government_level": "county_city",
+    "jurisdiction": "新竹市",
+    "authority": "新竹市政府社會處",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "設籍新竹市、年滿65歲長者或年滿55歲原住民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須於市府115年造冊基準前設籍。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "一般符合資格長者2,000元；百歲人瑞另依市府人瑞標準辦理。",
+      "amount_twd": 2000,
+      "frequency": "每年重陽節"
+    },
+    "application": {
+      "summary": "依市府名冊及區公所作業發放。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "百歲人瑞官方資料有『6,000元』及『加發6,000元』兩種表述，本筆只對一般級距完成核驗。"
+    },
+    "official_sources": [
+      {
+        "title": "新竹市115年度社福預算重點",
+        "url": "https://ltc.hccg.gov.tw/hccg/app/data/view?id=30210&module=isfocusnews&serno=3571d18a-e35b-4b4b-bc3f-660ad1ad257f",
+        "publisher": "新竹市政府",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "hsinchu-county-elder-gift-2026",
+    "name": "新竹縣115年敬老禮金",
+    "plain_name": "新竹縣特定長者一萬元敬老禮金",
+    "government_level": "county_city",
+    "jurisdiction": "新竹縣",
+    "authority": "新竹縣政府高齡長照處",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "115年滿65歲、94年8月1日後設籍新竹縣、申請日持續設籍滿10年並符合排富；已領敬老福利津貼者不重複發給。",
+      "minimum_age": 65,
+      "residency": "94年8月1日後設籍，申請日持續設籍滿10年。",
+      "income": "須符合排富規定。",
+      "exclusions": "已領敬老福利津貼者不重複；另有居住日數、現職軍公教、公費安置及羈押服刑等排除。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "每人10,000元。",
+      "amount_twd": 10000,
+      "frequency": "每年"
+    },
+    "application": {
+      "summary": "115年4月1日至9月30日向戶籍地鄉鎮市公所申請；前一年核准者可免重新申請。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-04-01",
+      "effective_to": "2026-09-30"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "此方案不是全縣65歲以上普發重陽金。"
+    },
+    "official_sources": [
+      {
+        "title": "竹縣115年敬老禮金一萬元",
+        "url": "https://www.hsinchu.gov.tw/News_Content.aspx?n=153&s=281121",
+        "publisher": "新竹縣政府",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "miaoli-senior-festival-gift-2026",
+    "name": "苗栗縣115年敬老禮金",
+    "plain_name": "苗栗三節敬老禮金",
+    "government_level": "county_city",
+    "jurisdiction": "苗栗縣",
+    "authority": "苗栗縣政府社會處",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "114年1月1日前設籍，並於115年1月1日前滿65歲；原住民滿55歲。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "114年1月1日以前設籍苗栗縣。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "春節、端午節及重陽節每節1,000元。",
+      "amount_twd": 1000,
+      "frequency": "每年三節，各發一次"
+    },
+    "application": {
+      "summary": "新符合資格者依戶籍地公所通知辦理帳戶建檔；各節依計畫發放。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "official_sources": [
+      {
+        "title": "115年苗栗縣敬老禮金",
+        "url": "https://www.miaoli.gov.tw/News_Content2.aspx?n=295&s=906617",
+        "publisher": "苗栗縣政府社會處",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taichung-chongyang-gift-2026",
+    "name": "臺中市115年度重陽節敬老禮金",
+    "plain_name": "臺中重陽敬老金",
+    "government_level": "county_city",
+    "jurisdiction": "臺中市",
+    "authority": "臺中市政府社會局",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "115年符合出生日期及設籍基準的65歲以上長者或55歲以上原住民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "115年8月27日前設籍臺中市。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "65至89歲2,000元、90至94歲3,000元、95至99歲5,000元、百歲以上10,000元。",
+      "amount_twd_min": 2000,
+      "amount_twd_max": 10000,
+      "frequency": "每年重陽節"
+    },
+    "application": {
+      "summary": "可選現金或於115年8月28日前申請匯款；逾補領期限不得領取。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-09-30",
+      "effective_to": "2026-11-30"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "official_sources": [
+      {
+        "title": "臺中市115年度重陽節敬老禮金",
+        "url": "https://www.society.taichung.gov.tw/13710/13735/13774/13783/2905980",
+        "publisher": "臺中市政府社會局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "changhua-chongyang-gift-2026",
+    "name": "彰化縣115年重陽敬老禮金",
+    "plain_name": "彰化重陽敬老金",
+    "government_level": "county_city",
+    "jurisdiction": "彰化縣",
+    "authority": "彰化縣政府社會處",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "115年1月1日前設籍且持續在籍之65歲以上長者或55至64歲原住民；福利身分戶須於發放當月已核定指定福利資格。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "115年1月1日前設籍並持續在籍。",
+      "identity": "一般戶或指定福利身分戶。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "一般戶1,000元；福利身分戶依年齡3,000、6,000或9,000元；百歲10,000元。",
+      "amount_twd_min": 1000,
+      "amount_twd_max": 10000,
+      "frequency": "每年重陽節"
+    },
+    "application": {
+      "summary": "由公所按名冊以現金或匯款發放；未領者依公告期限補領。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-09-01",
+      "effective_to": "2026-12-18"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "福利身分戶金額須依年齡及115年10月前核定身分判斷。"
+    },
+    "official_sources": [
+      {
+        "title": "彰化縣115年重陽敬老禮金",
+        "url": "https://www.chcg.gov.tw/DTO/social/07other/other01_con.aspx?cate_id=5692&data_id=26467&topsn=711",
+        "publisher": "彰化縣政府社會處",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "nantou-chongyang-gift-2026",
+    "name": "南投縣重陽節敬老禮金禮券",
+    "plain_name": "南投重陽敬老金",
+    "government_level": "county_city",
+    "jurisdiction": "南投縣",
+    "authority": "南投縣政府社會及勞動局",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "設籍南投縣之65歲以上長者；55至64歲原住民亦適用。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍南投縣。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "55至64歲原住民500元、65至99歲1,000元、百歲以上10,000元。",
+      "amount_twd_min": 500,
+      "amount_twd_max": 10000,
+      "frequency": "每年重陽節"
+    },
+    "application": {
+      "summary": "由鄉鎮市公所以現金或匯款發放；匯款帳戶須為本人帳戶。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "依114年5月26日修正、115年仍現行之實施要點。"
+    },
+    "official_sources": [
+      {
+        "title": "南投縣辦理重陽節敬老禮金禮券發放實施要點",
+        "url": "https://glrs.nantou.gov.tw/LawContent.aspx?id=FL049466&media=print",
+        "publisher": "南投縣政府",
+        "source_type": "law"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "tainan-chongyang-gift-2026",
+    "name": "臺南市115年度重陽敬老金",
+    "plain_name": "臺南重陽敬老金",
+    "government_level": "county_city",
+    "jurisdiction": "臺南市",
+    "authority": "臺南市政府社會局",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "65至99歲長者，或55至64歲法定、市定原住民；須符合115年設籍與持續居住條件。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "一般對象須115年6月30日前設籍並於115年9月18日前持續居住未遷出。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "未滿百歲1,500元；百歲以上10,000元及禮品。",
+      "amount_twd_min": 1500,
+      "amount_twd_max": 10000,
+      "frequency": "每年重陽節"
+    },
+    "application": {
+      "summary": "匯入金融帳戶或由區公所協助現金發放；逾115年12月11日原則不補發。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-10-14",
+      "effective_to": "2026-12-11"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "official_sources": [
+      {
+        "title": "臺南市115年度重陽敬老金",
+        "url": "https://sab.tainan.gov.tw/News_Content.aspx?n=21368&s=7803998",
+        "publisher": "臺南市政府社會局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "kaohsiung-chongyang-gift-2026",
+    "name": "高雄市115年重陽節敬老禮金",
+    "plain_name": "高雄重陽敬老金",
+    "government_level": "county_city",
+    "jurisdiction": "高雄市",
+    "authority": "高雄市政府社會局",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "當年12月31日前滿65歲或原住民滿55歲，當年6月30日前設籍並於重陽節30日前持續在籍。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "當年6月30日前設籍並符合持續在籍規定。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "55至64歲原住民及65至89歲1,500元、90至99歲5,000元、百歲以上10,000元。",
+      "amount_twd_min": 1500,
+      "amount_twd_max": 10000,
+      "frequency": "每年重陽節"
+    },
+    "application": {
+      "summary": "由區公所匯款或派員送達；百歲以上由專人慰問。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "official_sources": [
+      {
+        "title": "高雄市重陽節敬老禮金",
+        "url": "https://older.kcg.gov.tw/cp.aspx?n=7AC6E19E2DAADD25",
+        "publisher": "高雄市政府社會局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "penghu-chongyang-gift-2026",
+    "name": "澎湖縣115年重陽節敬老禮金",
+    "plain_name": "澎湖重陽敬老金",
+    "government_level": "county_city",
+    "jurisdiction": "澎湖縣",
+    "authority": "澎湖縣政府社會處",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "設籍澎湖縣滿3年且年滿65歲。",
+      "minimum_age": 65,
+      "residency": "設籍滿3年。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "65至79歲5,000元、80至89歲6,000元、90至99歲8,000元、百歲以上15,000元。",
+      "amount_twd_min": 5000,
+      "amount_twd_max": 15000,
+      "frequency": "每年重陽節"
+    },
+    "application": {
+      "summary": "依戶役政資料造冊，由村里辦公處通知領取或到府致贈；115年起並有匯款方式。",
+      "automatic": true
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年官方新聞確認三節制度持續，級距依縣府現行福利頁。"
+    },
+    "official_sources": [
+      {
+        "title": "澎湖縣三節敬老禮金",
+        "url": "https://www.penghu.gov.tw/welfare/home.jsp?act=view&dataserno=202502130011&id=16",
+        "publisher": "澎湖縣政府社會處",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  }
+]

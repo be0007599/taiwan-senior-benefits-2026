@@ -1,0 +1,58 @@
+[
+  {
+    "program_id": "central-disability-assistive-device-subsidy",
+    "name": "身心障礙者輔具費用補助",
+    "plain_name": "有身障證明的輔具費用補助",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "衛生福利部社會及家庭署／戶籍地直轄市、縣市政府",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "領有身心障礙證明，經需求評估或依補助項目規定取得治療師評估、醫師診斷等文件，並符合各輔具項目及地方政府審查規定。",
+      "minimum_age": null,
+      "identity": "須領有身心障礙證明。",
+      "assessment": "依項目可能須輔具中心評估、治療師評估或醫師診斷。",
+      "exclusions": "同一項目在最低使用年限內原則上不得重複補助；與其他法規補助的重複關係依辦法審查。"
+    },
+    "benefit": {
+      "type": "mixed",
+      "summary": "依中央補助基準及地方政府規定，補助生活、行動、溝通、照護等輔具；補助額與自付額依項目、障礙需求及低收／中低收／一般戶身分而異。",
+      "frequency": "依各輔具最低使用年限及補助基準"
+    },
+    "application": {
+      "summary": "購買前先向戶籍地鄉鎮市區公所、社會局處或輔具中心申請，完成評估與核定後再購買；不要先買再申請。",
+      "automatic": false,
+      "phone": "02-28743415"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "補助項目、金額與申請窗口由中央辦法及各縣市執行規定共同決定，前台應導向戶籍地窗口。"
+    },
+    "stacking_notes": "若同時符合長照輔具、醫療輔具或其他法規補助，須先由主管機關判斷適用方案，不可自行假設可疊加。",
+    "official_sources": [
+      {
+        "title": "身心障礙者輔具費用補助資訊",
+        "url": "https://www.mohw.gov.tw/cp-190-235-1.html",
+        "publisher": "衛生福利部社會及家庭署",
+        "source_type": "official_summary"
+      },
+      {
+        "title": "身心障礙者輔具費用補助辦法",
+        "url": "https://gazette.nat.gov.tw/egFront/eguploadpubWrapper?file=%2FEG_FileManager%2Feguploadpub%2Feg028199%2Fch08%2Ftype1%2Fgov70%2Fnum27%2FEg.htm&metaid=135870",
+        "publisher": "行政院公報資訊網",
+        "source_type": "law"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  }
+]

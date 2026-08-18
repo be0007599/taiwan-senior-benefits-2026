@@ -1,0 +1,2677 @@
+[
+  {
+    "program_id": "new-taipei-senior-inpatient-caregiver-subsidy",
+    "name": "新北市中低收入老人重病住院看護補助",
+    "plain_name": "新北弱勢長者住院看護費補助",
+    "government_level": "county_city",
+    "jurisdiction": "新北市",
+    "authority": "新北市政府社會局",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍並實際居住新北市、符合中低收入老人生活津貼資格，最近3個月內嚴重傷病住院，無家屬或家屬無法照顧，經醫師證明需專人且確有聘僱看護。",
+      "minimum_age": 65,
+      "residency": "須設籍並實際居住新北市。",
+      "income": "須符合中低收入老人生活津貼發給資格。",
+      "assessment": "醫師證明住院期間需專人看護。",
+      "exclusions": "加護病房、長期慢性病療養、呼吸治療中心、已聘外籍看護工或領中低收入老人特別照顧津貼者不適用。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "看護費核實補助：每日最高900元、半日最高500元；每年度最高90,000元。",
+      "amount_twd_max": 90000,
+      "frequency": "每年度最高90,000元"
+    },
+    "application": {
+      "summary": "看護結束日起3個月內，持醫療與看護證明、收據等文件向新北市各區公所申請。",
+      "automatic": false,
+      "phone": "02-29603456#3745"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "新北市主管機關頁面115年7月22日更新。"
+    },
+    "official_sources": [
+      {
+        "title": "住院看護補助",
+        "url": "https://lkk.ntpc.gov.tw/new/home.jsp?id=b53646fbee8d8864",
+        "publisher": "新北市政府社會局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taoyuan-senior-inpatient-caregiver-subsidy",
+    "name": "桃園市中低收入老人重病住院看護費用補助",
+    "plain_name": "桃園弱勢長者住院看護費補助",
+    "government_level": "county_city",
+    "jurisdiction": "桃園市",
+    "authority": "桃園市政府社會局",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "符合桃園市中低收入老人生活津貼相關所得資格，重病住院且經醫師證明需專人看護並實際聘僱看護者。",
+      "minimum_age": 65,
+      "residency": "須由桃園市依戶籍及福利資格審查。",
+      "income": "依最低生活費倍數分為未達1.5倍與1.5至2.5倍兩級。",
+      "assessment": "須有醫師診斷及僱請看護服務證明。",
+      "exclusions": "由機構外籍看護工或現有人員看護者不補助。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "未達最低生活費1.5倍者每日最高1,800元、年度最高216,000元；1.5至2.5倍者每日最高900元、年度最高108,000元。",
+      "amount_twd_min": 108000,
+      "amount_twd_max": 216000,
+      "frequency": "每年度依所得級距最高108,000或216,000元"
+    },
+    "application": {
+      "summary": "備妥申請書、醫療及看護證明、收據與帳戶資料，依桃園市申辦說明向受理機關提出。",
+      "automatic": false,
+      "phone": "03-3322101#6417"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "我的E政府115年現行申辦資料。"
+    },
+    "official_sources": [
+      {
+        "title": "中低收入老人重病住院看護費用補助",
+        "url": "https://sab.tycg.gov.tw/News_Content.aspx?n=7467&s=1469782",
+        "publisher": "桃園市政府社會局",
+        "source_type": "application_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "kaohsiung-vulnerable-senior-meal-delivery-2026",
+    "name": "高雄市115年長照營養餐飲送餐服務",
+    "plain_name": "高雄弱勢失能長者送餐補助",
+    "government_level": "county_city",
+    "jurisdiction": "高雄市",
+    "authority": "高雄市政府衛生局",
+    "category": "long_term_care",
+    "eligibility": {
+      "summary": "實際居住高雄市，經長照管理中心評估長照需要等級2級以上，具低收或中低收入身分，且獨居，或同住主要照顧者65歲以上／有特殊情事；非機構安置。",
+      "minimum_age": 65,
+      "residency": "須實際居住高雄市。",
+      "income": "限低收入或中低收入身分。",
+      "assessment": "長照需要等級2級以上且有送餐需求。",
+      "exclusions": "機構安置者不適用；居服備餐不補助餐費。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "每人每餐最高補助100元；低收入戶免部分負擔，中低收入戶負擔10%。",
+      "amount_twd_max": 100,
+      "frequency": "依核定送餐頻率"
+    },
+    "application": {
+      "summary": "撥打1966或向高雄市各區衛生所申請長照評估。",
+      "automatic": false,
+      "phone": "1966"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "主管機關頁面115年8月14日更新並公布115年特約名冊。"
+    },
+    "official_sources": [
+      {
+        "title": "餐食服務－送餐服務與居服備餐",
+        "url": "https://older.kcg.gov.tw/cp.aspx?n=AFF4177D8AAF6B33",
+        "publisher": "高雄市政府衛生局／社會局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "yunlin-independent-senior-emergency-system-2026",
+    "name": "雲林縣115年度獨居老人緊急救援系統服務",
+    "plain_name": "雲林獨居長者緊急求救系統",
+    "government_level": "county_city",
+    "jurisdiction": "雲林縣",
+    "authority": "雲林縣政府社會處",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "設籍且實際居住雲林縣、經公所列冊之獨居老人；依年齡、弱勢身分、疾病或專業評估決定全額或部分補助。",
+      "minimum_age": 65,
+      "residency": "須設籍且實際居住雲林縣並列冊獨居。",
+      "assessment": "疾病或其他需求分支須醫師、社工或服務單位專業評估。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "低收、中低收、中低收入老人津貼、80歲以上或經專業評估者，每月1,200元全額補助；65至79歲一般獨居老人補助800元、自付400元。",
+      "amount_twd_min": 800,
+      "amount_twd_max": 1200,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "向戶籍地鄉鎮市公所申請，由社會處核定後由服務單位裝設或提供穿戴式求救設備。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "主管機關頁面115年7月22日更新。"
+    },
+    "official_sources": [
+      {
+        "title": "雲林縣115年度獨居老人緊急救援系統服務計畫",
+        "url": "https://social.yunlin.gov.tw/News_Content.aspx?n=22471&s=576365",
+        "publisher": "雲林縣政府社會處",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taoyuan-independent-senior-emergency-system",
+    "name": "桃園市獨居老人緊急救援服務",
+    "plain_name": "桃園獨居長者緊急求救系統",
+    "government_level": "county_city",
+    "jurisdiction": "桃園市",
+    "authority": "桃園市政府社會局／長期照顧管理中心",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "設籍並實際居住桃園市、年滿65歲且有獨居事實；全額補助分支須具低收或中低收入身分，並經長照管理中心評估失能達標準。",
+      "minimum_age": 65,
+      "residency": "須設籍並實際居住桃園市。",
+      "income": "補助分支須低收入或中低收入；其他個案可洽詢或自費。",
+      "assessment": "須經長期照顧管理中心評估。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "提供緊急救援連線設備及24小時通報服務；不符補助者可自費使用，另提供電話問安與關懷訪視。",
+      "frequency": "持續服務"
+    },
+    "application": {
+      "summary": "向桃園市長期照顧管理中心申請評估；非補助對象可洽社會局老人福利科。",
+      "automatic": false,
+      "phone": "03-3321328"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "市府現行FAQ115年4月28日上版。"
+    },
+    "official_sources": [
+      {
+        "title": "獨居老人緊急救援服務申請說明",
+        "url": "https://sab.tycg.gov.tw/News_Content.aspx?n=7467&s=1469895&sms=12017",
+        "publisher": "桃園市政府社會局",
+        "source_type": "faq"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "new-taipei-expanded-independent-senior-support-2026",
+    "name": "新北市115年度擴大獨居長者關懷支持服務",
+    "plain_name": "新北獨居長者分級關懷與送餐",
+    "government_level": "county_city",
+    "jurisdiction": "新北市",
+    "authority": "新北市政府社會局",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "居住新北市的65歲以上獨居長者；原住民55歲以上，且無直系血親卑親屬居住新北市、同住者缺乏自理能力，或經評估有特殊需求。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須居住新北市。",
+      "identity": "獨居、缺乏可照顧同住者或經評估有特殊需求。",
+      "assessment": "依健康、自理、支持網絡等分4級需求；送餐限第4級且無法自理之經濟弱勢者。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "依4級需求提供關懷訪視與支持；第4級無法自理之經濟弱勢長者每餐補助上限150元、每年最高60,000元；第2至4級可依評估連結緊急救援裝置。",
+      "amount_twd_max": 60000,
+      "frequency": "關懷依級別；送餐每年最高60,000元；緊急救援依評估"
+    },
+    "application": {
+      "summary": "向新北市社會局、區公所或承辦獨居長者服務單位提出需求，由服務單位訪視評估。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "民眾是服務對象；公告中的10月30日為承辦單位補助申請期限，不應誤當民眾服務截止日。"
+    },
+    "official_sources": [
+      {
+        "title": "115年度擴大獨居長者關懷支持服務實施計畫",
+        "url": "https://www.sw.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=bea525c8affb608c04fa799a11ff99f9&id=203",
+        "publisher": "新北市政府社會局",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taipei-independent-senior-support-2026",
+    "name": "臺北市115年獨居老人服務計畫",
+    "plain_name": "臺北獨居長者關懷、緊急救援與送餐服務",
+    "government_level": "county_city",
+    "jurisdiction": "臺北市",
+    "authority": "臺北市政府社會局",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "居住臺北市的65歲以上獨居老人，或經社會局評估符合獨居服務需求者；服務內容依訪視、健康、自理能力、家庭及社會支持情形分級提供。",
+      "minimum_age": 65,
+      "residency": "須居住臺北市並由社會局或受託單位訪查評估。",
+      "identity": "以一人獨居或經評估具相當獨居服務需求者為主。",
+      "assessment": "由老人服務中心、社福中心或受託單位訪視評估需求級別。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "依需求提供電話問安、關懷訪視、文康活動、24小時緊急救援、共餐或送餐、災害關懷、長照連結及必要安置轉介。",
+      "frequency": "依需求級別與服務計畫"
+    },
+    "application": {
+      "summary": "可向臺北市各老人服務中心、社會福利服務中心或社會局提出需求，由服務單位訪視評估。",
+      "automatic": false,
+      "phone": "1999"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年主管機關計畫明列緊急救援、營養餐飲及分級關懷。"
+    },
+    "official_sources": [
+      {
+        "title": "臺北市115年獨居老人服務計畫",
+        "url": "https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=6Ie65YyX5biC5pS%2F5bqc56S%2B5pyD5bGAMTE15bm0542o5bGF6ICB5Lq65pyN5YuZ6KiI55WrLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzU4L3JlbGZpbGUvMTY0OTUvMTE1OTE4L2Y2MjJlMWE4LWM1MDctNDQ5MS04M2M3LWNiYTZiZWI1ZjdhNi5wZGY%3D",
+        "publisher": "臺北市政府社會局",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "keelung-expanded-independent-senior-support-2026",
+    "name": "基隆市115年度擴大獨居老人服務實施計畫",
+    "plain_name": "基隆獨居長者分級關懷、送餐與緊急救援",
+    "government_level": "county_city",
+    "jurisdiction": "基隆市",
+    "authority": "基隆市政府社會處",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "65歲以上一人獨居者；同住配偶65歲以上、同住者無照顧能力，或直系血親卑親屬未居住同縣市且經評估有關懷需求者，也可視同獨居老人。",
+      "minimum_age": 65,
+      "residency": "須居住基隆市並由地方服務體系評估。",
+      "identity": "獨居或計畫列定的視同獨居情形。",
+      "assessment": "依家庭支持、社會參與、資源取得及自理情形分4級。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "提供分級關懷；需求第4級且經濟弱勢、難以自理餐食者，每餐補助150元、每年最高60,000元；需求第2至4級可補助緊急救援裝置每月1,200元、每年最高14,400元。",
+      "amount_twd_max": 60000,
+      "frequency": "送餐與緊急救援依需求級別核定"
+    },
+    "application": {
+      "summary": "向基隆市政府社會處、區公所或獨居老人服務單位提出需求，由承辦單位訪視評估。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年度地方執行計畫已由基隆市政府公布。"
+    },
+    "official_sources": [
+      {
+        "title": "115年度擴大獨居老人服務實施計畫",
+        "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01307/f1766729824786.pdf",
+        "publisher": "基隆市政府社會處",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taichung-expanded-independent-senior-support-2026",
+    "name": "臺中市115年度擴大獨居老人服務實施計畫",
+    "plain_name": "臺中獨居長者分級關懷、送餐與緊急救援",
+    "government_level": "county_city",
+    "jurisdiction": "臺中市",
+    "authority": "臺中市政府社會局",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "65歲以上一人獨居者；直系血親卑親屬未居住臺中市、同住配偶65歲以上或同住者無照顧能力，且經評估需關懷者可視同獨居老人。",
+      "minimum_age": 65,
+      "residency": "須居住臺中市並由地方服務體系評估。",
+      "identity": "獨居或計畫列定的視同獨居情形。",
+      "assessment": "依家庭支持、社會參與及資源取得等需求分4級。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "提供分級關懷、餐飲及緊急救援裝置；第4級經濟弱勢且難以自理餐食者，每餐150元、每年最高60,000元；第2至4級緊急救援每月最高1,200元。",
+      "amount_twd_max": 60000,
+      "frequency": "依需求級別核定"
+    },
+    "application": {
+      "summary": "向臺中市政府社會局、區公所或獨居老人服務單位提出需求，由承辦單位訪視評估。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年度主管機關計畫已公布；舊緊急救援實施要點已廢止，不作現行來源。"
+    },
+    "official_sources": [
+      {
+        "title": "115年度擴大獨居老人服務實施計畫",
+        "url": "https://www.society.taichung.gov.tw/media/1398085/%E6%93%B4%E5%A4%A7%E7%8D%A8%E5%B1%85%E8%80%81%E4%BA%BA%E6%9C%8D%E5%8B%99%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB_.pdf",
+        "publisher": "臺中市政府社會局",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "tainan-independent-senior-support-2026",
+    "name": "臺南市115年度獨居長者訪查與支持服務",
+    "plain_name": "臺南獨居長者關懷、送餐與緊急救援",
+    "government_level": "county_city",
+    "jurisdiction": "臺南市",
+    "authority": "臺南市政府社會局",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "臺南市65歲以上獨居或經訪查發現有關懷、居家安全、餐食或資源連結需求的長者。",
+      "minimum_age": 65,
+      "residency": "須居住臺南市並由訪查或服務單位評估。",
+      "identity": "以獨居長者及訪查發現的高風險長者為主。",
+      "assessment": "由區公所與服務網絡訪查健康、生活安全及支持需求。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "依需求提供關懷訪視、電話問安、送餐、緊急救援及福利或長照資源轉介。",
+      "frequency": "依訪查與需求評估"
+    },
+    "application": {
+      "summary": "可向戶籍地區公所或臺南市政府社會局提出需求；115年市府亦辦理主動訪查及轉介。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "主管機關115年7月公告全市訪查與服務項目；個別補助額仍依實際轉介方案。"
+    },
+    "official_sources": [
+      {
+        "title": "臺南7月啟動全市獨居長者訪查",
+        "url": "https://sab.tainan.gov.tw/News_Content.aspx?n=17856&s=8821139",
+        "publisher": "臺南市政府社會局",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "keelung-vulnerable-senior-inpatient-caregiver-subsidy",
+    "name": "基隆市中低收入老人重病住院看護補助",
+    "plain_name": "基隆弱勢長者住院看護費補助",
+    "government_level": "county_city",
+    "jurisdiction": "基隆市",
+    "authority": "基隆市政府社會處",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍基隆市、65歲以上低收入戶或符合中低收入老人資格，因重病住院且醫師證明需24小時專人看護。",
+      "minimum_age": 65,
+      "residency": "須設籍基隆市。",
+      "income": "限低收入戶或符合中低收入老人資格。",
+      "assessment": "須由健保特約醫療院所醫師證明住院期間需24小時專人照顧。",
+      "exclusions": "慢性病療養及醫院呼吸治療中心看護不補助；看護不得為三親等內直系親屬。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "低收入戶及所得未達最低生活費1.5倍者每日最高1,500元、每年最高180,000元（低收入戶年度上限依要點例外）；1.5至2.5倍者每日最高750元、每年最高90,000元。",
+      "amount_twd_min": 90000,
+      "amount_twd_max": 180000,
+      "frequency": "每年度依所得級距"
+    },
+    "application": {
+      "summary": "僱請看護日起3個月內，檢附診斷、看護證明、收據與資格資料向戶籍地區公所申請；使用照顧服務業者者須在看護事實發生7日內通報。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "主管機關2025年重新發布現行實施要點及申請表。"
+    },
+    "official_sources": [
+      {
+        "title": "基隆市中低收入老人重病住院看護補助實施要點",
+        "url": "https://www.klcg.gov.tw/tw/social/2694-112580.html",
+        "publisher": "基隆市政府社會處",
+        "source_type": "law"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "hsinchu-city-vulnerable-senior-inpatient-caregiver-subsidy",
+    "name": "新竹市中低收入老人重病住院看護費用補助",
+    "plain_name": "新竹市弱勢長者住院看護費補助",
+    "government_level": "county_city",
+    "jurisdiction": "新竹市",
+    "authority": "新竹市政府社會處",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍新竹市、65歲以上，家庭所得符合中低收入老人生活津貼標準，因病住院且經證明需專人看護。",
+      "minimum_age": 65,
+      "residency": "須設籍新竹市。",
+      "income": "家庭總收入平均每人每月未達最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍。",
+      "assessment": "須因病住院並有醫師證明需專人看護。",
+      "exclusions": "慢性病療養不適用。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "每人每日最高補助1,000元，同一年度最高90,000元。",
+      "amount_twd_max": 90000,
+      "frequency": "每年度最高90,000元"
+    },
+    "application": {
+      "summary": "出院日起3個月內，持申請表、診斷證明、看護收據及領款資料向戶籍地區公所或社會處申請。",
+      "automatic": false,
+      "phone": "03-5352386#205"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "市府社會處現行經濟補助頁及115年區公所服務頁均列本項。"
+    },
+    "official_sources": [
+      {
+        "title": "中低收入老人重病住院看護補助",
+        "url": "https://society.hccg.gov.tw/ch/home.jsp?dataserno=201603290033&id=119&mcustomize=onemessages_view.jsp&mserno=201603090025&parentpath=0%2C3%2C25&t=SocietyOnes&toolsflag=Y",
+        "publisher": "新竹市政府社會處",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "miaoli-vulnerable-senior-inpatient-caregiver-subsidy",
+    "name": "苗栗縣中低收入老人重病住院看護費用補助",
+    "plain_name": "苗栗弱勢長者住院看護費補助（額度待確認）",
+    "government_level": "county_city",
+    "jurisdiction": "苗栗縣",
+    "authority": "苗栗縣政府社會處",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍苗栗縣、65歲以上且符合中低收入老人生活津貼資格，因病住院並經證明需專人看護；老人福利機構住民亦可依規定申請。",
+      "minimum_age": 65,
+      "residency": "須設籍苗栗縣。",
+      "income": "須符合苗栗縣中低收入老人生活津貼資格。",
+      "assessment": "須因病住院並有需專人看護證明。",
+      "exclusions": "慢性病療養不適用。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "主管機關現行FAQ與113年修正版計畫的每日額度不一致；年度最高額均列90,000元，實際每日核定額須先洽苗栗縣政府社會處。",
+      "amount_twd_max": 90000,
+      "frequency": "每年度最高90,000元；每日額度待主管機關確認"
+    },
+    "application": {
+      "summary": "住院日起3個月內，檢附申請表、戶籍、中低收入老人證明、診斷及看護收據等資料向戶籍地鄉鎮市公所申請。",
+      "automatic": false,
+      "phone": "037-333076"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "conflicting_sources",
+      "last_verified_at": "2026-08-17",
+      "notes": "114年5月27日FAQ列每日750元；113年7月26日修正版計畫列每日1,000元。未取得主管機關更正前不得顯示確定每日額度。"
+    },
+    "official_sources": [
+      {
+        "title": "中低收入老人重病住院看護費用補助FAQ",
+        "url": "https://service.miaoli.gov.tw/FAQTable.aspx?n=1792",
+        "publisher": "苗栗縣政府社會處",
+        "source_type": "faq"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taichung-vulnerable-senior-inpatient-caregiver-subsidy",
+    "name": "臺中市老人傷病住院醫療及看護費用補助",
+    "plain_name": "臺中弱勢長者住院看護及醫療費補助",
+    "government_level": "county_city",
+    "jurisdiction": "臺中市",
+    "authority": "臺中市政府社會局",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍臺中市、領有中低收入老人生活津貼，或符合該資格的榮民及指定公費安置老人，因急病住院且需專人看護。",
+      "minimum_age": 65,
+      "residency": "須設籍臺中市或為市府委託安置的合格老人。",
+      "income": "低收入戶或符合中低收入老人生活津貼資格。",
+      "assessment": "須有實際住院與看護需要。",
+      "exclusions": "非因急病入院之慢性病，以及加護、呼吸照護、燒燙傷、骨髓移植、隔離、安寧及復健病房期間不補助。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "低收入戶每日最高1,800元、年度180,000元；所得未達最低生活費1.5倍每日1,500元、年度150,000元；1.5至2.5倍每日750元、年度75,000元。家人看護另有較低額度；醫療費另依規定補助。",
+      "amount_twd_min": 75000,
+      "amount_twd_max": 180000,
+      "frequency": "每年度依所得及看護者身分"
+    },
+    "application": {
+      "summary": "看護結束3個月內備妥診斷證明、看護證明與收據等資料，向戶籍地區公所申請。",
+      "automatic": false,
+      "phone": "04-22289111#37464"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "主管機關現行頁清楚列出資格、排除病房及各所得級距。"
+    },
+    "official_sources": [
+      {
+        "title": "臺中市老人傷病住院醫療及看護費用補助",
+        "url": "https://www.society.taichung.gov.tw/13710/13735/13774/13783/461562",
+        "publisher": "臺中市政府社會局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "changhua-vulnerable-senior-inpatient-caregiver-subsidy",
+    "name": "彰化縣中低收入老人傷病醫療暨看護費用補助",
+    "plain_name": "彰化弱勢長者住院看護與醫療費補助",
+    "government_level": "county_city",
+    "jurisdiction": "彰化縣",
+    "authority": "彰化縣政府社會處",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍並實際居住彰化縣、65歲以上且符合中低收入老人生活津貼資格，因病住院、無家屬或家屬無法看護，並經醫師證明需專人看護。",
+      "minimum_age": 65,
+      "residency": "須設籍並實際居住彰化縣。",
+      "income": "須符合彰化縣中低收入老人生活津貼資格。",
+      "assessment": "須符合指定住院條件並由醫師證明需僱請專人看護。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "看護費每人每日最高900元、每年最高90,000元；醫療費超過50,000元部分補助70%，每年最高200,000元。",
+      "amount_twd_max": 200000,
+      "frequency": "看護每年最高90,000元；醫療每年最高200,000元"
+    },
+    "application": {
+      "summary": "檢附調查表、中低收入老人證明、診斷書、看護證明與收據等資料，向各鄉鎮市公所社會課或民政課申請。",
+      "automatic": false,
+      "phone": "04-7532334"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "主管機關申辦頁於115年仍可使用，並有現行審核作業辦法。"
+    },
+    "official_sources": [
+      {
+        "title": "中低收入老人傷病醫療暨看護費用補助",
+        "url": "https://social.chcg.gov.tw/06service/service01_con.aspx?data_id=25530&topsn=2434",
+        "publisher": "彰化縣政府社會處",
+        "source_type": "application_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "nantou-vulnerable-senior-inpatient-caregiver-subsidy",
+    "name": "南投縣中低收入老人傷病住院看護補助",
+    "plain_name": "南投弱勢長者住院看護費補助（額度待確認）",
+    "government_level": "county_city",
+    "jurisdiction": "南投縣",
+    "authority": "南投縣政府社會及勞動局",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍南投縣、65歲以上低收入戶、中低收入戶或符合中低收入老人生活津貼所得標準，因傷病住院並經醫院證明須僱請專人看護。",
+      "minimum_age": 65,
+      "residency": "須設籍南投縣。",
+      "income": "限低收入戶、中低收入戶或符合中低收入老人生活津貼所得資格。",
+      "assessment": "須因傷病住院並由醫院證明需僱請專人看護。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "南投縣115年業務手冊與主管法規頁的額度不一致；實際每日及年度上限須先洽社會及勞動局確認。",
+      "frequency": "額度待主管機關釐清"
+    },
+    "application": {
+      "summary": "看護行為發生起3個月內，檢附申請書、資格證明、診斷及看護證明、收據等資料向戶籍地鄉鎮市公所申請。",
+      "automatic": false,
+      "phone": "049-2222106#1841"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "conflicting_sources",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年業務手冊列低收每日1,800元／年度216,000元、中低收每日900元／年度108,000元；現行法規頁仍列1,500／180,000及750／90,000元。"
+    },
+    "official_sources": [
+      {
+        "title": "中低收入老人傷病住院看護補助",
+        "url": "https://welfare.nantou.gov.tw/1486/1006",
+        "publisher": "南投縣政府社會及勞動局",
+        "source_type": "program_page"
+      },
+      {
+        "title": "南投縣中低收入老人傷病住院看護補助實施要點",
+        "url": "https://glrs.nantou.gov.tw/LawContent.aspx?id=FL053929&media=print",
+        "publisher": "南投縣政府",
+        "source_type": "law"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "yunlin-vulnerable-senior-inpatient-caregiver-subsidy",
+    "name": "雲林縣中低收入老人醫療暨住院看護費用補助",
+    "plain_name": "雲林弱勢長者住院看護與醫療費補助",
+    "government_level": "county_city",
+    "jurisdiction": "雲林縣",
+    "authority": "雲林縣政府社會處",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍雲林縣且領有中低收入老人生活津貼，最近3個月因傷病住院，醫師證明需24小時專人看護且費用無力負擔。",
+      "minimum_age": 65,
+      "residency": "須設籍雲林縣。",
+      "income": "須領有中低收入老人生活津貼；低收入老人亦依計畫級距。",
+      "assessment": "須有最近3個月診斷及住院期間需專人照顧證明。",
+      "exclusions": "已獲其他單位補助或保險給付者不得重複。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "低收入老人每日1,800元、每年最高36,000元；所得1.5倍以下每日1,200元、每年30,000元；1.5至2.5倍每日950元、每年15,000元。另有醫療費補助。",
+      "amount_twd_min": 15000,
+      "amount_twd_max": 36000,
+      "frequency": "每年度依所得級距"
+    },
+    "application": {
+      "summary": "檢附申請表、福利資格、診斷、專人照顧證明、收據及照顧服務員資料，依戶籍地公所流程申請；年度案件原則上最晚12月15日前函送縣府。",
+      "automatic": false,
+      "phone": "05-5523370"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "114年6月25日修正計畫規定自每年1月1日至12月31日實施。"
+    },
+    "official_sources": [
+      {
+        "title": "雲林縣中低收入老人醫療暨住院看護費用補助計畫",
+        "url": "https://yuanchang.yunlin.gov.tw/News_Content.aspx?n=12390&s=551672",
+        "publisher": "雲林縣政府社會處／元長鄉公所",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "tainan-vulnerable-senior-inpatient-caregiver-subsidy",
+    "name": "臺南市中低收入老人重病住院看護費用補助",
+    "plain_name": "臺南弱勢長者住院看護費補助",
+    "government_level": "county_city",
+    "jurisdiction": "臺南市",
+    "authority": "臺南市政府社會局",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "臺南市65歲以上、符合中低收入老人生活津貼請領資格，住院期間實際僱請具照顧服務員資格者看護。",
+      "minimum_age": 65,
+      "residency": "須由臺南市依戶籍與福利資格審查。",
+      "income": "須符合中低收入老人生活津貼請領資格。",
+      "assessment": "須有診斷證明並載明入出院及隔離或加護病房期間。",
+      "exclusions": "領有中低收入老人特別照顧津貼、看護不具照服員資格或為三親等內親屬者不得申請。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "核實補助，每人每日最高850元，每年度最高90,000元。",
+      "amount_twd_max": 90000,
+      "frequency": "每年度最高90,000元"
+    },
+    "application": {
+      "summary": "檢附申請表、診斷證明、看護費收據、看護員身分與訓練證明、帳戶及領據，向各區公所申請。",
+      "automatic": false,
+      "phone": "06-2991111#6538"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "主管機關現行頁明列資格、金額與應備文件。"
+    },
+    "official_sources": [
+      {
+        "title": "中低收入老人重病住院看護費用補助",
+        "url": "https://sab.tainan.gov.tw/News_Content.aspx?n=21370&s=4378299",
+        "publisher": "臺南市政府社會局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "kaohsiung-vulnerable-inpatient-caregiver-subsidy",
+    "name": "高雄市經濟弱勢市民醫療及看護費補助",
+    "plain_name": "高雄弱勢長者住院看護費補助",
+    "government_level": "county_city",
+    "jurisdiction": "高雄市",
+    "authority": "高雄市政府社會局",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍高雄市，具低收入戶、中低收入戶、中低收入老人生活津貼或身障生活補助身分，住院期間需僱請專人看護且家屬無法看護。",
+      "minimum_age": 65,
+      "residency": "須設籍高雄市。",
+      "income": "限列冊低收、中低收、中低收入老人生活津貼或身障生活補助者。",
+      "assessment": "診斷證明須載明住院期間聘僱專人看護之必要及入出院日期。",
+      "exclusions": "中低收入等身分須最近1個月自付看護費超過30,000元或3個月累計超過50,000元，僅補助超過部分。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "低收入戶每日最高1,200元、每年最高150,000元；中低收入戶、中低收入老人或身障生活補助者，每日最高500元、每年最高60,000元，且僅補助超過自付門檻部分。",
+      "amount_twd_min": 60000,
+      "amount_twd_max": 150000,
+      "frequency": "每年度依福利身分"
+    },
+    "application": {
+      "summary": "看護行為結束後3個月內，檢附福利資格、診斷、家屬無法看護證明、看護收據與照服員資格等文件向戶籍地區公所申請。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "高雄市高齡友善資訊專區115年7月更新。"
+    },
+    "official_sources": [
+      {
+        "title": "經濟弱勢市民醫療補助（含看護費補助）",
+        "url": "https://older.kcg.gov.tw/cp.aspx?n=EF43CD081A223E8D&s=0FD1844107AF0BDA",
+        "publisher": "高雄市政府社會局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "hsinchu-county-expanded-independent-senior-support-2026",
+    "name": "新竹縣115年擴大獨居老人分級服務",
+    "plain_name": "新竹縣獨居長者關懷與送餐服務",
+    "government_level": "county_city",
+    "jurisdiction": "新竹縣",
+    "authority": "新竹縣政府高齡長照處",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "65歲以上一人獨居者；同住配偶65歲以上或同住者無照顧能力，經評估需關懷者亦可納入。",
+      "minimum_age": 65,
+      "residency": "須居住新竹縣並接受訪查評估。",
+      "identity": "獨居或計畫列定的視同獨居情形。",
+      "assessment": "依家庭支持、生活及資源需求分級。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "依評估級別提供關懷訪視、電話問安、送餐、福利諮詢及緊急救援裝置轉介。",
+      "frequency": "依需求級別"
+    },
+    "application": {
+      "summary": "由縣府結合村里長及里幹事清查，也可向高齡長照處或鄉鎮市公所通報需求，由人員訪查評估。",
+      "automatic": false,
+      "phone": "03-5518101#3293"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "縣府115年1月13日公告續辦單獨生活戶清查及分級服務。"
+    },
+    "official_sources": [
+      {
+        "title": "竹縣展開獨居老人清查，掌握需求分級提供服務",
+        "url": "https://www.hsinchu.gov.tw/News_Content.aspx?n=153&s=279085",
+        "publisher": "新竹縣政府高齡長照處",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "hsinchu-county-senior-emergency-system-2026",
+    "name": "新竹縣115年在宅緊急救援通報服務系統",
+    "plain_name": "新竹縣獨居長者免費緊急救援系統",
+    "government_level": "county_city",
+    "jurisdiction": "新竹縣",
+    "authority": "新竹縣政府高齡長照處",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "設籍且實際居住新竹縣、65歲以上、非機構居住且能操作簡易按鈕，具獨居事實，或同住者均65歲以上、無自理或照顧能力等情形，經評估有需求。",
+      "minimum_age": 65,
+      "residency": "須設籍且實際居住新竹縣。",
+      "identity": "獨居或同住者皆高齡、無自理或照顧能力。",
+      "assessment": "須經縣府或受託單位需求評估，並能操作簡易求救設備。",
+      "exclusions": "機構24小時安置者不適用。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "全額補助求救主機、隨身按鈕、不活動偵測，依需要含跌倒偵測或GPS定位；提供24小時監控、緊急通報、救護聯繫及每月訪視。",
+      "frequency": "115年度持續服務"
+    },
+    "application": {
+      "summary": "向新竹縣政府高齡長照處或受託服務單位提出，由單位在接獲名冊後訪視評估並安排裝機；年度目標約180名獨居老人。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "availability": {
+      "status": "quota_limited",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "年度服務目標約180名，符合資格仍須等待評估及裝機。"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "計畫114年10月23日奉核定，服務對象不得另收費；屬年度量能方案。"
+    },
+    "official_sources": [
+      {
+        "title": "新竹縣115年在宅緊急救援通報服務系統計畫",
+        "url": "https://ws.hsinchu.gov.tw/Download.ashx?n=5paw56u557ij5pS%2F5bqcMTE15bm05bqm5Zyo5a6F57eK5oCl5pWR5o%2B06YCa5aCx5pyN5YuZ57O757Wx6KiI55WrKDEwMjMwMSkucGRm&u=LzAwMS9VcGxvYWQvOC9yZWxmaWxlLzg2MTEvMjc1OTc0LzM1ODY3ZDIyLWYwZTktNDliNy04OWMyLTA3ZGY3NmEzODZiNS5wZGY%3D",
+        "publisher": "新竹縣政府",
+        "source_type": "announcement"
+      }
+    ]
+  },
+  {
+    "program_id": "hsinchu-city-senior-emergency-system",
+    "name": "新竹市獨居老人緊急救援服務",
+    "plain_name": "新竹市獨居長者緊急救援系統",
+    "government_level": "county_city",
+    "jurisdiction": "新竹市",
+    "authority": "新竹市政府社會處",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "設籍新竹市、65歲以上，經評估行動不便、罹患慢性疾病或失能，且無子女或子女未住在新竹市的獨居長者。",
+      "minimum_age": 65,
+      "residency": "須設籍新竹市。",
+      "identity": "無子女或子女未住本市之獨居長者。",
+      "assessment": "須經評估有行動不便、慢性疾病或失能及使用需求。",
+      "exclusions": "經評估不適合使用系統者不適用。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "提供緊急救援連線設備與通報服務，實際裝機及服務內容依社會處評估。",
+      "frequency": "持續服務"
+    },
+    "application": {
+      "summary": "向新竹市政府社會處社會救助與老人福利科或數位申辦平台提出申請，由服務單位評估。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "主管機關老人保護頁114年12月更新，數位申辦平台仍列本項。"
+    },
+    "official_sources": [
+      {
+        "title": "老人保護－獨居老人緊急救援服務",
+        "url": "https://society.hccg.gov.tw/ch/home.jsp?dataserno=201603290048&id=121&mcustomize=onemessages_view.jsp&mserno=201603090027&parentpath=0%2C3%2C25&t=SocietyOnes&toolsflag=Y",
+        "publisher": "新竹市政府社會處",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "miaoli-expanded-independent-senior-support-2026",
+    "name": "苗栗縣115年度擴大獨居老人服務",
+    "plain_name": "苗栗獨居長者送餐與緊急救援",
+    "government_level": "county_city",
+    "jurisdiction": "苗栗縣",
+    "authority": "苗栗縣政府社會處",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "65歲以上一人獨居者；同住配偶65歲以上、同住者無照顧能力或直系血親卑親屬未居住苗栗縣，經評估需服務者亦可納入。",
+      "minimum_age": 65,
+      "residency": "須居住苗栗縣並接受需求評估。",
+      "identity": "獨居或計畫列定的視同獨居情形。",
+      "assessment": "依需求分4級；送餐限第4級經濟弱勢且難以自理餐食者，緊急救援限第2至4級。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "第4級經濟弱勢者每日原則補助1餐、每餐150元、每年最高60,000元；第2至4級緊急救援裝置每月1,200元、每年最高14,400元。",
+      "amount_twd_max": 60000,
+      "frequency": "依需求級別"
+    },
+    "application": {
+      "summary": "向苗栗縣政府社會處、戶籍地鄉鎮市公所或獨居老人服務單位提出，由服務體系訪視評估。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年度地方實施計畫已由縣府公布；送餐另須符合經濟弱勢與第4級需求。"
+    },
+    "official_sources": [
+      {
+        "title": "115年度擴大獨居老人服務實施計畫",
+        "url": "https://webws.miaoli.gov.tw/Download.ashx?icon=.pdf&n=MTE15bm05bqm5pO05aSn542o5bGF6ICB5Lq65pyN5YuZ5a%2Bm5pa96KiI55WrLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNDU1L3JlbGZpbGUvMTI5NjgvOTQ5Nzg1LzIyOWRlYzNmLTgyY2UtNGU1YS1iYzBmLTcxYzAxZmQ1Y2ExYy5wZGY%3D",
+        "publisher": "苗栗縣政府社會處",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "nantou-independent-senior-emergency-system",
+    "name": "南投縣中低收入戶獨居老人緊急救援連線",
+    "plain_name": "南投弱勢獨居長者緊急救援系統",
+    "government_level": "county_city",
+    "jurisdiction": "南投縣",
+    "authority": "南投縣政府社會及勞動局",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "設籍並實際居住南投縣的獨居老人，具低收入、中低收入或其他主管機關列定資格，並經評估有緊急救援連線需求。",
+      "minimum_age": 65,
+      "residency": "須設籍並實際居住南投縣。",
+      "income": "以低收入或中低收入獨居老人為主要補助對象。",
+      "assessment": "須由公所或服務單位訪視評估。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "提供居家緊急救援連線與通報服務，實際補助及設備內容依南投縣現行核定。",
+      "frequency": "持續服務"
+    },
+    "application": {
+      "summary": "向戶籍地鄉鎮市公所或南投縣政府社會及勞動局提出，由承辦單位訪視審查。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "主管機關福利資訊網115年仍列現行服務；可擷取頁未明列統一額度，故不推算。"
+    },
+    "official_sources": [
+      {
+        "title": "中低收入戶獨居老人緊急救援連線",
+        "url": "https://welfare.nantou.gov.tw/1486/1015",
+        "publisher": "南投縣政府社會及勞動局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "yunlin-expanded-independent-senior-meal-2026",
+    "name": "115年度雲林縣擴大獨居老人餐飲服務",
+    "plain_name": "雲林高需求弱勢獨居長者送餐",
+    "government_level": "county_city",
+    "jurisdiction": "雲林縣",
+    "authority": "雲林縣政府社會處",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "列冊獨居老人中需求第4級、屬經濟弱勢，且經評估難以自行處理餐食並有送餐需要者。",
+      "minimum_age": 65,
+      "residency": "須居住雲林縣並列冊接受獨居老人需求評估。",
+      "income": "限經濟弱勢。",
+      "identity": "獨居或視同獨居老人。",
+      "assessment": "須評定需求第4級且難以自理餐食。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "連結餐飲送餐服務，送餐同時進行關懷與異常通報；實際餐次及地方核定額依服務評估。",
+      "frequency": "依第4級需求核定"
+    },
+    "application": {
+      "summary": "由社會處、社福中心、鄉鎮市公所或網絡單位訪視通報，評估後連結送餐服務。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年擴大獨居老人服務計畫明列第4級經濟弱勢送餐。"
+    },
+    "official_sources": [
+      {
+        "title": "115年度雲林縣擴大獨居老人服務計畫",
+        "url": "https://social.yunlin.gov.tw/News_Content.aspx?n=22340&s=520988",
+        "publisher": "雲林縣政府社會處",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "penghu-independent-senior-meal-delivery-2026",
+    "name": "澎湖縣115年守護獨居長者營養餐食服務",
+    "plain_name": "澎湖獨居長者每日兩餐送餐",
+    "government_level": "county_city",
+    "jurisdiction": "澎湖縣",
+    "authority": "澎湖縣政府社會處",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "經澎湖縣政府列冊或評估有餐食需求的獨居長者。",
+      "minimum_age": 65,
+      "residency": "須居住澎湖縣並由縣府或服務單位評估。",
+      "identity": "以獨居且有餐食支持需求的長者為主。",
+      "assessment": "須由地方服務體系確認餐食需要。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "原則全年提供每日兩餐送餐到府，除夕至初三暫停期間另以年菜與關懷物資銜接；送餐兼具關懷及異常通報。",
+      "frequency": "每日2餐，春節特定期間調整"
+    },
+    "application": {
+      "summary": "向澎湖縣政府社會處、鄉市公所或在地送餐服務單位提出需求，由服務體系評估。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "縣府115年5月施政報告列現行服務694人及每日兩餐。"
+    },
+    "official_sources": [
+      {
+        "title": "澎湖縣政府115年5月施政報告－守護獨居長者營養餐食服務",
+        "url": "https://www.penghu.gov.tw/uploaddowndoc?file=bulletin33%2F202605131109100.pdf&filedisplay=11505-%E6%96%BD%E6%94%BF%E5%A0%B1%E5%91%8A.pdf&flag=doc",
+        "publisher": "澎湖縣政府",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "penghu-independent-senior-emergency-system-2026",
+    "name": "澎湖縣115年度獨居老人緊急救援通報服務",
+    "plain_name": "澎湖獨居長者24小時緊急救援",
+    "government_level": "county_city",
+    "jurisdiction": "澎湖縣",
+    "authority": "澎湖縣政府社會處",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "澎湖縣列冊低收入戶、家庭所得未達最低生活費2.5倍的中低收入獨居老人，或經評估有特殊需求之獨居老人。",
+      "minimum_age": 65,
+      "residency": "須居住澎湖縣並由縣府評估。",
+      "income": "低收入、中低收入或經評估有特殊需求。",
+      "identity": "獨居老人。",
+      "assessment": "由服務單位訪視並安排裝機。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "全額補助24小時緊急救援與設備租賃，包含求救按鈕、居家安全監測、跌倒或活動異常偵測、GPS定位及警消聯繫。",
+      "frequency": "24小時持續服務"
+    },
+    "application": {
+      "summary": "可臨櫃、郵寄或線上向澎湖縣政府社會處申請，經委託單位訪視後裝機。",
+      "automatic": false,
+      "phone": "06-9274400#564"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年度委託計畫及縣府線上申辦頁均可確認。"
+    },
+    "official_sources": [
+      {
+        "title": "獨居老人及身心障礙者緊急救援連線系統",
+        "url": "https://eservice.penghu.gov.tw/Service_Content.aspx?n=A7ECB1F9E8CAF76E&s=3DD005CB829B7B6F",
+        "publisher": "澎湖縣政府社會處",
+        "source_type": "application_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "hualien-independent-senior-emergency-system-2026",
+    "name": "花蓮縣獨居長者緊急救援與關懷網絡",
+    "plain_name": "花蓮獨居長者緊急救援連線",
+    "government_level": "county_city",
+    "jurisdiction": "花蓮縣",
+    "authority": "花蓮縣政府社會處",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "居住花蓮縣的獨居長者，經社會處或服務中心評估有居家安全與緊急救援需求。",
+      "minimum_age": 65,
+      "residency": "須居住花蓮縣。",
+      "identity": "獨居或具中高風險、家庭支持薄弱情形。",
+      "assessment": "由社會處、服務中心或受託單位評估裝設需求。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "依評估協助安裝緊急救援連線設備，並結合到宅訪視、電話問安、物資與福利資源轉介。",
+      "frequency": "依需求持續服務"
+    },
+    "application": {
+      "summary": "向花蓮縣政府社會處或北、中、南區社會福利服務中心提出需求，由人員訪視評估。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "縣府115年1月訪視新聞確認設備仍在服務，但未公布統一金額，故不填額度。"
+    },
+    "official_sources": [
+      {
+        "title": "守護長者溫暖過冬－獨居長輩緊急救援連線",
+        "url": "https://www.hl.gov.tw/News_Content.aspx?n=32725&s=202244",
+        "publisher": "花蓮縣政府社會處",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taoyuan-senior-nutrition-meal-delivery-2026",
+    "name": "桃園市115年老人營養餐飲服務",
+    "plain_name": "桃園弱勢失能獨居長者送餐",
+    "government_level": "county_city",
+    "jurisdiction": "桃園市",
+    "authority": "桃園市政府社會局／長期照顧管理中心",
+    "category": "long_term_care",
+    "eligibility": {
+      "summary": "實際居住桃園市、經照管中心評估具長照資格，且為無法自行備餐或購餐的65歲以上獨居老人；須未由其他長照服務滿足餐食需求。",
+      "minimum_age": 65,
+      "residency": "須實際居住桃園市。",
+      "income": "主要補助低收入、中低收入及符合中低收入老人生活津貼特定級距者。",
+      "identity": "65歲以上獨居老人。",
+      "assessment": "須經照管中心評估並確認無法備餐或外出購餐。",
+      "exclusions": "已使用BA05餐食照顧或其他服務足以滿足餐食需求者不重複提供。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "依核定身分提供營養餐食送達服務；低收、中低收等長照低收入分支每人每日最高2餐全額補助。",
+      "frequency": "每人每日最高2餐，依評估核定"
+    },
+    "application": {
+      "summary": "向桃園市長期照顧管理中心或撥打1966申請評估。",
+      "automatic": false,
+      "phone": "1966"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "依桃園市115年度社會福利服務工作手冊及社會局現行頁面建檔；其他所得級距的自付額應以核定結果為準。"
+    },
+    "official_sources": [
+      {
+        "title": "115年度桃園社會福利服務工作手冊",
+        "url": "https://ws.tycg.gov.tw/Download.ashx?n=MTE15bm05bqm5qGD5ZyS56S%2B5pyD56aP5Yip5pyN5YuZ5bel5L2c5omL5YaKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNzQvcmVsZmlsZS8xMjAyOS8xNjEwNjI1L2IyNThmZjRmLThkYTQtNDRkZS1hOWJkLWUzYjZlYmMyMjAyMy5wZGY%3D",
+        "publisher": "桃園市政府社會局",
+        "source_type": "official_handbook"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "hsinchu-city-senior-nutrition-meal-delivery-2026",
+    "name": "新竹市115年度營養餐飲服務",
+    "plain_name": "新竹市弱勢失能長者到宅送餐",
+    "government_level": "county_city",
+    "jurisdiction": "新竹市",
+    "authority": "新竹市衛生局長期照顧管理中心",
+    "category": "long_term_care",
+    "eligibility": {
+      "summary": "經長照評估符合資格，且屬低收、中低收、中低收入老人生活津貼或身心障礙生活補助等弱勢身分、備餐不易並有送餐需求者。",
+      "minimum_age": 65,
+      "residency": "服務範圍為新竹市東區、北區及香山區。",
+      "income": "依低收、中低收、中低收入老人生活津貼或身障生活補助等資格核定。",
+      "assessment": "須經長照體系確認有營養餐飲需求。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "每人每日最高2餐、每餐最高100元；部分資格全額補助，部分資格每餐補助90元並自付10元。",
+      "amount_twd_min": 90,
+      "amount_twd_max": 100,
+      "frequency": "每日最高2餐"
+    },
+    "application": {
+      "summary": "撥打1966或洽新竹市長期照顧管理中心申請評估。",
+      "automatic": false,
+      "phone": "1966"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年度獎助計畫明列服務區域、餐次與補助額；實際部分負擔依身分核定。"
+    },
+    "official_sources": [
+      {
+        "title": "新竹市長期照顧管理中心115年度營養餐飲服務獎助計畫",
+        "url": "https://ltc.hccg.gov.tw/userfiles/files/115%E6%96%B0%E7%AB%B9%E5%B8%82%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%83%E7%87%9F%E9%A4%8A%E9%A4%90%E9%A3%B2%E6%9C%8D%E5%8B%99%E7%8D%8E%E5%8A%A9%E8%A8%88%E7%95%AB.pdf",
+        "publisher": "新竹市衛生局長期照顧管理中心",
+        "source_type": "official_plan"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "nantou-senior-meal-delivery-2026",
+    "name": "南投縣115年度老人暨身心障礙者送餐服務",
+    "plain_name": "南投弱勢長者送餐服務",
+    "government_level": "county_city",
+    "jurisdiction": "南投縣",
+    "authority": "南投縣政府社會及勞動局／各鄉鎮市公所",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "南投縣有送餐需求的老人或身心障礙者，由鄉鎮市公所或長照服務體系依個案狀況評估。",
+      "minimum_age": 65,
+      "residency": "須居住南投縣。",
+      "assessment": "實際資格、餐次與服務範圍由受理機關評估。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "由地方送餐特約單位提供餐食及到宅送達；公開115年資料未列單一全縣民眾自付標準。",
+      "frequency": "依地方評估與核定"
+    },
+    "application": {
+      "summary": "向戶籍或居住地鄉鎮市公所、南投縣社會及勞動局或1966提出需求。",
+      "automatic": false,
+      "phone": "1966"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年度鄉鎮重要施政及縣府預算均確認服務持續；因未取得統一申請辦法，不填補助額。"
+    },
+    "official_sources": [
+      {
+        "title": "南投縣各鄉鎮市115年度重要施政業務項目表",
+        "url": "https://www.ntc.gov.tw/ViewService/FileDownload.ashx?id=4a2f8f6d-0a05-4419-b491-cd74883519a8&module=File&name=226D30D0875841C186F4BA08DD7C37C2",
+        "publisher": "南投縣政府／南投縣各鄉鎮市公所",
+        "source_type": "official_plan"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "chiayi-city-senior-nutrition-meal-service-2026",
+    "name": "嘉義市老人營養餐飲服務",
+    "plain_name": "嘉義市失能長者營養餐飲",
+    "government_level": "county_city",
+    "jurisdiction": "嘉義市",
+    "authority": "嘉義市政府衛生局長期照顧管理中心",
+    "category": "long_term_care",
+    "eligibility": {
+      "summary": "居住嘉義市、經長照評估有營養餐飲需求的失能長者。",
+      "minimum_age": 65,
+      "residency": "須居住嘉義市。",
+      "assessment": "須經長照管理中心評估。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "提供居家式營養餐飲服務，以補充失能者日常營養；餐次與部分負擔依評估及核定。",
+      "frequency": "依長照評估核定"
+    },
+    "application": {
+      "summary": "撥打1966或洽嘉義市長期照顧管理中心申請。",
+      "automatic": false,
+      "phone": "1966"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "嘉義市政府提供的官方開放資料於115年6月更新，確認服務仍存在；公開資料未列完整資格與額度。"
+    },
+    "official_sources": [
+      {
+        "title": "嘉義市營養餐飲服務",
+        "url": "https://data.gov.tw/dataset/122774",
+        "publisher": "嘉義市政府／政府資料開放平臺",
+        "source_type": "official_dataset"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "pingtung-long-term-care-meal-service-2026",
+    "name": "屏東縣115年長期照顧餐飲服務",
+    "plain_name": "屏東失能長者長照送餐",
+    "government_level": "county_city",
+    "jurisdiction": "屏東縣",
+    "authority": "屏東縣政府長期照護處",
+    "category": "long_term_care",
+    "eligibility": {
+      "summary": "居住屏東縣的65歲以上失能老人，經長照管理中心評估符合長照服務資格及餐飲需求。",
+      "minimum_age": 65,
+      "residency": "須居住屏東縣。",
+      "assessment": "須經長照需要評估。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "長照服務項目包含餐飲服務；實際餐次、服務區域與部分負擔依核定照顧計畫。",
+      "frequency": "依長照評估核定"
+    },
+    "application": {
+      "summary": "透過我的E政府、撥打1966或向屏東縣長期照護處申請長照評估。",
+      "automatic": false,
+      "phone": "1966"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "我的E政府115年5月現行申辦頁明列65歲以上失能老人及餐飲服務；未自行推定補助額。"
+    },
+    "official_sources": [
+      {
+        "title": "屏東縣政府長期照顧服務申請",
+        "url": "https://www.gov.tw/News_Content_2_572315",
+        "publisher": "屏東縣政府長期照護處／我的E政府",
+        "source_type": "application_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "yilan-senior-nutrition-meal-delivery-2026",
+    "name": "宜蘭縣115年營養餐飲服務",
+    "plain_name": "宜蘭弱勢失能長者送餐",
+    "government_level": "county_city",
+    "jurisdiction": "宜蘭縣",
+    "authority": "宜蘭縣政府衛生局長期照護服務管理所",
+    "category": "long_term_care",
+    "eligibility": {
+      "summary": "具低收、中低收、中低收入老人生活津貼或身障生活補助等資格，經照管中心評估長照需要等級2至8級，且符合獨居、同住者無照顧能力、無法備餐購餐或家庭突發事件等條件。",
+      "minimum_age": 65,
+      "residency": "須由宜蘭縣長照體系評估。",
+      "income": "限指定經濟弱勢或生活補助資格。",
+      "assessment": "長照需要等級2至8級且有餐食需求。",
+      "exclusions": "可外出共餐或購餐、機構安置、聘僱外籍看護等情形不符。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "低收及長照低收入每餐補助100元；長照中低收入每餐補助90元。",
+      "amount_twd_min": 90,
+      "amount_twd_max": 100,
+      "frequency": "依核定送餐頻率"
+    },
+    "application": {
+      "summary": "撥打1966或洽宜蘭縣長期照護服務管理所申請評估。",
+      "automatic": false,
+      "phone": "1966"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "主管機關頁面115年6月22日更新，資格自115年1月1日起生效。"
+    },
+    "official_sources": [
+      {
+        "title": "營養餐飲服務",
+        "url": "https://ltc.ilshb.gov.tw/cp.aspx?n=16285",
+        "publisher": "宜蘭縣政府衛生局長期照護服務管理所",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "hualien-long-term-care-meal-delivery-2026",
+    "name": "花蓮縣115年度長期照顧營養餐飲服務",
+    "plain_name": "花蓮弱勢失能獨居長者送餐",
+    "government_level": "county_city",
+    "jurisdiction": "花蓮縣",
+    "authority": "花蓮縣衛生局長期照顧管理中心",
+    "category": "long_term_care",
+    "eligibility": {
+      "summary": "經花蓮縣照管中心評估符合資格、備餐不易且無法外出用餐的失能獨居個案；補助身分依低收、中低收、中低收入老人生活津貼等分級。",
+      "minimum_age": 65,
+      "residency": "須由花蓮縣照管中心評估。",
+      "assessment": "須有失能及營養餐飲需求。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "提供營養餐食到宅與送餐關懷，並視需要轉介其他長照服務；餐費及部分負擔依身分核定。",
+      "frequency": "依評估核定"
+    },
+    "application": {
+      "summary": "撥打1966或洽花蓮縣長期照顧管理中心申請評估。",
+      "automatic": false,
+      "phone": "1966"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "依115年度花蓮縣長期照顧營養餐飲服務實施計畫建檔。"
+    },
+    "official_sources": [
+      {
+        "title": "115年度花蓮縣長期照顧營養餐飲服務實施計畫",
+        "url": "https://long-term.hlshb.gov.tw/img/files/115%E5%B9%B4%E5%BA%A6%E8%8A%B1%E8%93%AE%E7%B8%A3%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E7%87%9F%E9%A4%8A%E9%A4%90%E9%A3%B2%E6%9C%8D%E5%8B%99%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB.pdf",
+        "publisher": "花蓮縣衛生局長期照顧管理中心",
+        "source_type": "official_plan"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taitung-long-term-care-meal-service-2026",
+    "name": "臺東縣115年度長照營養餐飲服務",
+    "plain_name": "臺東失能長者營養餐飲",
+    "government_level": "county_city",
+    "jurisdiction": "臺東縣",
+    "authority": "臺東縣衛生局長期照顧管理中心",
+    "category": "long_term_care",
+    "eligibility": {
+      "summary": "居住臺東縣、經長照評估有營養餐飲需求的失能長者。",
+      "minimum_age": 65,
+      "residency": "須居住臺東縣。",
+      "assessment": "須經長照管理中心評估。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "由115年度長照特約單位提供營養餐飲服務；實際餐次、服務區域及部分負擔依照顧計畫核定。",
+      "frequency": "依長照評估核定"
+    },
+    "application": {
+      "summary": "撥打1966或向臺東縣長期照顧管理中心申請。",
+      "automatic": false,
+      "phone": "1966"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年度特約審查結果明列營養餐飲提供單位；不由名冊推定個人補助額。"
+    },
+    "official_sources": [
+      {
+        "title": "臺東縣115年度長照服務特約提供單位提案審查結果",
+        "url": "https://ttshbltc.ttshb.gov.tw/ttshb/file/unit/523/%E8%87%BA%E6%9D%B1%E7%B8%A3115%E5%B9%B4%E5%BA%A6%E9%95%B7%E7%85%A7%E6%9C%8D%E5%8B%99%E7%89%B9%E7%B4%84%E6%8F%90%E4%BE%9B%E5%96%AE%E4%BD%8D%E6%8F%90%E6%A1%88%E5%AF%A9%E6%9F%A5%E7%B5%90%E6%9E%9C.pdf",
+        "publisher": "臺東縣衛生局長期照顧管理中心",
+        "source_type": "official_roster"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "kinmen-senior-meal-delivery",
+    "name": "金門縣老人營養餐食服務",
+    "plain_name": "金門長者營養送餐",
+    "government_level": "county_city",
+    "jurisdiction": "金門縣",
+    "authority": "金門縣政府社會處／各鄉鎮公所",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "設籍金門縣、具獨居或送餐需求的65歲以上老人；未符合弱勢補助資格但確有送餐需要者亦可由地方評估。",
+      "minimum_age": 65,
+      "residency": "須設籍並居住金門縣。",
+      "assessment": "由鄉鎮公所或服務單位評估送餐需求。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "提供老人營養餐食及送餐關懷；餐次、費用與服務量能依鄉鎮及個案核定。",
+      "frequency": "依地方評估"
+    },
+    "application": {
+      "summary": "向居住地鄉鎮公所社會課或金門縣政府社會處提出申請。",
+      "automatic": false,
+      "phone": "082-318823"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "縣府福利服務頁115年7月16日更新並附老人營養餐食服務試辦要點。"
+    },
+    "official_sources": [
+      {
+        "title": "福利服務項目－老人營養餐食服務",
+        "url": "https://social.kinmen.gov.tw/cp.aspx?n=c8cde0088d2e9571&s=CF57B6CAEF85E5F8",
+        "publisher": "金門縣政府社會處",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "changhua-independent-senior-emergency-system-2026",
+    "name": "彰化縣獨居老人緊急救援連線服務",
+    "plain_name": "彰化獨居長者生命連線",
+    "government_level": "county_city",
+    "jurisdiction": "彰化縣",
+    "authority": "彰化縣政府社會處",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "設籍並居住彰化縣、年滿65歲的獨居老人；全額補助分支以低收、中低收且經生活功能評估者為主。",
+      "minimum_age": 65,
+      "residency": "須設籍並實際居住彰化縣。",
+      "income": "現行公開資格以低收入或中低收入獨居老人為主要全額補助對象。",
+      "assessment": "由地方政府評估獨居、失能與緊急救援需求。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "提供宅端主機、隨身求救按鈕及24小時緊急救援連線；115年度施政目標為補助500人。",
+      "frequency": "24小時持續服務"
+    },
+    "application": {
+      "summary": "向戶籍地鄉鎮市公所或彰化縣政府社會處申請評估。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "年度施政目標500人不等於目前尚有設備，須向公所確認。"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年度施政計畫確認現行服務與目標量；細部資格參照縣府既有主管機關說明，申請時仍須確認最新標準。"
+    },
+    "official_sources": [
+      {
+        "title": "彰化縣政府115年度施政計畫－獨居老人緊急救援連線服務",
+        "url": "https://planning.chcg.gov.tw/getFile.aspx?did=27890&file=2&file_id=542032&type=2",
+        "publisher": "彰化縣政府",
+        "source_type": "official_plan"
+      }
+    ]
+  },
+  {
+    "program_id": "chiayi-city-independent-senior-emergency-system",
+    "name": "嘉義市獨居長者緊急救援通報系統",
+    "plain_name": "嘉義市獨居失能長者緊急救援",
+    "government_level": "county_city",
+    "jurisdiction": "嘉義市",
+    "authority": "嘉義市政府社會處",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "居住嘉義市的獨居失能長者，經市府評估有居家安全及緊急救援需求。",
+      "minimum_age": 65,
+      "residency": "須居住嘉義市。",
+      "identity": "以獨居且失能或具安全風險的長者為主。",
+      "assessment": "須經嘉義市政府評估。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "於長者家中裝設緊急救援設備，並持續升級智慧觀測與通報功能。",
+      "frequency": "持續服務"
+    },
+    "application": {
+      "summary": "向嘉義市政府社會處或長照服務窗口提出需求，由市府評估。",
+      "automatic": false,
+      "phone": "05-2254321"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "市府115年施政報告確認既有緊急救援通報系統持續升級；公開報告未列統一費用。"
+    },
+    "official_sources": [
+      {
+        "title": "嘉義市政府施政報告－守護咱桃仔城的長者",
+        "url": "https://icmp-ws.chiayi.gov.tw/Download.ashx?icon=.pdf&n=5ZiJ576p5biC6K2w5pyD56ysMTHlsYbnrKwy5qyh5a6a5pyf5pyD5biC6ZW35pa95pS%2F5aCx5ZGKLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzk5L3JlbGZpbGUvOTM2OC83OTUwMzMvYzQ0MjBhYzMtMTRiZC00Njk0LTgyZDYtNDAyYjA5MmFlODE3LnBkZg%3D%3D",
+        "publisher": "嘉義市政府",
+        "source_type": "official_report"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "chiayi-county-independent-senior-emergency-system-2026",
+    "name": "嘉義縣獨居老人緊急救援連線服務",
+    "plain_name": "嘉義縣獨居長者緊急救援",
+    "government_level": "county_city",
+    "jurisdiction": "嘉義縣",
+    "authority": "嘉義縣政府社會局",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "設籍且實際居住嘉義縣、年滿65歲，為列冊失能獨居老人、患慢性或突發性疾病的獨居老人，或經評估確有需要的一般戶弱勢獨居老人。",
+      "minimum_age": 65,
+      "residency": "須設籍並實際居住嘉義縣。",
+      "identity": "獨居老人。",
+      "assessment": "一般戶或特殊情形須經評估確有服務需求。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "提供緊急救援連線服務；補助或部分負擔方式依福利身分及評估結果。",
+      "frequency": "持續服務"
+    },
+    "application": {
+      "summary": "可透過我的E政府MyData線上申辦，或洽嘉義縣政府社會局。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "我的E政府申辦頁115年5月21日更新；頁面聯絡電話疑為共用系統號碼，未寫入方案電話欄。"
+    },
+    "official_sources": [
+      {
+        "title": "嘉義縣政府緊急救援連線申請",
+        "url": "https://www.gov.tw/News_Content_2_834355",
+        "publisher": "嘉義縣政府／我的E政府",
+        "source_type": "application_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "kaohsiung-senior-home-emergency-system",
+    "name": "高雄市老人在宅緊急救援連線服務",
+    "plain_name": "高雄長者24小時居家緊急救援",
+    "government_level": "county_city",
+    "jurisdiction": "高雄市",
+    "authority": "高雄市政府社會局",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "設籍並實際居住高雄市的65歲以上獨居長者、老老同住，或同住者為未成年／無照顧能力者；經評估失能且有緊急救護風險，或雖未失能但具獨居安全疑慮。",
+      "minimum_age": 65,
+      "residency": "須設籍並實際居住高雄市。",
+      "assessment": "須由市府評估失能或獨居安全疑慮。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "安裝宅端通報主機及隨身按鈕，連接24小時監控中心；指定弱勢身分可擴充跌倒偵測及GPS定位，並有護理人員定期家訪。",
+      "frequency": "24小時持續服務"
+    },
+    "application": {
+      "summary": "向高雄市政府社會局老人福利科申請；可下載申請書或使用線上申辦。",
+      "automatic": false,
+      "phone": "07-3373376"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "高齡友善資訊專區115年7月更新。"
+    },
+    "official_sources": [
+      {
+        "title": "老人在宅緊急救援連線服務",
+        "url": "https://older.kcg.gov.tw/cp.aspx?n=C9E8E7A01186AC8B",
+        "publisher": "高雄市政府社會局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "pingtung-independent-senior-emergency-system-2026",
+    "name": "屏東縣緊急救援通報系統",
+    "plain_name": "屏東長者24小時緊急救援",
+    "government_level": "county_city",
+    "jurisdiction": "屏東縣",
+    "authority": "屏東縣政府",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "居住屏東縣且經主管機關評估需要緊急救援通報的長者；申辦時可用戶籍、低收中低收及身障資格資料審查。",
+      "minimum_age": 65,
+      "residency": "須由屏東縣政府審查。",
+      "assessment": "須依縣府程序評估服務需求。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "提供隨身求救按鈕與24小時守護中心，包含意外及醫療事件處理、救護車通報、健康與社福諮詢轉介。",
+      "frequency": "24小時持續服務"
+    },
+    "application": {
+      "summary": "可透過我的E政府MyData線上申辦，或洽屏東縣政府受理窗口。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "我的E政府申辦頁115年5月21日更新；頁面聯絡電話格式異常，未寫入方案電話欄。"
+    },
+    "official_sources": [
+      {
+        "title": "屏東縣政府緊急救援通報系統",
+        "url": "https://www.gov.tw/News_Content_2_847192",
+        "publisher": "屏東縣政府／我的E政府",
+        "source_type": "application_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "yilan-independent-senior-emergency-system",
+    "name": "宜蘭縣獨居老人緊急救援通報系統",
+    "plain_name": "宜蘭獨居長者緊急救援",
+    "government_level": "county_city",
+    "jurisdiction": "宜蘭縣",
+    "authority": "宜蘭縣政府社會處",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "設籍宜蘭縣、65歲以上的獨居長者；弱勢補助分支須具低收、中低收、老人生活津貼或身障生活補助等資格，並經ADL或疾病風險評估。",
+      "minimum_age": 65,
+      "residency": "須設籍宜蘭縣。",
+      "income": "弱勢資格可補助月租；一般戶有需求時可自費。",
+      "assessment": "須評估生活功能、猝發或慢性疾病及居家安全風險。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "提供緊急醫療與意外通報、救護車聯繫、不活動監控、護理訪視、健康與社福諮詢；符合弱勢條件者補助月租，一般戶可自費。",
+      "frequency": "持續服務"
+    },
+    "application": {
+      "summary": "向戶籍地鄉鎮市公所社會課提出申請。",
+      "automatic": false,
+      "phone": "03-9328822#206"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "宜蘭縣公所現行福利頁115年7月更新；部分頁面對一般戶與弱勢戶描述不同，實際補助方式須由社會處核定。"
+    },
+    "official_sources": [
+      {
+        "title": "獨居老人緊急救援通報系統服務",
+        "url": "https://sntroot.e-land.gov.tw/News_Content.aspx?n=11277&s=133475&sms=12834",
+        "publisher": "宜蘭縣三星鄉公所／宜蘭縣政府社會處",
+        "source_type": "application_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taitung-independent-senior-emergency-system-2026",
+    "name": "臺東縣獨居老人緊急救援連線服務",
+    "plain_name": "臺東獨居長者緊急救援",
+    "government_level": "county_city",
+    "jurisdiction": "臺東縣",
+    "authority": "臺東縣政府社會處",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "設籍且實際居住臺東縣、年滿65歲的獨居老人，經評估具失能、疾病或緊急救援需求。",
+      "minimum_age": 65,
+      "residency": "須設籍並實際居住臺東縣。",
+      "identity": "獨居老人。",
+      "assessment": "須由地方服務體系評估。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "提供緊急救援連線通報，協助遭遇意外或緊急事故的長者儘速取得救護；115年擴大獨居老人服務持續辦理。",
+      "frequency": "持續服務"
+    },
+    "application": {
+      "summary": "向戶籍地鄉鎮市公所或臺東縣政府社會處提出需求，由服務單位評估。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "臺東縣公所115年5月確認縣府辦理中央擴大計畫；地方資源手冊確認既有緊急救援入口，未取得115年統一補助額。"
+    },
+    "official_sources": [
+      {
+        "title": "臺東縣政府辦理衛生福利部擴大獨居老人服務實施計畫",
+        "url": "https://www.ttdaren.gov.tw/home/index.php/info/news/6742-2026-05-04-01-44-25",
+        "publisher": "臺東縣達仁鄉公所／臺東縣政府",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "kinmen-independent-senior-emergency-system-2026",
+    "name": "金門縣獨居老人在宅緊急救援系統",
+    "plain_name": "金門獨居長者24小時緊急救援",
+    "government_level": "county_city",
+    "jurisdiction": "金門縣",
+    "authority": "金門縣政府社會處",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "設籍並實際居住金門縣的65歲以上低收或中低收獨居老人、經ADL評估失能且有裝設需要者，或其他經鄉鎮查核確有需求的獨居老人。",
+      "minimum_age": 65,
+      "residency": "須設籍並實際居住金門縣。",
+      "income": "低收、中低收為主要資格；特殊個案可專案核定。",
+      "assessment": "失能或特殊需求須由鄉鎮公所查核。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "由縣府提供宅端主機、隨身按鈕及24小時緊急救援連線服務；裝設與維修原則由縣府負擔。",
+      "frequency": "24小時持續服務"
+    },
+    "application": {
+      "summary": "檢附申請表、身分資料等向戶籍地鄉鎮公所社會課申請。",
+      "automatic": false,
+      "phone": "082-318823"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "縣府申辦頁115年3月更新，且115年關懷獨居老人計畫明列緊急救援系統。"
+    },
+    "official_sources": [
+      {
+        "title": "金門縣獨居老人在宅緊急救援系統",
+        "url": "https://www.kinmen.gov.tw/News_Content.aspx?n=B641F587CB6336A3&s=9C2AF141CE86A9D1&sms=4FEFD09995C4BB81",
+        "publisher": "金門縣政府社會處",
+        "source_type": "application_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "lienchiang-independent-senior-emergency-system",
+    "name": "連江縣獨居老人緊急救援連線服務",
+    "plain_name": "馬祖獨居長者平安機",
+    "government_level": "county_city",
+    "jurisdiction": "連江縣",
+    "authority": "連江縣政府民政社會處／各鄉公所",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "設籍並實際居住連江縣、年滿65歲的低收或中低收獨居老人、失能且有裝設需求者，或其他經鄉公所查核有特殊需求的獨居老人。",
+      "minimum_age": 65,
+      "residency": "須設籍並實際居住連江縣。",
+      "identity": "獨居或同住者無照顧能力。",
+      "assessment": "由鄉公所初審、縣府複審。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "提供24小時緊急救援連線；現行4G平安機可整合GPS定位、跌倒偵測及活動監控。",
+      "frequency": "24小時持續服務"
+    },
+    "application": {
+      "summary": "填具申請表向各鄉公所民政課提出申請；莒光鄉公所115年仍提供申請表下載。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "availability": {
+      "status": "quota_limited",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "設備與裝機量能有限，須由鄉公所及縣府確認。"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "官方鄉公所申請表頁115年3月更新，並有114年縣府導入4G平安機的官方報導；裝機仍受量能限制。"
+    },
+    "official_sources": [
+      {
+        "title": "獨居老人緊急救援連線系統申請表與實施計畫",
+        "url": "https://www.chukuang.gov.tw/Chhtml/Download/2372/?pagenum=9&qccid=&qmctitle=",
+        "publisher": "連江縣莒光鄉公所",
+        "source_type": "application_page"
+      }
+    ]
+  },
+  {
+    "program_id": "changhua-senior-nutrition-meal-delivery",
+    "name": "彰化縣老人營養餐飲服務",
+    "plain_name": "彰化失能長者營養送餐",
+    "government_level": "county_city",
+    "jurisdiction": "彰化縣",
+    "authority": "彰化縣政府社會處／長期照顧管理中心",
+    "category": "long_term_care",
+    "eligibility": {
+      "summary": "設籍並實際居住彰化縣、年滿65歲，經長期照顧管理中心以ADL或IADL評估為日常生活需他人協助的失能者。",
+      "minimum_age": 65,
+      "residency": "須設籍並實際居住彰化縣。",
+      "assessment": "須經長期照顧管理中心實地評估為失能且日常生活需協助。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "由彰化、員林、田中、二林及鹿和五個服務區的單位提供老人營養餐飲；低收入戶全額補助、中低收入戶自付10%，一般戶原則全額自付，符合指定資格者自付50元。",
+      "amount_twd": 50,
+      "frequency": "依評估及服務區核定"
+    },
+    "application": {
+      "summary": "撥打彰化縣長期照顧管理中心、親自前往中心，或向各鄉鎮市公所填寫長期照顧申請書。",
+      "automatic": false,
+      "phone": "04-7278503#30"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "官方頁列完整服務區，但實際收案與送餐量能須向長照中心確認。"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "彰化縣政府社會處現行頁2025年6月14日更新；115年網站仍提供申請書與五區聯絡方式。"
+    },
+    "official_sources": [
+      {
+        "title": "老人營養餐飲服務",
+        "url": "https://social.chcg.gov.tw/07other/other01_con.asp?data_id=11090&topsn=711",
+        "publisher": "彰化縣政府社會處",
+        "source_type": "program_page"
+      }
+    ]
+  },
+  {
+    "program_id": "chiayi-county-long-term-care-meal-service-2026",
+    "name": "嘉義縣115年長照餐飲服務",
+    "plain_name": "嘉義縣失能特殊個案餐飲服務",
+    "government_level": "county_city",
+    "jurisdiction": "嘉義縣",
+    "authority": "嘉義縣政府長期照顧管理中心",
+    "category": "long_term_care",
+    "eligibility": {
+      "summary": "居住嘉義縣、經長照體系評估有餐飲服務需求的個案；115年春節期間官方資料明列獨居或家人無法照顧等特殊個案仍提供服務。",
+      "minimum_age": 65,
+      "residency": "須居住嘉義縣。",
+      "assessment": "須由嘉義縣長期照顧管理中心或A單位評估；特殊個案以獨居或家人無法照顧等情形為例。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "依個案需求提供長照餐飲服務；地方主管機關尚未公開115年全縣一致的餐次、補助額與部分負擔，須以1966評估結果為準。",
+      "frequency": "依個案評估核定"
+    },
+    "application": {
+      "summary": "撥打1966，由嘉義縣長期照顧管理中心或社區整合型服務中心評估並連結服務。",
+      "automatic": false,
+      "phone": "1966"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已確認115年有服務，但地方未公開即時服務區、名額與統一部分負擔。"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "衛福部115年春節長照彙整確認嘉義縣餐飲服務對特殊個案不中斷；此證據只支持服務存在，不支持推定所有長者或固定金額。"
+    },
+    "official_sources": [
+      {
+        "title": "撥打1966長照服務專線－115年春節長照服務彙整",
+        "url": "https://www.mohw.gov.tw/cp-2704-85262-1.html",
+        "publisher": "衛生福利部長期照顧司",
+        "source_type": "official_summary"
+      }
+    ]
+  },
+  {
+    "program_id": "lienchiang-senior-meal-delivery",
+    "name": "連江縣老人營養午餐送餐服務",
+    "plain_name": "馬祖長者營養送餐",
+    "government_level": "county_city",
+    "jurisdiction": "連江縣",
+    "authority": "連江縣政府民政社會處／各鄉公所",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "居住連江縣、經地方政府評估有營養餐食或到宅送餐需求的長者；實際資格依各鄉公所現行計畫審查。",
+      "minimum_age": 65,
+      "residency": "須居住連江縣。",
+      "assessment": "由各鄉公所依獨居、失能、家庭支持及餐食需求評估。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "由縣府及各鄉公所提供老人營養餐飲或送餐到府；實際餐次、費用及服務區域依各島量能核定。",
+      "frequency": "依各鄉公所評估"
+    },
+    "application": {
+      "summary": "向居住地鄉公所民政課提出申請；莒光鄉公所115年仍提供老人營養午餐送餐服務計畫表單。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "離島餐食、配送及人力量能會變動，須向各鄉公所確認。"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "官方鄉公所表單頁2026年3月更新並列老人營養午餐送餐服務計畫；未沿用舊年度餐費。"
+    },
+    "official_sources": [
+      {
+        "title": "老人營養午餐送餐服務計畫表單",
+        "url": "https://www.chukuang.gov.tw/Chhtml/Download/2372/?pagenum=9&qccid=&qmctitle=",
+        "publisher": "連江縣莒光鄉公所",
+        "source_type": "application_page"
+      }
+    ]
+  },
+  {
+    "program_id": "taipei-vulnerable-inpatient-caregiver-subsidy-2026",
+    "name": "臺北市低收入戶等臨時看護費用補助",
+    "plain_name": "臺北弱勢市民住院臨時看護費補助",
+    "government_level": "county_city",
+    "jurisdiction": "臺北市",
+    "authority": "臺北市政府社會局",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍臺北市的低收入戶、符合中低收入老人生活津貼資格者或接受老人安置補助者，因緊急傷病住院，經醫師證明需專人看護，且無家屬或家屬經社會局評估無法看護。",
+      "minimum_age": 65,
+      "residency": "須設籍臺北市。",
+      "identity": "須為低收入戶、符合中低收入老人生活津貼資格者，或接受老人安置補助者。",
+      "assessment": "須有醫師證明需專人看護，並由社會局確認家屬無法提供照顧。"
+    },
+    "benefit": {
+      "type": "cash_reimbursement",
+      "summary": "按實際看護費核實補助，每日最高900元，每人每年最高90,000元。",
+      "amount_twd": 900,
+      "frequency": "每日最高；每年累計最高90,000元"
+    },
+    "application": {
+      "summary": "看護服務結束後3個月內，備妥申請書、醫院看護證明、載明看護必要性與日期的診斷書、合格看護身分或資格證明、收據及帳戶資料，向臺北市政府社會局申請。",
+      "automatic": false,
+      "phone": "02-27208889#1633"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "availability": {
+      "status": "continuous",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "須先確認福利身分、醫師證明及家屬照顧能力是否符合。"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "依臺北市政府115年低收入戶相關福利補助簡介及現行老人服務頁核對。"
+    },
+    "official_sources": [
+      {
+        "title": "115年度臺北市低收入戶相關福利補助簡介",
+        "url": "https://www-ws.gov.taipei/Download.ashx?icon=..pdf&n=MTE15bm06Ie65YyX5biC5L2O5pS25YWl5oi255u46Zec56aP5Yip6KOc5Yqp57Ch5LuLLnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvMzU4L3JlbGZpbGUvMTc5MDIvMzE3MDc3My9jY2IzY2ZmMS0zYTAzLTQ3MjEtYjlhNC1kZjc3ZDIxMjJiYzYucGRm",
+        "publisher": "臺北市政府社會局",
+        "source_type": "official_handbook"
+      },
+      {
+        "title": "中低收入老人生活津貼及相關服務",
+        "url": "https://elders.gov.taipei/News_Content.aspx?n=40A74DAD56B74FC0&s=46DFDD2811FCC6DD&sms=21884AF41A49B03F",
+        "publisher": "臺北市政府社會局",
+        "source_type": "program_page"
+      }
+    ]
+  },
+  {
+    "program_id": "hualien-vulnerable-inpatient-caregiver-subsidy",
+    "name": "花蓮縣弱勢老人及身心障礙者醫療及住院看護補助",
+    "plain_name": "花蓮弱勢長者住院看護費補助",
+    "government_level": "county_city",
+    "jurisdiction": "花蓮縣",
+    "authority": "花蓮縣政府社會處",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍花蓮縣的低收入戶、中低收入戶，或領有中低收入老人生活津貼、身心障礙者生活補助者，因傷病住院且經醫師證明需專人看護，並實際聘用符合資格的照顧服務員。",
+      "minimum_age": 65,
+      "residency": "須設籍花蓮縣。",
+      "identity": "適用低收入戶、中低收入戶、中低收入老人生活津貼或身心障礙者生活補助等列定弱勢身分。",
+      "assessment": "須由醫師證明住院期間需專人看護，且照顧者符合主管機關所定資格；特定排除情形不補助。"
+    },
+    "benefit": {
+      "type": "cash_reimbursement",
+      "summary": "低收入戶每日最高1,500元、每年最高180,000元；中低收入戶每日最高1,000元、每年最高90,000元；領身障生活補助或中低收入老人生活津貼者每日最高750元、每年最高70,000元；實付較低者按實付額。",
+      "frequency": "按日核實補助，依身分設年度上限"
+    },
+    "application": {
+      "summary": "出院或治療結束後3個月內，備妥申請文件向戶籍所在地鄉鎮市公所提出申請。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "availability": {
+      "status": "continuous",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "不得與同一事由其他補助或特別看護津貼重複領取；實際核定仍依個案文件。"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "花蓮縣政府社會處現行福利服務頁仍公開完整資格、額度、排除條件及申請期限。"
+    },
+    "official_sources": [
+      {
+        "title": "弱勢老人及身心障礙者醫療及住院看護補助",
+        "url": "https://sa.hl.gov.tw/Detail_sp/ce82ded9ecad469380d1311da6cecf28",
+        "publisher": "花蓮縣政府社會處",
+        "source_type": "program_page"
+      }
+    ]
+  },
+  {
+    "program_id": "taitung-vulnerable-senior-inpatient-caregiver-subsidy",
+    "name": "臺東縣低收入及中低收入老人住院看護費用補助",
+    "plain_name": "臺東弱勢長者住院看護費補助",
+    "government_level": "county_city",
+    "jurisdiction": "臺東縣",
+    "authority": "臺東縣政府社會處／戶籍地公所",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍臺東縣且年滿65歲，屬低收入戶或家庭收入符合規定的中低收入老人，因傷病住院經醫師證明需專業看護，且無家屬或家屬無力照顧並已實際聘請看護。",
+      "minimum_age": 65,
+      "residency": "須設籍臺東縣。",
+      "identity": "低收入戶，或家庭總收入及財產符合臺東縣中低收入老人相關標準。",
+      "assessment": "須經醫師證明需專業看護並實際接受服務；加護病房、慢性病房、呼吸照護中心及特定重複補助情形排除。"
+    },
+    "benefit": {
+      "type": "cash_reimbursement",
+      "summary": "依臺東縣現行實施計畫核定住院看護費；官方申辦頁未直接列出115年金額，前台不得自行推定。",
+      "frequency": "依實際看護日數及主管機關核定"
+    },
+    "application": {
+      "summary": "備妥申請書、診斷及住院看護證明、看護費收據、看護資格證明、福利身分與帳戶等文件，向戶籍地鄉鎮市公所提出申請；金額請在申請前向公所確認。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已確認現行官方申辦制度及資格，但115年補助額未在網頁正文公開，必須向受理公所確認。"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "臺東市公所現行官方頁明列65歲以上資格、適用條件、排除情形與申請文件；不沿用舊年度金額。"
+    },
+    "official_sources": [
+      {
+        "title": "住院看護費用補助－低收入及中低收入老人",
+        "url": "https://www.taitungcity.gov.tw/article/%E4%BD%8F%E9%99%A2%E7%9C%8B%E8%AD%B7%E8%B2%BB%E7%94%A8%E8%A3%9C%E5%8A%A9%EF%BC%8D%E4%BD%8E%E6%94%B6%E5%85%A5%E5%8F%8A%E4%B8%AD%E4%BD%8E%E6%94%B6%E5%85%A5%E8%80%81%E4%BA%BA",
+        "publisher": "臺東縣臺東市公所",
+        "source_type": "application_page"
+      }
+    ]
+  },
+  {
+    "program_id": "penghu-vulnerable-senior-inpatient-caregiver-subsidy",
+    "name": "澎湖縣中低收入老人重病住院看護補助",
+    "plain_name": "澎湖弱勢長者住院看護費補助",
+    "government_level": "county_city",
+    "jurisdiction": "澎湖縣",
+    "authority": "澎湖縣政府社會處",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍澎湖縣且年滿65歲，為列冊低收入戶或家庭收入未達最低生活費2.5倍的中低收入老人，因重病住院並聘請領有證照的合法看護；未聘僱外籍看護工且未領中低收入老人特別照顧津貼。",
+      "minimum_age": 65,
+      "residency": "須設籍澎湖縣。",
+      "identity": "列冊低收入戶或家庭收入未達最低生活費2.5倍的中低收入老人。",
+      "assessment": "須因重病住院且實際聘請領有證照的合法看護。"
+    },
+    "benefit": {
+      "type": "cash_reimbursement",
+      "summary": "低收入戶及所得未達最低生活費1.5倍者每日1,800元、每年最高216,000元；所得未達最低生活費2.5倍者每日900元、每年最高108,000元。",
+      "frequency": "按日補助，依所得級距設年度上限"
+    },
+    "application": {
+      "summary": "住院日起3個月內，檢附身分與福利資格、診斷書、專人看護證明、看護資格與費用收據等文件，向轄區村里幹事或鄉市公所社會／民政課臨櫃申請。",
+      "automatic": false,
+      "phone": "06-9274400#563"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "availability": {
+      "status": "continuous",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "現行線上申辦頁仍受理；最終資格與金額以社會處核定為準。"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "現行申辦頁、113年最新修正要點與115年仍更新的社會處福利清單相互核對。"
+    },
+    "official_sources": [
+      {
+        "title": "中低收入老人重病住院看護補助申辦服務",
+        "url": "https://eservice.penghu.gov.tw/Service_Content.aspx?n=A7ECB1F9E8CAF76E&p=BD46EB0D87E641D0&s=DBF79A46B4F68AFB",
+        "publisher": "澎湖縣政府社會處",
+        "source_type": "application_page"
+      },
+      {
+        "title": "澎湖縣中低收入老人重病住院看護補助實施要點（113年修正）",
+        "url": "https://www.penghu.gov.tw/uploaddowndoc?file=govpaper%2F202404151155160.pdf&filedisplay=%E6%BE%8E%E6%B9%96%E7%B8%A3%E6%94%BF%E5%BA%9C%E5%85%AC%E5%A0%B1%E7%AC%AC4%E6%9C%9F.pdf&flag=pdf",
+        "publisher": "澎湖縣政府",
+        "source_type": "law"
+      }
+    ]
+  },
+  {
+    "program_id": "kinmen-vulnerable-senior-inpatient-caregiver-subsidy",
+    "name": "金門縣中低收入老人傷病住院看護費補助",
+    "plain_name": "金門弱勢長者住院看護與醫療費補助",
+    "government_level": "county_city",
+    "jurisdiction": "金門縣",
+    "authority": "金門縣政府社會處",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍並實際居住金門縣的中低收入老人，近3個月因傷病住院，無家屬或家屬無力照顧，經醫師證明需聘僱領有合法證照的專人看護且有照顧事實；未聘外籍看護工且未領中低收入老人特別照顧津貼。",
+      "minimum_age": 65,
+      "residency": "須設籍並實際居住金門縣。",
+      "identity": "須具中低收入老人生活津貼資格；不同列冊身分適用不同補助額。",
+      "assessment": "須由醫師證明住院期間需專人看護並實際接受合格照顧服務；加護病房、長期慢性病療養及呼吸治療中心等不列入。"
+    },
+    "benefit": {
+      "type": "cash_reimbursement",
+      "summary": "低收入戶且具中低收入老人生活津貼資格者，看護費每日2,000元、每年最高180,000元；列冊中低收入老人生活津貼者每日1,000元、每年最高90,000元。另有符合條件的傷病醫療費補助。",
+      "frequency": "按日補助，依身分設年度上限"
+    },
+    "application": {
+      "summary": "醫療或看護行為發生日起3個月內，備妥申請表、身分及福利證明、診斷與看護證明、合格照顧服務員證書、費用收據及郵局帳戶等，向戶籍所在地鄉鎮公所申請。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "availability": {
+      "status": "continuous",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "主管機關福利頁及115年更新的縣府線上申請頁仍列此服務；最終依社會處審核。"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "金門縣政府社會處現行福利頁列完整對象、額度、排除條件、期限與文件；縣府e櫃台115年6月仍更新。"
+    },
+    "official_sources": [
+      {
+        "title": "金門縣政府辦理中低收入老人傷病住院看護費補助",
+        "url": "https://social.kinmen.gov.tw/cp.aspx?Create=1&n=c8cde0088d2e9571&s=F425C46B90F40504",
+        "publisher": "金門縣政府社會處",
+        "source_type": "program_page"
+      }
+    ]
+  }
+]

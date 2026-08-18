@@ -1,0 +1,1622 @@
+[
+  {
+    "program_id": "central-mid-low-income-elderly-living-allowance",
+    "name": "中低收入老人生活津貼",
+    "plain_name": "中低收入長者每月生活津貼",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "衛生福利部及各直轄市、縣市政府",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "年滿65歲，實際居住、家庭所得及財產符合規定，且未接受政府公費收容安置。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "設籍並實際居住，最近一年居住國內超過183日；細節依戶籍地規定。",
+      "income": "家庭平均所得依最低生活費1.5倍及2.5倍級距審查。",
+      "assets": "動產與不動產須低於當年度公告標準。",
+      "identity": "中低收入老人",
+      "assessment": null,
+      "exclusions": "接受政府公費收容安置或領取部分同性質給付者可能不符或須擇一。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "依家庭平均所得級距，每月8,329元或4,164元。",
+      "amount_twd": null,
+      "amount_twd_min": 4164,
+      "amount_twd_max": 8329,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "向戶籍所在地鄉、鎮、市、區公所提出申請。",
+      "automatic": false,
+      "phone": null
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "部分中央頁面曾寫預計調高，但較新的正式申辦頁仍列4,164元及8,329元；調高案尚不列為已生效。"
+    },
+    "stacking_notes": "與國民年金A式加計、老農津貼及部分其他生活給付可能有排除或擇一規定。",
+    "official_sources": [
+      {
+        "title": "老人福利－中低收入老人生活津貼與相關辦法",
+        "url": "https://www.mohw.gov.tw/cp-88-224-1.html",
+        "publisher": "衛生福利部",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-vulnerable-living-subsidy-2026-2027",
+    "name": "因應物價調整之弱勢生活補助加發",
+    "plain_name": "弱勢長者每月臨時加發500元",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "衛生福利部",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "在民國115年1月至116年1月各月符合指定弱勢津貼資格；中低收入老人生活津貼受領者屬每月加發500元對象。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "依原福利資格。",
+      "income": "依原福利資格。",
+      "assets": "依原福利資格。",
+      "identity": "中低收入老人生活津貼等指定福利受領者",
+      "assessment": null,
+      "exclusions": null
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "每月加發500元，共13個月。",
+      "amount_twd": 500,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "每月，最多13個月"
+    },
+    "application": {
+      "summary": "原則依既有福利名冊辦理，依主管機關通知。",
+      "automatic": true,
+      "phone": null
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2027-01-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "stacking_notes": "屬原福利的臨時加發。",
+    "official_sources": [
+      {
+        "title": "因應物價調整之弱勢生活補助加發",
+        "url": "https://www.mohw.gov.tw/cp-7173-83786-1.html",
+        "publisher": "衛生福利部",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-mid-low-income-elderly-special-caregiver-allowance",
+    "name": "中低收入老人特別照顧津貼",
+    "plain_name": "家人照顧重度失能長者津貼",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "衛生福利部及各直轄市、縣市政府",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "受照顧者領有中低收入老人生活津貼、失能程度重度以上並由符合規定的家人實際照顧。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "受照顧者與照顧者須符合設籍及實際居住規定。",
+      "income": "須已取得中低收入老人生活津貼資格。",
+      "assets": "依中低收入老人生活津貼資格。",
+      "identity": "中低收入重度失能老人及其家庭照顧者",
+      "assessment": "日常生活活動功能量表評估重度以上，或符合指定身心障礙條件。",
+      "exclusions": "不得與指定居家服務、看護或其他照顧服務補助重複。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "每月發給照顧者5,000元。",
+      "amount_twd": 5000,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "向受照顧者戶籍所在地公所或社會局處申請。",
+      "automatic": false,
+      "phone": null
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "stacking_notes": "與居家服務、住院看護及政府其他照顧服務補助有排除規定。",
+    "official_sources": [
+      {
+        "title": "老人福利－中低收入老人特別照顧津貼",
+        "url": "https://www.mohw.gov.tw/cp-88-224-1.html",
+        "publisher": "衛生福利部",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-national-pension-old-age-pension",
+    "name": "國民年金老年年金給付",
+    "plain_name": "國民年金滿65歲老年年金",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "勞動部勞工保險局",
+    "category": "pension_retirement",
+    "eligibility": {
+      "summary": "年滿65歲且具有國民年金保險年資。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": null,
+      "income": null,
+      "assets": null,
+      "identity": "具有國民年金保險年資者",
+      "assessment": null,
+      "exclusions": "領取指定社會福利津貼或有欠費等情況時，計算方式可能不同。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "民國115年月投保金額21,103元，依保險年資按A式或B式擇優計算。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "向勞保局申請，可郵寄或臨櫃辦理。",
+      "automatic": false,
+      "phone": "02-2396-1266"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "金額依個人年資與適用公式計算。"
+    },
+    "stacking_notes": "A式加計金額與部分社會福利津貼有排除關係。",
+    "official_sources": [
+      {
+        "title": "國民年金老年年金給付金額試算",
+        "url": "https://www.bli.gov.tw/0100754.html",
+        "publisher": "勞動部勞工保險局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-old-age-basic-guarantee-pension",
+    "name": "老年基本保證年金",
+    "plain_name": "國保開辦前已滿65歲者的基本年金",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "勞動部勞工保險局",
+    "category": "pension_retirement",
+    "eligibility": {
+      "summary": "國民年金於民國97年10月1日開辦時已滿65歲，即民國32年10月1日以前出生，並符合戶籍、居住與排除規定。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "在國內設有戶籍，最近3年內每年居住超過183日。",
+      "income": "依現行排除規定審查。",
+      "assets": "依現行排除規定審查。",
+      "identity": "國保開辦時已滿65歲者",
+      "assessment": null,
+      "exclusions": "公費安置、領取特定退休給付或超過所得財產標準等情形可能排除。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "每月4,049元。",
+      "amount_twd": 4049,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "向勞保局申請。",
+      "automatic": false,
+      "phone": "02-2396-1266"
+    },
+    "validity": {
+      "effective_from": "2024-01-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "stacking_notes": "與部分退休俸、退休金及國民年金其他給付有排除規定。",
+    "official_sources": [
+      {
+        "title": "老年基本保證年金請領資格及給付金額",
+        "url": "https://www.bli.gov.tw/0014340.html",
+        "publisher": "勞動部勞工保險局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-labor-insurance-old-age-pension",
+    "name": "勞工保險老年年金給付",
+    "plain_name": "勞保老年年金",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "勞動部勞工保險局",
+    "category": "pension_retirement",
+    "eligibility": {
+      "summary": "民國115年起法定請領年齡為65歲；通常須勞保年資滿15年並離職退保。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": null,
+      "income": null,
+      "assets": null,
+      "identity": "具有勞工保險年資者",
+      "assessment": null,
+      "exclusions": null
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "依平均月投保薪資與保險年資計算；可提前最多5年減給或延後請領增給。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "向勞保局申請。",
+      "automatic": false,
+      "phone": "02-2396-1266"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "stacking_notes": "勞保年資未滿15年但併計國保滿15年者，年滿65歲時另有規定。",
+    "official_sources": [
+      {
+        "title": "勞保年金－老年年金給付",
+        "url": "https://www.bli.gov.tw/0019821.html",
+        "publisher": "勞動部勞工保險局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-labor-pension-individual-account",
+    "name": "勞工退休金個人專戶請領",
+    "plain_name": "勞退新制退休金",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "勞動部勞工保險局",
+    "category": "pension_retirement",
+    "eligibility": {
+      "summary": "年滿60歲且具有勞工退休金新制實際提繳年資。",
+      "minimum_age": 60,
+      "indigenous_minimum_age": null,
+      "residency": null,
+      "income": null,
+      "assets": null,
+      "identity": "具有勞退新制個人專戶者",
+      "assessment": null,
+      "exclusions": null
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "提繳年資滿15年可選月退休金或一次退休金；未滿15年請領一次退休金。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "一次或按月"
+    },
+    "application": {
+      "summary": "向勞保局申請，可使用線上、郵寄或臨櫃方式。",
+      "automatic": false,
+      "phone": "02-2396-1266"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "此方案最低請領年齡為60歲，但65歲以上長者仍可能尚未申請。"
+    },
+    "stacking_notes": "勞工退休金與勞保老年給付是不同制度，符合條件時可分別申請。",
+    "official_sources": [
+      {
+        "title": "勞工退休金請領條件",
+        "url": "https://www.bli.gov.tw/0007073.html",
+        "publisher": "勞動部勞工保險局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-old-farmer-welfare-allowance",
+    "name": "老年農民福利津貼",
+    "plain_name": "老農津貼",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "農業部及勞動部勞工保險局",
+    "category": "cash_assistance",
+    "eligibility": {
+      "summary": "年滿65歲並符合農保年資、所得財產及未領特定社會保險老年給付等規定。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "須符合在國內設有戶籍及居住規定。",
+      "income": "須通過個人綜合所得審查。",
+      "assets": "土地、房屋等資產須符合規定。",
+      "identity": "符合農民健康保險年資等條件的老年農民",
+      "assessment": null,
+      "exclusions": "領取特定社會保險老年給付者可能不符。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "每月8,110元；部分舊制農保年資情形為半額。",
+      "amount_twd": 8110,
+      "amount_twd_min": 4055,
+      "amount_twd_max": 8110,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "向所屬農會申請，由農會送勞保局審核。",
+      "automatic": false,
+      "phone": "02-2396-1266"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "提高至1萬元的說法未列為已生效。"
+    },
+    "stacking_notes": "與部分社會保險老年給付及社會福利津貼有排除關係。",
+    "official_sources": [
+      {
+        "title": "老年農民福利津貼請領資格",
+        "url": "https://www.bli.gov.tw/0008362.html",
+        "publisher": "勞動部勞工保險局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-nhi-premium-subsidy-mid-low-income-age-70",
+    "name": "70歲以上中低收入老人全民健康保險費補助",
+    "plain_name": "70歲以上中低收入長者免繳健保自付額",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "衛生福利部中央健康保險署",
+    "category": "health_insurance",
+    "eligibility": {
+      "summary": "年滿70歲且具中低收入老人資格。",
+      "minimum_age": 70,
+      "indigenous_minimum_age": null,
+      "residency": "依中低收入資格。",
+      "income": "須具中低收入資格。",
+      "assets": "須具中低收入資格。",
+      "identity": "中低收入老人",
+      "assessment": null,
+      "exclusions": null
+    },
+    "benefit": {
+      "type": "premium_subsidy",
+      "summary": "全民健康保險自付保險費全額補助；65至69歲的額外補助依地方政府規定。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "每月保費"
+    },
+    "application": {
+      "summary": "通常由主管機關名冊勾稽，不需另向健保署申請；有疑義時洽地方政府或健保署。",
+      "automatic": true,
+      "phone": "0800-030-598"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "stacking_notes": "地方政府可能另補助65至69歲或擴大至一般長者。",
+    "official_sources": [
+      {
+        "title": "哪些人的自付保險費可獲得補助",
+        "url": "https://www.nhi.gov.tw/ch/cp-3789-62c16-3246-1.html",
+        "publisher": "衛生福利部中央健康保險署",
+        "source_type": "faq"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-rental-subsidy-2026-senior-bonus",
+    "name": "115年300億元中央擴大租金補貼－65歲以上社會弱勢加碼",
+    "plain_name": "65歲以上租屋補貼加碼",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "內政部國土管理署",
+    "category": "housing",
+    "eligibility": {
+      "summary": "承租住宅、符合所得財產及住宅條件；65歲以上列為社會弱勢加碼對象。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "依中央擴大租金補貼規定。",
+      "income": "家庭平均每人每月所得須低於租賃地規定標準。",
+      "assets": "不動產等須符合計畫規定。",
+      "identity": "租屋家庭；65歲以上為社會弱勢加碼身分",
+      "assessment": null,
+      "exclusions": "家庭成員持有自有住宅等情形依計畫規定審查。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "依租屋縣市及級距核算；65歲以上適用社會弱勢1.2倍加碼，多重身分時擇高。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "每月"
+    },
+    "application": {
+      "summary": "民國115年1月1日至12月31日依國土署專區線上或書面申請。",
+      "automatic": false,
+      "phone": "02-7729-8003"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "stacking_notes": "同時符合兩種以上加碼身分者，補貼倍數擇高，不重複相乘。",
+    "official_sources": [
+      {
+        "title": "115年300億元中央擴大租金補貼專區",
+        "url": "https://pip.moi.gov.tw/V3/B/SCRB0102.aspx?L=C",
+        "publisher": "內政部國土管理署",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-long-term-care-3-services",
+    "name": "長期照顧十年計畫3.0服務",
+    "plain_name": "長照3.0居家、交通、輔具與喘息服務",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "衛生福利部",
+    "category": "long_term_care",
+    "eligibility": {
+      "summary": "65歲以上等長照服務對象，經評估長照需要等級2級以上。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": null,
+      "income": "一般戶、中低收入戶與低收入戶自付比例不同。",
+      "assets": null,
+      "identity": "高齡、原住民、失智或其他長照服務對象",
+      "assessment": "須經照管中心評估長照需要等級。",
+      "exclusions": null
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "居家、日間與家庭托顧、專業服務、交通接送、輔具與居家改善、喘息等服務及補助；就醫／復健／透析交通每月額度依地區1,680至2,400元；115年7月起傳統輔具與居家改善每3年40,000元，或全租賃智慧科技輔具每3年60,000元，兩類擇一。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "依核定額度；輔具每3年40,000或60,000元擇一"
+    },
+    "application": {
+      "summary": "撥打1966，或向各縣市長期照顧管理中心申請評估。",
+      "automatic": false,
+      "phone": "1966"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年7月1日起，輔具額度分傳統輔具／居家改善40,000元與全租賃智慧科技輔具60,000元，三年期間僅擇一類。"
+    },
+    "stacking_notes": "實際服務額度、自付比例及與其他照顧方案的關係依評估與規定；交通每趟價格由地方主管機關公告。",
+    "official_sources": [
+      {
+        "title": "申請長照服務",
+        "url": "https://1966.gov.tw/ltc/cp-6533-70777-207.html",
+        "publisher": "衛生福利部",
+        "source_type": "application_page"
+      },
+      {
+        "title": "長照服務申請及給付辦法115年新制",
+        "url": "https://www.mohw.gov.tw/cp-7177-82811-1.html",
+        "publisher": "衛生福利部",
+        "source_type": "announcement"
+      },
+      {
+        "title": "長照交通接送服務",
+        "url": "https://1966.gov.tw/LTC/cp-6452-69937-207.html",
+        "publisher": "衛生福利部長期照顧司",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-residential-care-institution-subsidy",
+    "name": "住宿式服務機構使用者補助方案",
+    "plain_name": "住宿式長照機構每年最高12萬元補助",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "衛生福利部",
+    "category": "long_term_care",
+    "eligibility": {
+      "summary": "入住符合規定的住宿式服務機構；長照需要等級4級以上或具中度以上身心障礙證明者可按中重度失能資格申請。原則須累計入住180日，未滿180日者按符合月份比例計算。",
+      "minimum_age": null,
+      "indigenous_minimum_age": null,
+      "residency": null,
+      "income": null,
+      "assets": null,
+      "identity": "符合失能、身障及入住機構條件的使用者",
+      "assessment": "長照需要等級須達4級以上；具中度以上身心障礙證明者可免長照評估，比照4級以上申請。",
+      "exclusions": "同年度已領身障住宿式照顧費、中低收入失能老人機構公費安置、榮家公費等指定住宿補助者不得重複申請。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "中重度失能者每年最高120,000元；112年1月1日前已入住、未評估或未達長照4級的既有住民，每年最高60,000元。原則累計入住180日可領全額，未滿180日者按符合月份每月10,000元或5,000元計算。",
+      "amount_twd": null,
+      "amount_twd_min": 60000,
+      "amount_twd_max": 120000,
+      "frequency": "每年"
+    },
+    "application": {
+      "summary": "由住民本人或機構簽約人，向補助年度最近一次入住機構所在地的縣市政府申請；第一階段為當年7月1日至12月31日，第二階段為次年1月1日至3月1日。115年度表單與收件細節仍以各縣市公告為準。",
+      "automatic": false,
+      "phone": "1966"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "availability": {
+      "status": "continuous",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "中央方案明定執行至115年12月31日；申請採兩階段，地方115年度表單、窗口與收件方式須另行確認。"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "中央申請作業須知明定方案期程至115年12月31日、補助額、入住天數、排除條件與申請階段；1966網站目前仍只掛114年度表單，故不把舊表單當115年表單使用。"
+    },
+    "stacking_notes": "與其他住宿式照顧公費補助可能有排除。",
+    "official_sources": [
+      {
+        "title": "住宿式服務機構使用者補助方案",
+        "url": "https://1966.gov.tw/ltc/cp-6457-69925-207.html",
+        "publisher": "衛生福利部長期照顧司",
+        "source_type": "program_page"
+      },
+      {
+        "title": "住宿式服務機構使用者補助方案申請作業須知",
+        "url": "https://www.mohw.gov.tw/dl-83528-1d56c1e2-fc78-48f6-aebd-1440bccafb5e.html",
+        "publisher": "衛生福利部",
+        "source_type": "official_plan"
+      }
+    ]
+  },
+  {
+    "program_id": "central-adult-preventive-health-service-age-65",
+    "name": "成人預防保健服務",
+    "plain_name": "65歲以上每年一次成人健康檢查",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "衛生福利部國民健康署",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "年滿65歲。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": null,
+      "income": null,
+      "assets": null,
+      "identity": null,
+      "assessment": null,
+      "exclusions": "服務頻率依年齡與身分。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "每年1次健康檢查，包括健康評估、身體檢查、實驗室檢查與健康諮詢。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "每年1次"
+    },
+    "application": {
+      "summary": "攜帶健保卡至成人預防保健特約醫療院所。",
+      "automatic": false,
+      "phone": null
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "stacking_notes": "部分縣市另提供加值長者健檢。",
+    "official_sources": [
+      {
+        "title": "成人預防保健",
+        "url": "https://www.hpa.gov.tw/Pages/List.aspx?nodeid=189",
+        "publisher": "衛生福利部國民健康署",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-public-cancer-screening-seniors",
+    "name": "公費癌症篩檢",
+    "plain_name": "符合年齡與風險條件的免費癌症篩檢",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "衛生福利部國民健康署",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "依癌別、性別、年齡及風險條件；例如45至74歲大腸癌每2年1次，65歲女性可於當年度接受1次HPV檢測。",
+      "minimum_age": null,
+      "indigenous_minimum_age": null,
+      "residency": null,
+      "income": null,
+      "assets": null,
+      "identity": "各癌別目標族群",
+      "assessment": "依年齡、性別、吸菸或嚼檳榔等條件。",
+      "exclusions": null
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "符合條件者可接受公費大腸癌、口腔癌、乳癌、子宮頸癌、肺癌等篩檢。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "依癌別規定"
+    },
+    "application": {
+      "summary": "向特約醫療院所或縣市篩檢活動洽詢。",
+      "automatic": false,
+      "phone": null
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "必須依個別癌別判斷，不能僅以65歲概括。"
+    },
+    "stacking_notes": "可與成人預防保健及地方加值健檢搭配，實際項目依院所安排。",
+    "official_sources": [
+      {
+        "title": "邁向健康高齡社會－公費健檢與癌症篩檢",
+        "url": "https://www.gov.tw/News_Content_26_802152",
+        "publisher": "數位發展部／衛生福利部",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-pneumococcal-vaccine-age-65",
+    "name": "65歲以上公費肺炎鏈球菌疫苗",
+    "plain_name": "65歲以上免費肺炎鏈球菌疫苗",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "衛生福利部疾病管制署",
+    "category": "vaccination",
+    "eligibility": {
+      "summary": "年滿65歲，依過去肺炎鏈球菌疫苗接種史判斷應接種種類及劑次。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": null,
+      "income": null,
+      "assets": null,
+      "identity": null,
+      "assessment": "醫療院所依既往接種史評估。",
+      "exclusions": "具接種禁忌或已完成建議劑次者依醫囑。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "民國115年1月15日起依規則提供PCV20等公費接種。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "依接種史"
+    },
+    "application": {
+      "summary": "攜帶健保卡及接種紀錄至合約醫療院所。",
+      "automatic": false,
+      "phone": "1922"
+    },
+    "validity": {
+      "effective_from": "2026-01-15",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "115年肺炎鏈球菌疫苗接種問答",
+        "url": "https://www.cdc.gov.tw/Category/QAPage/CY4qDyIrTM1YPhfOHX-76g",
+        "publisher": "衛生福利部疾病管制署",
+        "source_type": "faq"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-influenza-vaccine-age-65-2026",
+    "name": "65歲以上公費流感疫苗",
+    "plain_name": "65歲以上免費流感疫苗",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "衛生福利部疾病管制署",
+    "category": "vaccination",
+    "eligibility": {
+      "summary": "年滿65歲，屬公費流感疫苗接種對象。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": null,
+      "income": null,
+      "assets": null,
+      "identity": null,
+      "assessment": "接種前由醫療人員評估。",
+      "exclusions": "具接種禁忌者依醫囑。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "依民國115年度公費流感疫苗計畫免費接種。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "每一流感季依計畫"
+    },
+    "application": {
+      "summary": "依疾管署開打時程，至合約院所或衛生所接種。",
+      "automatic": false,
+      "phone": "1922"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "疫苗供應與開打階段依疾管署最新公告。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "公費流感疫苗",
+        "url": "https://www.cdc.gov.tw/Category/MPage/JNTC9qza3F_rgt9sRHqV2Q",
+        "publisher": "衛生福利部疾病管制署",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-senior-statutory-transport-discount",
+    "name": "老人福利法公共運輸優待",
+    "plain_name": "65歲以上搭乘國內公共運輸半價",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "衛生福利部及交通主管機關",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "65歲以上國民；55歲以上原住民亦適用老人福利法相關規定。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": null,
+      "income": null,
+      "assets": null,
+      "identity": "本國老人及符合規定的原住民",
+      "assessment": null,
+      "exclusions": null
+    },
+    "benefit": {
+      "type": "discount",
+      "summary": "搭乘國內公、民營水陸空公共運輸工具，依法享有半價優待。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "每次使用"
+    },
+    "application": {
+      "summary": "購票或使用服務時出示有效身分證明，並依運輸業者票務規定。",
+      "automatic": false,
+      "phone": null
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "各票種、座位及訂位規則仍依個別運輸業者。"
+    },
+    "stacking_notes": "地方敬老卡點數與法定半價是不同機制，是否同時折抵依各地規定。",
+    "official_sources": [
+      {
+        "title": "老人福利法第25條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?flno=25&pcode=D0050037",
+        "publisher": "法務部全國法規資料庫",
+        "source_type": "law"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-public-recreation-cultural-discount",
+    "name": "老人福利法公營風景區、康樂場所及文教設施優待",
+    "plain_name": "公營風景區與文教設施半價",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "各公營設施主管機關",
+    "category": "culture_recreation",
+    "eligibility": {
+      "summary": "65歲以上國民；55歲以上原住民亦適用相關規定。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": null,
+      "income": null,
+      "assets": null,
+      "identity": "本國老人及符合規定的原住民",
+      "assessment": null,
+      "exclusions": null
+    },
+    "benefit": {
+      "type": "discount",
+      "summary": "進入公營風景區、康樂場所及文教設施，依法享有半價優待。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "每次使用"
+    },
+    "application": {
+      "summary": "購票時出示有效身分證明；各設施票種依現場規定。",
+      "automatic": false,
+      "phone": null
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "後續須逐一建立各公立場館的實際票價資料。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "老人福利法第25條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?flno=25&pcode=D0050037",
+        "publisher": "法務部全國法規資料庫",
+        "source_type": "law"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-tra-senior-half-fare",
+    "name": "臺灣鐵路敬老票",
+    "plain_name": "臺鐵敬老票5折",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "國營臺灣鐵路股份有限公司",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "年滿65歲，符合敬老票資格。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": null,
+      "income": null,
+      "assets": null,
+      "identity": "敬老票適用對象",
+      "assessment": null,
+      "exclusions": null
+    },
+    "benefit": {
+      "type": "discount",
+      "summary": "依法購買敬老優待票，票價5折。不存在65歲以上免費搭乘臺鐵的全國政策。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "每次搭乘"
+    },
+    "application": {
+      "summary": "購票時選擇敬老票，搭乘時攜帶有效身分證明。",
+      "automatic": false,
+      "phone": null
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "stacking_notes": "部分縣市社福卡可另外折抵，單次上限依縣市與臺鐵規定。",
+    "official_sources": [
+      {
+        "title": "臺鐵票價與票種查詢",
+        "url": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip114/query",
+        "publisher": "國營臺灣鐵路股份有限公司",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-thsr-senior-half-fare",
+    "name": "台灣高鐵敬老票",
+    "plain_name": "高鐵敬老票5折",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "台灣高速鐵路股份有限公司",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "年滿65歲的本國國民。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": null,
+      "income": null,
+      "assets": null,
+      "identity": "本國國民",
+      "assessment": null,
+      "exclusions": null
+    },
+    "benefit": {
+      "type": "discount",
+      "summary": "標準車廂對號座及自由座依法享有5折敬老票。不存在65歲以上免費搭乘高鐵的全國政策。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "每次搭乘"
+    },
+    "application": {
+      "summary": "購票時選擇敬老票，搭乘時攜帶有效身分證明。",
+      "automatic": false,
+      "phone": null
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "高鐵敬老票說明",
+        "url": "https://www.thsrc.com.tw/ArticleContent/caa6fac8-b875-4ad6-b1e6-96c2902d12a6",
+        "publisher": "台灣高速鐵路股份有限公司",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-license-surrender-tpass-reward-age-70",
+    "name": "高齡者自願繳回駕照公共運輸回饋",
+    "plain_name": "70歲以上繳回駕照，每月交通回饋最高1,500元",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "交通部公路局",
+    "category": "transportation",
+    "eligibility": {
+      "summary": "年滿70歲，自願繳回全部有效汽車及機車駕照，並完成指定卡片綁定。",
+      "minimum_age": 70,
+      "indigenous_minimum_age": null,
+      "residency": null,
+      "income": null,
+      "assets": null,
+      "identity": "持有有效駕照並符合自願繳回條件者",
+      "assessment": null,
+      "exclusions": "須繳回全部符合規定的有效駕照。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "TPASS電子錢包公共運輸實際支出50%回饋，每月最高1,500元，最長2年。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": 1500,
+      "frequency": "每月，最長2年"
+    },
+    "application": {
+      "summary": "至監理機關辦理駕照繳回及指定電子票證綁定。",
+      "automatic": false,
+      "phone": null
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "stacking_notes": "實際回饋以符合規定的公共運輸支出計算。",
+    "official_sources": [
+      {
+        "title": "高齡者繳回駕照交通回饋措施",
+        "url": "https://168.motc.gov.tw/theme/car/post/2603051503686",
+        "publisher": "交通部",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-mid-low-income-elderly-home-repair-subsidy",
+    "name": "中低收入老人住屋修繕補助",
+    "plain_name": "弱勢長者住家修繕與無障礙改善補助",
+    "government_level": "central",
+    "jurisdiction": "全國，由地方執行",
+    "authority": "衛生福利部及各直轄市、縣市政府",
+    "category": "housing",
+    "eligibility": {
+      "summary": "符合中低收入、低收入或身心障礙等弱勢條件，且住宅及修繕項目符合地方規定。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "依各縣市規定。",
+      "income": "依弱勢身分及地方審查。",
+      "assets": "依弱勢身分及地方審查。",
+      "identity": "中低收入老人等地方指定補助對象",
+      "assessment": "地方政府可能派員勘查修繕需求。",
+      "exclusions": "補助年限、房屋權屬及重複補助依地方規定。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "3年內每戶最高100,000元，可補助防水排水、樓梯走道、無障礙及安全改善等。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": 100000,
+      "frequency": "3年內依地方規定"
+    },
+    "application": {
+      "summary": "向戶籍所在地公所申請，以各縣市當年度公告為準。",
+      "automatic": false,
+      "phone": null
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "中央頁提供共同框架，實際額度與項目須建立地方方案資料。"
+    },
+    "stacking_notes": "可能與長照輔具及居家無障礙改善補助重疊，應先向承辦單位確認。",
+    "official_sources": [
+      {
+        "title": "樂當銀髮族－修繕住屋補助",
+        "url": "https://www.gov.tw/News_Content_26_536541",
+        "publisher": "數位發展部／衛生福利部",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-community-care-stations",
+    "name": "社區照顧關懷據點服務",
+    "plain_name": "社區關懷、電話問安、共餐與健康活動",
+    "government_level": "central",
+    "jurisdiction": "全國，由地方與社區提供",
+    "authority": "衛生福利部及各地方政府",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "社區長者；實際服務對象與名額依地方政府及據點規定。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "依在地據點服務範圍。",
+      "income": null,
+      "assets": null,
+      "identity": "社區長者",
+      "assessment": null,
+      "exclusions": null
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "關懷訪視、電話問安、諮詢轉介，並依據點提供餐飲或健康促進活動。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "依據點服務時間"
+    },
+    "application": {
+      "summary": "洽地方社會局處、公所或鄰近社區照顧關懷據點。",
+      "automatic": false,
+      "phone": null
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "各據點提供項目與名額不同。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "衛生福利部老人福利－社區照顧關懷據點",
+        "url": "https://www.mohw.gov.tw/cp-88-224-1.html",
+        "publisher": "衛生福利部",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-independent-senior-care-and-emergency-support",
+    "name": "獨居老人關懷與緊急救援服務",
+    "plain_name": "獨居長者問安、訪視與緊急救援",
+    "government_level": "central",
+    "jurisdiction": "全國，由地方執行",
+    "authority": "衛生福利部及各地方政府",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "65歲以上獨居長者，或同住者無照顧能力；115至116年依需求分4級服務，緊急救援裝置補助擴大至不限經濟弱勢之獨居老人。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": "依地方政府規定。",
+      "income": "關懷與緊急救援不再一律限經濟弱勢；每日送餐以高需求經濟弱勢長者為主。",
+      "assets": null,
+      "identity": "獨居或缺乏照顧支持的長者",
+      "assessment": "地方政府可能進行需求評估。",
+      "exclusions": null
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "依需求等級提供每年1次至每月4次關懷訪視、電話問安、生活協助、就醫陪伴與轉介；可補助固定式或穿戴式緊急救援裝置，高需求經濟弱勢者可提供每日送餐。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "依地方服務計畫"
+    },
+    "application": {
+      "summary": "向戶籍所在地公所或社會局處申請。",
+      "automatic": false,
+      "phone": null
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2027-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115至116年擴大措施；服務資格、名額、費用與設備仍由各縣市依需求評估執行。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "樂當銀髮族－獨居年長者關懷與緊急救援",
+        "url": "https://www.gov.tw/News_Content_26_536541",
+        "publisher": "數位發展部／衛生福利部",
+        "source_type": "official_summary"
+      },
+      {
+        "title": "擴大推動獨居老人服務",
+        "url": "https://www.ey.gov.tw/Page/5A8A0CB5B41DA11E/5dac7676-4dcc-4ff2-8340-01df3bbc0044",
+        "publisher": "行政院／衛生福利部",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-senior-protection-hotline-113",
+    "name": "老人保護與113保護專線",
+    "plain_name": "長者受虐、疏忽或遺棄可撥113",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "衛生福利部",
+    "category": "protection",
+    "eligibility": {
+      "summary": "遭疏忽、虐待、遺棄、經濟剝削，或有其他安全疑慮的長者。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": null,
+      "residency": null,
+      "income": null,
+      "assets": null,
+      "identity": "需要保護的長者",
+      "assessment": "由社政及相關單位進行安全與需求評估。",
+      "exclusions": null
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "24小時通報、危機處理及社政資源連結。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "需要時"
+    },
+    "application": {
+      "summary": "撥打113；有立即人身危險時撥110或119。",
+      "automatic": false,
+      "phone": "113"
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "衛生福利部老人福利－老人保護",
+        "url": "https://www.mohw.gov.tw/cp-88-224-1.html",
+        "publisher": "衛生福利部",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-income-tax-exemption-age-70-filing-2026",
+    "name": "70歲以上綜合所得稅免稅額",
+    "plain_name": "70歲以上報稅免稅額提高",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "財政部",
+    "category": "tax",
+    "eligibility": {
+      "summary": "民國115年申報114年度所得時，年滿70歲的納稅義務人、配偶及受扶養直系尊親屬。",
+      "minimum_age": 70,
+      "indigenous_minimum_age": null,
+      "residency": "依綜合所得稅居住者及申報規定。",
+      "income": null,
+      "assets": null,
+      "identity": "納稅義務人、配偶或符合申報扶養的直系尊親屬",
+      "assessment": null,
+      "exclusions": "受扶養親屬須符合所得稅法列報條件。"
+    },
+    "benefit": {
+      "type": "tax_reduction",
+      "summary": "每人免稅額145,500元；一般免稅額為97,000元。",
+      "amount_twd": 145500,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "民國115年申報114年度所得"
+    },
+    "application": {
+      "summary": "於綜合所得稅結算申報時列報。",
+      "automatic": false,
+      "phone": "0800-000-321"
+    },
+    "validity": {
+      "effective_from": "2026-05-01",
+      "effective_to": "2026-06-30"
+    },
+    "verification": {
+      "status": "expired",
+      "last_verified_at": "2026-08-18",
+      "notes": "此筆記錄的是115年申報114年度所得適用金額；一般結算申報期間已於115年6月30日截止。逾期或更正申報須另洽國稅局。"
+    },
+    "stacking_notes": "實際節稅額取決於申報戶所得及適用稅率。",
+    "official_sources": [
+      {
+        "title": "計算綜合所得稅可以從所得總額減除之項目",
+        "url": "https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/national/individual-income-tax/exemption-scope/filling/D9JGLGD",
+        "publisher": "財政部稅務入口網",
+        "source_type": "faq"
+      }
+    ],
+    "availability": {
+      "status": "closed",
+      "as_of": "2026-08-18",
+      "check_required": true,
+      "notes": "115年度一般結算申報期已截止；如需逾期申報或更正申報，請洽國稅局確認程序。"
+    }
+  },
+  {
+    "program_id": "central-elderly-reverse-mortgage-guidance",
+    "name": "商業型以房養老－不動產逆向抵押貸款資訊",
+    "plain_name": "用自有房屋申請以房養老貸款",
+    "government_level": "central",
+    "jurisdiction": "全國",
+    "authority": "金融監督管理委員會及承作金融機構",
+    "category": "housing",
+    "eligibility": {
+      "summary": "持有可供設定抵押的不動產，並符合個別金融機構年齡、房屋及授信條件。",
+      "minimum_age": null,
+      "indigenous_minimum_age": null,
+      "residency": null,
+      "income": null,
+      "assets": "須持有符合金融機構條件的不動產。",
+      "identity": "有以房養老資金需求的不動產所有權人",
+      "assessment": "由金融機構進行不動產估價及授信審查。",
+      "exclusions": null
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "以自有不動產設定抵押，由金融機構依契約按月撥付貸款；這是貸款，不是政府補助。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "依貸款契約"
+    },
+    "application": {
+      "summary": "向有承作不動產逆向抵押貸款的金融機構諮詢。",
+      "automatic": false,
+      "phone": null
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "前台必須明確標示為貸款而非補助。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "衛生福利部老人福利－商業型以房養老",
+        "url": "https://www.mohw.gov.tw/cp-88-224-1.html",
+        "publisher": "衛生福利部",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "central-love-bracelet-location-assistance",
+    "name": "預防走失愛心手鍊服務",
+    "plain_name": "失智或容易走失長者的協尋手鍊",
+    "government_level": "central",
+    "jurisdiction": "全國，由地方執行",
+    "authority": "衛生福利部及各地方政府",
+    "category": "community_support",
+    "eligibility": {
+      "summary": "罹患失智症、智能障礙、精神異常或有走失風險者；補助資格依地方政府審查。",
+      "minimum_age": null,
+      "indigenous_minimum_age": null,
+      "residency": "依地方政府規定。",
+      "income": "免費或補助資格可能依經濟身分。",
+      "assets": null,
+      "identity": "有走失風險者",
+      "assessment": "可能需診斷證明或地方需求評估。",
+      "exclusions": null
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "提供帶有協尋編號的手鍊；符合補助資格者可免費，其他人可能需負擔工本及管理費。",
+      "amount_twd": null,
+      "amount_twd_min": null,
+      "amount_twd_max": null,
+      "frequency": "依地方方案"
+    },
+    "application": {
+      "summary": "向戶籍所在地公所或社會局處申請。",
+      "automatic": false,
+      "phone": null
+    },
+    "validity": {
+      "effective_from": null,
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "實際名稱、費用及承辦單位依縣市。"
+    },
+    "stacking_notes": null,
+    "official_sources": [
+      {
+        "title": "樂當銀髮族－愛心手鍊",
+        "url": "https://www.gov.tw/News_Content_26_536541",
+        "publisher": "數位發展部／衛生福利部",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  }
+]

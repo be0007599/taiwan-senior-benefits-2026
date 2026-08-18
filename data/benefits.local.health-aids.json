@@ -1,0 +1,258 @@
+[
+  {
+    "program_id": "keelung-senior-reading-glasses-2026",
+    "name": "基隆市115年度老人老花眼鏡補助",
+    "plain_name": "基隆長者老花眼鏡補助500元",
+    "government_level": "county_city",
+    "jurisdiction": "基隆市",
+    "authority": "基隆市政府社會處",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍基隆市滿4個月，年滿65歲；原住民年滿55歲，且有配置老花眼鏡需要。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍基隆市滿4個月。",
+      "assessment": "需配置老花眼鏡。",
+      "exclusions": "2年內不得重複申請。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "整副老花眼鏡覈實補助，每人最高500元。",
+      "amount_twd_max": 500,
+      "frequency": "每年最多1次，且2年內不得重複"
+    },
+    "application": {
+      "summary": "購買後3個月內，持合法收據或發票、身分及郵局存摺資料向戶籍地區公所申請；115年度最晚12月5日前完成。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "受理期間至12月31日，但購買補助申請最晚12月5日前完成。"
+    },
+    "official_sources": [
+      {
+        "title": "基隆市政府115年度辦理老人老花眼鏡補助方式",
+        "url": "https://www.klcg.gov.tw/tw/social/2751-307843.html",
+        "publisher": "基隆市政府社會處",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "changhua-senior-reading-glasses-2026",
+    "name": "彰化縣115年敬老眼鏡計畫",
+    "plain_name": "彰化長者敬老眼鏡補助",
+    "government_level": "county_city",
+    "jurisdiction": "彰化縣",
+    "authority": "彰化縣政府社會處",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍彰化縣且仍在籍，年滿65歲；原住民年滿55歲，經驗光師或驗光生評估有需要。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "申請及實施期間須設籍彰化縣。",
+      "assessment": "須經契約眼鏡公司之驗光師或驗光生評估。",
+      "exclusions": "每人終身限1次。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "一般戶敬老專案老花眼鏡每副補助500元；低收、中低收、中低收入老人生活津貼、身障生活補助或指定政府安置補助者每副700元。",
+      "amount_twd_min": 500,
+      "amount_twd_max": 700,
+      "frequency": "終身1次"
+    },
+    "application": {
+      "summary": "持身分證至彰化縣115年契約眼鏡公司，由業者查核資格、驗光並配鏡。",
+      "automatic": false,
+      "phone": "04-7532359"
+    },
+    "validity": {
+      "effective_from": "2026-03-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "差額及超出專案規格部分應先向契約業者確認。"
+    },
+    "official_sources": [
+      {
+        "title": "彰化縣敬老眼鏡",
+        "url": "https://www.chcg.gov.tw/DTO/social/07other/other01_con.aspx?data_id=22280&topsn=711",
+        "publisher": "彰化縣政府社會處",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taichung-vulnerable-senior-glasses",
+    "name": "臺中市敬老眼鏡補助暨視力檢查服務",
+    "plain_name": "臺中弱勢長者眼鏡與視力檢查",
+    "government_level": "county_city",
+    "jurisdiction": "臺中市",
+    "authority": "臺中市政府社會局",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍臺中市，年滿65歲；原住民年滿55歲，並具低收、中低收、中低收入老人生活津貼、身障生活補助或公費安置補助資格。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍臺中市。",
+      "income": "限計畫列定之弱勢或公費安置身分。",
+      "exclusions": "每人限補助1次。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "每人上限1,000元，包含視力篩檢、鏡架、鏡片及行政費用；不是發給1,000元現金。",
+      "amount_twd_max": 1000,
+      "frequency": "每人1次"
+    },
+    "application": {
+      "summary": "向合作服務單位事前預約並備齊福利證明，服務單位查核未重複後提供視力篩檢、配鏡或轉介。",
+      "automatic": false,
+      "phone": "04-22289111#37424"
+    },
+    "validity": {
+      "effective_from": "2025-01-02",
+      "effective_to": null
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "主管機關頁面115年5月21日更新；經費用罄前公告停止受理。"
+    },
+    "official_sources": [
+      {
+        "title": "臺中市敬老眼鏡補助暨視力檢查服務實施計畫",
+        "url": "https://www.society.taichung.gov.tw/13710/13735/13774/13783/2854210",
+        "publisher": "臺中市政府社會局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "tainan-indigenous-senior-glasses-2026",
+    "name": "臺南市115年度原住民族長者敬老好視界實施計畫",
+    "plain_name": "臺南原住民長者老花眼鏡補助1,000元",
+    "government_level": "county_city",
+    "jurisdiction": "臺南市",
+    "authority": "臺南市政府原住民族事務委員會",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "年滿55歲以上原住民或平埔原住民，設籍臺南市滿4個月，經特約驗光所評估需配戴老花眼鏡，且未申請其他配鏡補助。",
+      "minimum_age": null,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍臺南市滿4個月。",
+      "identity": "原住民或戶籍註記熟之平埔原住民。",
+      "assessment": "須經特約眼鏡行附設驗光所評估。",
+      "exclusions": "不得已申請其他配鏡補助。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "老花眼鏡每人最高補助1,000元。",
+      "amount_twd_max": 1000,
+      "frequency": "每2年1次"
+    },
+    "application": {
+      "summary": "持戶口名簿影本或戶籍謄本至特約驗光所，或參加原民會行動服務；受理至115年10月31日或經費用罄。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-28",
+      "effective_to": "2026-10-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "40至54歲低收或中低收原住民亦可申請，但本資料以55歲以上長者分支呈現。"
+    },
+    "official_sources": [
+      {
+        "title": "115年度原住民族長者敬老好視界實施計畫",
+        "url": "https://web.tainan.gov.tw/Nation/News_Content.aspx?n=919&s=8794022&sms=9713",
+        "publisher": "臺南市政府原住民族事務委員會",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "keelung-low-income-senior-hearing-aid-2026",
+    "name": "基隆市115年低收入戶老人配戴助聽器補助",
+    "plain_name": "基隆低收入長者助聽器補助",
+    "government_level": "county_city",
+    "jurisdiction": "基隆市",
+    "authority": "衛生福利部／基隆市政府社會處",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍基隆市、年滿65歲；原住民年滿55歲的低收入戶長者，具第二類聽覺障礙身障證明，或經健保合約院所診斷聽力損失45至110分貝。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍基隆市。",
+      "income": "限低收入戶。",
+      "assessment": "第二類聽覺障礙身障證明，或診斷聽力損失45至110分貝。",
+      "exclusions": "同一耳位4年內不得重複；已裝人工電子耳之耳位不得申請。"
+    },
+    "benefit": {
+      "type": "cash",
+      "summary": "單耳最高補助5,500元，雙耳最高11,000元。",
+      "amount_twd_max": 11000,
+      "frequency": "同一耳位每4年1次"
+    },
+    "application": {
+      "summary": "先持6個月內診斷證明與聽力圖或第二類身障證明至戶籍地區公所申請；核定公文送達後1個月內購買。115年受理至11月15日。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-11-15"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "11月16日後案件併入116年度審核。"
+    },
+    "stacking_notes": "同耳若已領身障輔具助聽器補助，自該補助核定日起4年內不得申請本計畫。",
+    "official_sources": [
+      {
+        "title": "基隆市115年低收入戶老人配戴助聽器補助計畫",
+        "url": "https://www.klcg.gov.tw/wSite/public/Attachment/01307/f1768548759369.pdf",
+        "publisher": "基隆市政府社會處",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  }
+]

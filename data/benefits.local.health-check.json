@@ -1,0 +1,341 @@
+[
+  {
+    "program_id": "taipei-senior-health-check-2026",
+    "name": "臺北市115年老人健康檢查",
+    "plain_name": "臺北長者每年免費健檢",
+    "government_level": "county_city",
+    "jurisdiction": "臺北市",
+    "authority": "臺北市政府衛生局",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "具中華民國身分證並設籍臺北市，年滿65歲；原住民年滿55歲。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍臺北市。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "每年免費1次；共同檢查外，可從A腦肺、B腹部超音波、C骨密肌力套餐擇1。",
+      "frequency": "每年1次"
+    },
+    "application": {
+      "summary": "每年1月起向特約醫院預約，額滿為止；攜帶身分證及健保卡。",
+      "automatic": false,
+      "phone": "1999轉1801-1807"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "套餐細項及各院所剩餘名額依衛生局預約系統。"
+    },
+    "official_sources": [
+      {
+        "title": "臺北市老人健康檢查",
+        "url": "https://health.gov.taipei/cp.aspx?n=84888D354FCA9C69",
+        "publisher": "臺北市政府衛生局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "new-taipei-senior-health-check-2026",
+    "name": "新北市115年長者健康檢查加值服務",
+    "plain_name": "新北長者健檢與六力評估",
+    "government_level": "county_city",
+    "jurisdiction": "新北市",
+    "authority": "新北市政府衛生局",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍新北市，年滿65歲；原住民年滿55歲。ICOPE以慢性病或衰弱長者優先，排除長期臥床及距前次評估未滿1年者。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍新北市。",
+      "exclusions": "ICOPE排除長期臥床及距前次評估未滿1年者。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "成人預防保健之外，加做ICOPE視力、聽力、認知、行動、營養、憂鬱評估、握力、α-胎兒蛋白；異常者可複評、轉介或開立運動處方。",
+      "frequency": "115年度依資格1次"
+    },
+    "application": {
+      "summary": "至115年合約醫療院所預約及受檢。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": null
+    },
+    "official_sources": [
+      {
+        "title": "新北長者健康檢查服務",
+        "url": "https://www.health.ntpc.gov.tw/basic/?mode=detail&node=915",
+        "publisher": "新北市政府衛生局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "taichung-senior-health-check-2025-2026",
+    "name": "臺中市樂齡長青健康檢查",
+    "plain_name": "臺中長者免費加值健檢",
+    "government_level": "county_city",
+    "jurisdiction": "臺中市",
+    "authority": "臺中市政府衛生局",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍臺中市，年滿65歲；原住民年滿55歲，並符合計畫受檢條件。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍臺中市。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "成人預防保健之外，加做胸部X光、心電圖、SPMSQ失智篩檢、尿素氮、糖化血色素、白蛋白及符合資格之癌症篩檢等。",
+      "frequency": "依計畫及成人預防保健資格"
+    },
+    "application": {
+      "summary": "向臺中市樂齡長青健康檢查合約院所預約。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2025-01-01",
+      "effective_to": "2026-12-10"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "實際可做項目須依年齡、性別及中央篩檢資格。"
+    },
+    "official_sources": [
+      {
+        "title": "臺中市樂齡長青健康檢查合約院所",
+        "url": "https://www.health.taichung.gov.tw/26198/26327/26938/26950/2863831/post",
+        "publisher": "臺中市政府衛生局",
+        "source_type": "program_page"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "yunlin-senior-health-screening-2026",
+    "name": "雲林縣115年整合性社區健康篩檢長者加碼",
+    "plain_name": "雲林65歲以上長者加碼健檢",
+    "government_level": "county_city",
+    "jurisdiction": "雲林縣",
+    "authority": "雲林縣衛生局",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍雲林縣、年滿65歲，並符合成人預防保健受檢資格。",
+      "minimum_age": 65,
+      "residency": "須設籍雲林縣。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "115年整合性社區篩檢中，65歲以上加做AFP甲型胎兒蛋白、T4、TSH甲狀腺功能及心電圖等；依場次另含中央公費篩檢。",
+      "frequency": "依當年度場次及受檢資格"
+    },
+    "application": {
+      "summary": "依衛生局公布的整合性社區健康篩檢場次，攜帶身分證及健保卡受檢。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-18",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "115年公告共規劃22場；實際場次與名額依衛生局公告。"
+    },
+    "official_sources": [
+      {
+        "title": "雲林縣115年健檢加碼",
+        "url": "https://ylshb.yunlin.gov.tw/News_Content.aspx?n=4903&s=578024&sms=13248",
+        "publisher": "雲林縣衛生局",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "kaohsiung-senior-health-check-2026",
+    "name": "高雄市115年老人健康檢查",
+    "plain_name": "高雄長者免費加值健檢",
+    "government_level": "county_city",
+    "jurisdiction": "高雄市",
+    "authority": "高雄市政府衛生局",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍高雄市，年滿65歲；原住民年滿55歲。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍高雄市。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "市府補助胸部X光、心電圖、甲狀腺刺激荷爾蒙；另搭配符合資格的成人預防保健。每人每年補助1次，預計53,846個名額。",
+      "frequency": "每年1次，額滿為止"
+    },
+    "application": {
+      "summary": "攜帶身分證、健保卡至合約醫療院所或衛生所預約受檢。",
+      "automatic": false,
+      "phone": "07-7134000#5128"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "地方加碼名額額滿後仍可依中央資格接受成人預防保健。"
+    },
+    "official_sources": [
+      {
+        "title": "115年高雄市老人健康檢查服務注意事項",
+        "url": "https://health.kcg.gov.tw/News_Content.aspx?n=51623F92649C1BE2&s=288C7776FAF29692&sms=F9373F0CFE2E3F24",
+        "publisher": "高雄市政府衛生局",
+        "source_type": "announcement"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "pingtung-vulnerable-senior-health-check-2026",
+    "name": "屏東縣115年弱勢長者健康檢查",
+    "plain_name": "屏東弱勢長者加值健檢",
+    "government_level": "county_city",
+    "jurisdiction": "屏東縣",
+    "authority": "屏東縣政府衛生局／社會處",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍屏東縣65歲以上長者或55歲以上原住民，且為低收入戶、中低收入戶或領有中低收入老人生活津貼。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍屏東縣。",
+      "income": "限低收入戶、中低收入戶或中低收入老人生活津貼受領者。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "在成人預防保健外，加做上腹部超音波、12導程心電圖及α-胎兒蛋白檢驗。",
+      "frequency": "115年度1次，至經費用罄"
+    },
+    "application": {
+      "summary": "依屏東縣主管機關公告至合作院所申請受檢。",
+      "automatic": false
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "非所有65歲以上縣民普遍適用，必須符合弱勢身分。"
+    },
+    "official_sources": [
+      {
+        "title": "屏東縣115年長者健康檢查",
+        "url": "https://elder.pthg.gov.tw/",
+        "publisher": "屏東縣政府",
+        "source_type": "program_page"
+      },
+      {
+        "title": "各縣市長者健康檢查服務",
+        "url": "https://www.gov.tw/News_Content_26_802152",
+        "publisher": "數位發展部／各地方政府",
+        "source_type": "official_summary"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  },
+  {
+    "program_id": "hualien-senior-health-check-2026",
+    "name": "花蓮縣115年長者健康檢查",
+    "plain_name": "花蓮長者免費加值健檢",
+    "government_level": "county_city",
+    "jurisdiction": "花蓮縣",
+    "authority": "花蓮縣衛生局",
+    "category": "healthcare",
+    "eligibility": {
+      "summary": "設籍花蓮縣65歲以上長者；原住民55歲以上。",
+      "minimum_age": 65,
+      "indigenous_minimum_age": 55,
+      "residency": "須設籍花蓮縣。"
+    },
+    "benefit": {
+      "type": "service",
+      "summary": "搭配成人預防保健與公費癌症篩檢，提供血液、血糖、肝功能、甲狀腺功能及營養元素等長者加值檢查；實際組合依115年問答與場次。",
+      "frequency": "115年度依資格及場次"
+    },
+    "application": {
+      "summary": "依衛生局所屬衛生所115年度場次或合作院所公告受檢。",
+      "automatic": false,
+      "phone": "03-8227141"
+    },
+    "validity": {
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-12-31"
+    },
+    "verification": {
+      "status": "verified",
+      "last_verified_at": "2026-08-17",
+      "notes": "各檢查項目可能受年齡、性別及中央篩檢資格限制。"
+    },
+    "official_sources": [
+      {
+        "title": "花蓮縣衛生局115年長者健康檢查問與答",
+        "url": "https://www.hlshb.gov.tw/News_Content.aspx?n=5017&s=199984",
+        "publisher": "花蓮縣衛生局",
+        "source_type": "faq"
+      }
+    ],
+    "availability": {
+      "status": "unknown",
+      "as_of": "2026-08-17",
+      "check_required": true,
+      "notes": "已核驗方案內容，但尚未建立即時名額或經費狀態；申請前仍須向主管機關確認。"
+    }
+  }
+]

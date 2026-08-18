@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/benefit.schema.json",
+  "title": "Taiwan Senior Benefit",
+  "description": "台灣高齡福利單一方案資料格式",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "program_id",
+    "name",
+    "plain_name",
+    "government_level",
+    "jurisdiction",
+    "authority",
+    "category",
+    "eligibility",
+    "benefit",
+    "application",
+    "validity",
+    "verification",
+    "official_sources"
+  ],
+  "properties": {
+    "program_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "plain_name": { "type": "string", "minLength": 1 },
+    "government_level": {
+      "enum": ["central", "county_city", "township_district"]
+    },
+    "jurisdiction": { "type": "string", "minLength": 1 },
+    "authority": { "type": "string", "minLength": 1 },
+    "category": {
+      "enum": [
+        "cash_assistance",
+        "pension_retirement",
+        "health_insurance",
+        "healthcare",
+        "vaccination",
+        "long_term_care",
+        "housing",
+        "transportation",
+        "culture_recreation",
+        "community_support",
+        "protection",
+        "tax"
+      ]
+    },
+    "eligibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "minimum_age"],
+      "properties": {
+        "summary": { "type": "string", "minLength": 1 },
+        "minimum_age": { "type": ["integer", "null"], "minimum": 0 },
+        "indigenous_minimum_age": { "type": ["integer", "null"], "minimum": 0 },
+        "residency": { "type": ["string", "null"] },
+        "income": { "type": ["string", "null"] },
+        "assets": { "type": ["string", "null"] },
+        "identity": { "type": ["string", "null"] },
+        "assessment": { "type": ["string", "null"] },
+        "exclusions": { "type": ["string", "null"] }
+      }
+    },
+    "benefit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "summary"],
+      "properties": {
+        "type": {
+          "enum": ["cash", "discount", "points", "service", "premium_subsidy", "tax_reduction", "mixed"]
+        },
+        "summary": { "type": "string", "minLength": 1 },
+        "amount_twd": { "type": ["number", "null"], "minimum": 0 },
+        "amount_twd_min": { "type": ["number", "null"], "minimum": 0 },
+        "amount_twd_max": { "type": ["number", "null"], "minimum": 0 },
+        "frequency": { "type": ["string", "null"] }
+      }
+    },
+    "application": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary"],
+      "properties": {
+        "summary": { "type": "string", "minLength": 1 },
+        "automatic": { "type": ["boolean", "null"] },
+        "phone": { "type": ["string", "null"] }
+      }
+    },
+    "validity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["effective_from", "effective_to"],
+      "properties": {
+        "effective_from": { "type": ["string", "null"], "format": "date" },
+        "effective_to": { "type": ["string", "null"], "format": "date" }
+      }
+    },
+    "availability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "as_of", "check_required", "notes"],
+      "properties": {
+        "status": {
+          "enum": ["continuous", "quota_limited", "funds_limited", "waitlist", "closed", "unknown"]
+        },
+        "as_of": { "type": ["string", "null"], "format": "date" },
+        "check_required": { "type": "boolean" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "last_verified_at", "notes"],
+      "properties": {
+        "status": {
+          "enum": ["verified", "pending_confirmation", "conflicting_sources", "planned", "expired", "needs_review"]
+        },
+        "last_verified_at": { "type": ["string", "null"], "format": "date" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "stacking_notes": { "type": ["string", "null"] },
+    "official_sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "url", "publisher"],
+        "properties": {
+          "title": { "type": "string", "minLength": 1 },
+          "url": { "type": "string", "format": "uri" },
+          "publisher": { "type": "string", "minLength": 1 },
+          "source_type": {
+            "enum": ["law", "program_page", "application_page", "announcement", "faq", "official_summary", "official_plan", "official_handbook", "official_dataset", "official_roster", "official_report"]
+          }
+        }
+      }
+    }
+  }
+}
