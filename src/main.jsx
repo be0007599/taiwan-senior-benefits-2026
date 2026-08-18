@@ -1,15 +1,24 @@
-import React, { memo, useDeferredValue, useMemo, useState } from 'react'
+import React, { memo, useDeferredValue, useMemo, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import {
   Accessibility, BadgeDollarSign, BusFront, CalendarDays, ChevronDown,
-  ChevronUp, CircleHelp, ExternalLink, FileCheck2, HandHeart, HeartPulse,
-  History, Info, Landmark, MapPin, Phone, Search, ShieldCheck, UserRound,
+  ChevronUp, CircleHelp, ExternalLink, FileCheck2, Gift, HandHeart, HeartPulse,
+  History, Info, Landmark, LockKeyhole, MapPin, Pencil, Phone, Search,
+  ShieldCheck, UserRound,
 } from 'lucide-react'
 import { benefits, categoryNames, counties } from './data'
 import { filterBenefits, likelyStatus } from './benefitSearch'
 import './styles.css'
 
-const filters = [['all', '全部'], ...Object.entries(categoryNames)]
+const commonFilters = [
+  ['all', '全部'],
+  ['health_insurance', '健保補助'],
+  ['cash_assistance', '現金補助'],
+  ['transportation', '交通優惠'],
+  ['long_term_care', '長照服務'],
+]
+const commonFilterKeys = new Set(commonFilters.map(([key]) => key))
+const moreFilters = Object.entries(categoryNames).filter(([key]) => !commonFilterKeys.has(key))
 
 const categoryIcons = {
   cash_assistance: BadgeDollarSign,
@@ -19,16 +28,8 @@ const categoryIcons = {
   long_term_care: HandHeart,
 }
 
-function Choice({ value, onChange, options, label }) {
-  return <div className="choice" role="group" aria-label={label}>
-    {options.map(([key, text]) => <button key={key} type="button"
-      className={value === key ? 'selected' : ''} aria-pressed={value === key}
-      onClick={() => onChange(key)}>{text}</button>)}
-  </div>
-}
-
 const statusLabels = {
-  likely: '可能符合', confirm: '需要確認', unlikely: '資格可能不符', inactive: '已截止',
+  likely: '您可能符合', confirm: '需要再確認', unlikely: '資格可能不符', inactive: '已截止',
 }
 
 const verificationLabels = {
@@ -39,6 +40,19 @@ const verificationLabels = {
 const availabilityLabels = {
   available: '目前可申請', unknown: '即時狀態需確認', quota_limited: '名額或量能有限',
   closed: '目前已截止', seasonal: '期間限定',
+}
+
+const initialProfile = {
+  county: '', age: '', indigenous: 'unknown', income: 'unknown',
+  disability: 'unknown', longTermCare: 'unknown',
+}
+
+function Choice({ value, onChange, options, label }) {
+  return <div className="choice" role="group" aria-label={label}>
+    {options.map(([key, text]) => <button key={key} type="button"
+      className={value === key ? 'selected' : ''} aria-pressed={value === key}
+      onClick={() => onChange(key)}>{text}</button>)}
+  </div>
 }
 
 function DetailRow({ icon: Icon, label, children }) {
@@ -58,26 +72,46 @@ function amountText(benefit) {
   return null
 }
 
+function matchReason(program, profile) {
+  const scope = program.government_level === 'central' ? '中央福利' : `${profile.county}福利`
+  return `依您 ${profile.age} 歲及居住${profile.county}的回答，列入${scope}初步整理`
+}
+
 const ResultItem = memo(function ResultItem({ program, profile, open, onToggle }) {
   const status = likelyStatus(program, profile)
   const Icon = categoryIcons[program.category] || Landmark
   const phone = program.application?.phone
   const amount = amountText(program.benefit || {})
+  const displayName = program.plain_name || program.name
+  const verifiedAt = program.verification?.last_verified_at || '待確認'
+
   return <article className={`result-item ${open ? 'open' : ''}`}>
     <button className="result-summary" type="button" onClick={onToggle}
       aria-expanded={open} aria-controls={`detail-${program.program_id}`}>
-      <span className="result-icon" aria-hidden="true"><Icon /></span>
-      <span className="result-title">
-        <strong>{program.plain_name || program.name}</strong>
-        <small>{categoryNames[program.category] || program.category} ・ {program.authority}</small>
+      <span className="result-topline">
+        <span className="result-icon" aria-hidden="true"><Icon /></span>
+        <span className="result-title">
+          <strong>{displayName}</strong>
+          <small>{program.jurisdiction}｜{categoryNames[program.category] || program.category}</small>
+        </span>
+        <span className={`status ${status}`}>{statusLabels[status]}</span>
       </span>
-      <span className={`status ${status}`}>{statusLabels[status]}</span>
-      {open ? <ChevronUp aria-hidden="true" /> : <ChevronDown aria-hidden="true" />}
+      <span className="benefit-preview"><Gift aria-hidden="true" />{program.benefit?.summary || '補助內容依主管機關核定。'}</span>
+      <span className="match-reason"><UserRound aria-hidden="true" />{matchReason(program, profile)}</span>
+      <span className="result-action">查看資格與申請方式 {open ? <ChevronUp aria-hidden="true" /> : <ChevronDown aria-hidden="true" />}</span>
+      <span className="verification-note"><FileCheck2 aria-hidden="true" />政府資料・核對日期 {verifiedAt}</span>
     </button>
-    {open && <div className="result-detail" id={`detail-${program.program_id}`}>
-      {program.name !== program.plain_name && <p className="official-name"><strong>政府正式名稱：</strong>{program.name}</p>}
+
+    {open ? <div className="result-detail" id={`detail-${program.program_id}`}>
+      {program.name !== program.plain_name ? <p className="official-name"><strong>政府正式名稱：</strong>{program.name}</p> : null}
       <dl>
-        <DetailRow icon={UserRound} label="資格重點">
+        <DetailRow icon={HandHeart} label="可以獲得什麼">
+          <p>{program.benefit?.summary || '依主管機關核定。'}</p>
+          <OptionalFacts items={[
+            ['資料類型', program.benefit?.type], ['結構化金額', amount], ['發放／使用頻率', program.benefit?.frequency],
+          ]} />
+        </DetailRow>
+        <DetailRow icon={UserRound} label="哪些人可以申請">
           <p>{program.eligibility?.summary || '請洽主管機關確認。'}</p>
           <OptionalFacts items={[
             ['一般最低年齡', program.eligibility?.minimum_age ? `${program.eligibility.minimum_age} 歲` : null],
@@ -85,12 +119,6 @@ const ResultItem = memo(function ResultItem({ program, profile, open, onToggle }
             ['戶籍／居住', program.eligibility?.residency], ['所得條件', program.eligibility?.income],
             ['財產條件', program.eligibility?.assets], ['身分條件', program.eligibility?.identity],
             ['評估條件', program.eligibility?.assessment], ['排除條件', program.eligibility?.exclusions],
-          ]} />
-        </DetailRow>
-        <DetailRow icon={HandHeart} label="補助內容">
-          <p>{program.benefit?.summary || '依主管機關核定。'}</p>
-          <OptionalFacts items={[
-            ['資料類型', program.benefit?.type], ['結構化金額', amount], ['發放／使用頻率', program.benefit?.frequency],
           ]} />
         </DetailRow>
         <DetailRow icon={Landmark} label="如何申請">
@@ -128,97 +156,179 @@ const ResultItem = memo(function ResultItem({ program, profile, open, onToggle }
         <h3>政府官方來源（{program.official_sources?.length || 0}）</h3>
         <div className="source-list">{program.official_sources?.map((source, index) => <a key={`${source.url}-${index}`} className="source-link"
           href={source.url} target="_blank" rel="noreferrer">
-          <span>{source.title}<small>{source.publisher} ・ {source.source_type}</small></span><ExternalLink aria-hidden="true" />
+          <span>{source.title}<small>{source.publisher}・{source.source_type}</small></span><ExternalLink aria-hidden="true" />
         </a>)}</div>
       </section>
       <div className="detail-footer">
-        <span><CalendarDays />資料核對日：{program.verification?.last_verified_at || '待確認'}</span>
+        <span><CalendarDays aria-hidden="true" />資料核對日：{verifiedAt}</span>
         <div className="detail-actions">
-          {phone && <a className="phone-link" href={`tel:${phone}`}><Phone />撥打 {phone}</a>}
+          {phone ? <a className="phone-link" href={`tel:${phone}`}><Phone aria-hidden="true" />撥打 {phone}</a> : null}
         </div>
       </div>
-    </div>}
+    </div> : null}
   </article>
 })
 
-function App() {
-  const [profile, setProfile] = useState({
-    county: '臺北市', age: 68, indigenous: 'no', income: 'general',
-    disability: 'no', longTermCare: 'no',
-  })
+function ProfileForm({ profile, onUpdate, onSubmit, errors, advancedOpen, onToggleAdvanced, finderRef }) {
+  return <section className="finder" aria-labelledby="finder-title" ref={finderRef}>
+    <h1 id="finder-title">查查看我有哪些福利</h1>
+    <p>請選擇居住縣市和年齡，我們會整理中央與居住縣市的福利。</p>
+    <form onSubmit={onSubmit} noValidate>
+      <label className="field" htmlFor="county">
+        <span><MapPin aria-hidden="true" />居住縣市</span>
+        <select id="county" value={profile.county} onChange={event => onUpdate('county', event.target.value)}
+          aria-invalid={Boolean(errors.county)} aria-describedby={errors.county ? 'county-error' : undefined}>
+          <option value="">請選擇縣市</option>
+          {counties.map(county => <option key={county}>{county}</option>)}
+        </select>
+        {errors.county ? <span className="field-error" id="county-error">{errors.county}</span> : null}
+      </label>
+      <label className="field" htmlFor="age">
+        <span><UserRound aria-hidden="true" />年齡</span>
+        <span className="age-input"><input id="age" type="number" inputMode="numeric" min="50" max="120"
+          placeholder="請輸入年齡" value={profile.age} onChange={event => onUpdate('age', event.target.value)}
+          aria-invalid={Boolean(errors.age)} aria-describedby={errors.age ? 'age-error' : undefined} /><em>歲</em></span>
+        {errors.age ? <span className="field-error" id="age-error">{errors.age}</span> : null}
+      </label>
+
+      <button className="submit-button" type="submit"><Search aria-hidden="true" />開始查詢</button>
+
+      <button className="advanced-toggle" type="button" aria-expanded={advancedOpen} aria-controls="advanced-fields"
+        onClick={onToggleAdvanced}>
+        <CircleHelp aria-hidden="true" /><span>想查得更準？再回答幾個問題</span>
+        {advancedOpen ? <ChevronUp aria-hidden="true" /> : <ChevronDown aria-hidden="true" />}
+      </button>
+
+      {advancedOpen ? <div className="advanced-fields" id="advanced-fields">
+        <div className="field"><span><UserRound aria-hidden="true" />是否具原住民身分</span>
+          <Choice label="是否具原住民身分" value={profile.indigenous} onChange={value => onUpdate('indigenous', value)}
+            options={[["yes", "是"], ["no", "否"], ["unknown", "不確定"]]} />
+        </div>
+        <div className="field"><span><BadgeDollarSign aria-hidden="true" />經濟狀況</span>
+          <Choice label="經濟狀況" value={profile.income} onChange={value => onUpdate('income', value)}
+            options={[["general", "一般"], ["midlow", "中低收入"], ["low", "低收入"], ["unknown", "不確定"]]} />
+        </div>
+        <div className="field"><span><Accessibility aria-hidden="true" />是否持有身心障礙證明</span>
+          <Choice label="是否持有身心障礙證明" value={profile.disability} onChange={value => onUpdate('disability', value)}
+            options={[["yes", "是"], ["no", "否"], ["unknown", "不確定"]]} />
+        </div>
+        <div className="field"><span><HandHeart aria-hidden="true" />是否需要長照服務</span>
+          <Choice label="是否需要長照服務" value={profile.longTermCare} onChange={value => onUpdate('longTermCare', value)}
+            options={[["yes", "是"], ["no", "否"], ["unknown", "不確定"]]} />
+        </div>
+      </div> : null}
+
+      <p className="privacy-note"><LockKeyhole aria-hidden="true" />這些資料只用於本次查詢，不會儲存。</p>
+    </form>
+  </section>
+}
+
+function ResultsPanel({ profile, resultsRef, onEdit }) {
   const [filter, setFilter] = useState('all')
   const [query, setQuery] = useState('')
   const [browseAll, setBrowseAll] = useState(false)
   const [expanded, setExpanded] = useState(null)
+  const [showMoreCategories, setShowMoreCategories] = useState(false)
+  const [visibleCount, setVisibleCount] = useState(10)
   const deferredQuery = useDeferredValue(query)
 
   const matches = useMemo(() => filterBenefits(benefits, {
     profile, category: filter, query: deferredQuery, browseAll,
   }), [profile, filter, deferredQuery, browseAll])
+  const visibleMatches = matches.slice(0, visibleCount)
 
-  const update = key => value => setProfile(p => ({ ...p, [key]: value }))
+  const chooseFilter = key => {
+    setFilter(key)
+    setExpanded(null)
+    setVisibleCount(10)
+  }
+
+  return <section className="results" id="results" tabIndex="-1" aria-labelledby="results-title" ref={resultsRef}>
+    <div className="results-heading">
+      <div><h2 id="results-title">您可能符合的福利</h2><p>已依您的回答完成初步整理，共 {matches.length} 項</p></div>
+      <button className="edit-query" type="button" onClick={onEdit}><Pencil aria-hidden="true" />修改查詢條件</button>
+    </div>
+
+    <div className="result-tools">
+      <label className="search-field"><Search aria-hidden="true" /><span className="sr-only">搜尋福利</span>
+        <input type="search" value={query} onChange={event => { setQuery(event.target.value); setVisibleCount(10); setExpanded(null) }}
+          placeholder="搜尋福利名稱或主管機關" />
+      </label>
+      <label className="toggle"><input type="checkbox" checked={browseAll}
+        onChange={event => { setBrowseAll(event.target.checked); setVisibleCount(10); setExpanded(null) }} />
+        <span>顯示此縣市其他可能需要確認的福利</span></label>
+    </div>
+
+    <nav className="filters" aria-label="常用福利類別">
+      {commonFilters.map(([key, text]) => <button key={key} className={filter === key ? 'active' : ''}
+        type="button" aria-pressed={filter === key} onClick={() => chooseFilter(key)}>{text}</button>)}
+      <button className={showMoreCategories ? 'more-categories active' : 'more-categories'} type="button"
+        aria-expanded={showMoreCategories} aria-controls="more-category-filters"
+        onClick={() => setShowMoreCategories(value => !value)}>更多類別 {showMoreCategories ? <ChevronUp /> : <ChevronDown />}</button>
+    </nav>
+    {showMoreCategories ? <nav className="filters secondary-filters" id="more-category-filters" aria-label="更多福利類別">
+      {moreFilters.map(([key, text]) => <button key={key} className={filter === key ? 'active' : ''}
+        type="button" aria-pressed={filter === key} onClick={() => chooseFilter(key)}>{text}</button>)}
+    </nav> : null}
+
+    <div className="result-list" aria-live="polite">
+      {visibleMatches.map(program => <ResultItem key={program.program_id} program={program} profile={profile}
+        open={expanded === program.program_id}
+        onToggle={() => setExpanded(current => current === program.program_id ? null : program.program_id)} />)}
+      {matches.length === 0 ? <div className="empty"><CircleHelp aria-hidden="true" /><h3>目前沒有相符項目</h3><p>請調整搜尋或類別，也可以修改查詢條件。</p></div> : null}
+    </div>
+    {visibleCount < matches.length ? <button className="show-more" type="button"
+      onClick={() => setVisibleCount(count => count + 10)}>顯示更多福利（尚有 {matches.length - visibleCount} 項）</button> : null}
+  </section>
+}
+
+function App() {
+  const [profile, setProfile] = useState(initialProfile)
+  const [submittedProfile, setSubmittedProfile] = useState(null)
+  const [advancedOpen, setAdvancedOpen] = useState(false)
+  const [errors, setErrors] = useState({})
+  const finderRef = useRef(null)
+  const resultsRef = useRef(null)
+
+  const updateProfile = (key, value) => {
+    setProfile(current => ({ ...current, [key]: value }))
+    setErrors(current => current[key] ? { ...current, [key]: undefined } : current)
+  }
+
+  const submitProfile = event => {
+    event.preventDefault()
+    const age = Number(profile.age)
+    const nextErrors = {}
+    if (!profile.county) nextErrors.county = '請先選擇居住縣市。'
+    if (!profile.age) nextErrors.age = '請輸入年齡。'
+    else if (!Number.isInteger(age) || age < 50 || age > 120) nextErrors.age = '請輸入 50 至 120 歲的整數年齡。'
+    setErrors(nextErrors)
+    if (Object.keys(nextErrors).length) {
+      const firstInvalid = nextErrors.county ? 'county' : 'age'
+      document.getElementById(firstInvalid)?.focus()
+      return
+    }
+    setSubmittedProfile({ ...profile, age })
+    requestAnimationFrame(() => resultsRef.current?.focus())
+  }
+
+  const editProfile = () => {
+    finderRef.current?.scrollIntoView({ block: 'start' })
+    document.getElementById('county')?.focus()
+  }
 
   return <>
+    <a className="skip-link" href="#main-content">跳到主要內容</a>
     <header className="site-header">
       <div className="brand"><Accessibility aria-hidden="true" /><span>長福通</span></div>
-      <div className="trust"><ShieldCheck aria-hidden="true" />資料以政府主管機關公告為準</div>
+      <div className="trust"><ShieldCheck aria-hidden="true" /><span>資料以政府主管機關公告為準</span></div>
     </header>
 
-    <main className="app-layout">
-      <section className="finder" aria-labelledby="finder-title">
-        <h1 id="finder-title">找出您可能符合的福利</h1>
-        <p>回答幾個簡單問題，我們會整理中央與居住縣市的福利。</p>
-        <form onSubmit={e => { e.preventDefault(); document.querySelector('#results')?.focus() }}>
-          <label className="field"><span><MapPin />居住縣市</span>
-            <select value={profile.county} onChange={e => update('county')(e.target.value)}>
-              {counties.map(c => <option key={c}>{c}</option>)}
-            </select>
-          </label>
-          <label className="field"><span><UserRound />年齡</span>
-            <span className="age-input"><input type="number" min="50" max="120" value={profile.age}
-              onChange={e => update('age')(e.target.value)} /><em>歲</em></span>
-          </label>
-          <div className="field"><span><UserRound />是否具原住民身分</span>
-            <Choice label="是否具原住民身分" value={profile.indigenous} onChange={update('indigenous')} options={[["yes","是"],["no","否"]]} />
-          </div>
-          <div className="field"><span><BadgeDollarSign />經濟狀況</span>
-            <Choice label="經濟狀況" value={profile.income} onChange={update('income')} options={[["general","一般"],["midlow","中低收入"],["low","低收入"]]} />
-          </div>
-          <div className="field"><span><Accessibility />是否持有身心障礙證明</span>
-            <Choice label="是否持有身心障礙證明" value={profile.disability} onChange={update('disability')} options={[["yes","是"],["no","否"]]} />
-          </div>
-          <div className="field"><span><HandHeart />是否需要長照服務</span>
-            <Choice label="是否需要長照服務" value={profile.longTermCare} onChange={update('longTermCare')} options={[["yes","是"],["no","否"],["unknown","不確定"]]} />
-          </div>
-          <button className="submit-button" type="submit"><Search />開始查詢</button>
-        </form>
-      </section>
-
-      <section className="results" id="results" tabIndex="-1" aria-labelledby="results-title">
-        <div className="results-heading"><div><h2 id="results-title">{browseAll ? '瀏覽福利資料' : '您可能符合的福利'}</h2>
-          <p>共 {matches.length} 項{query ? `，搜尋「${query}」` : browseAll ? '，包含資格可能不符的項目' : '，依目前回答初步整理'}</p></div>
-          <span className="county-chip">{profile.county}</span></div>
-        <div className="result-tools">
-          <label className="search-field"><Search aria-hidden="true" /><span className="sr-only">搜尋福利</span>
-            <input type="search" value={query} onChange={event => setQuery(event.target.value)}
-              placeholder="搜尋福利名稱、主管機關或資格關鍵字" />
-          </label>
-          <div className="browse-options">
-            <label className="toggle"><input type="checkbox" checked={browseAll} onChange={event => setBrowseAll(event.target.checked)} />
-              <span>瀏覽此縣市全部福利，不依資格隱藏</span></label>
-          </div>
-        </div>
-        <nav className="filters" aria-label="福利類別">
-          {filters.map(([key, text]) => <button key={key} className={filter === key ? 'active' : ''}
-            type="button" aria-pressed={filter === key} onClick={() => setFilter(key)}>{text}</button>)}
-        </nav>
-        <div className="result-list" aria-live="polite">
-          {matches.map(program => <ResultItem key={program.program_id}
-            program={program} profile={profile} open={(expanded ?? matches[0]?.program_id) === program.program_id}
-            onToggle={() => setExpanded(current => (current ?? matches[0]?.program_id) === program.program_id ? '' : program.program_id)} />)}
-          {matches.length === 0 && <div className="empty"><CircleHelp /><h3>目前沒有相符項目</h3><p>請調整條件，或直接洽戶籍所在地社會局（處）詢問。</p></div>}
-        </div>
-      </section>
+    <main className={`app-layout ${submittedProfile ? 'has-results' : ''}`} id="main-content">
+      <ProfileForm profile={profile} onUpdate={updateProfile} onSubmit={submitProfile} errors={errors}
+        advancedOpen={advancedOpen} onToggleAdvanced={() => setAdvancedOpen(value => !value)} finderRef={finderRef} />
+      {submittedProfile ? <ResultsPanel key={`${submittedProfile.county}-${submittedProfile.age}-${submittedProfile.indigenous}-${submittedProfile.income}-${submittedProfile.disability}-${submittedProfile.longTermCare}`}
+        profile={submittedProfile} resultsRef={resultsRef} onEdit={editProfile} /> : null}
     </main>
 
     <aside className="warning"><span aria-hidden="true">!</span><strong>申請資格與金額可能調整，送件前請再向主管機關確認。</strong></aside>

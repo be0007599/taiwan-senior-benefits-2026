@@ -31,9 +31,9 @@ export function likelyStatus(program, profile) {
 
   const eligibilityText = [eligibility.summary, eligibility.income, eligibility.identity, eligibility.assessment]
     .filter(Boolean).join(' ')
-  if (incomePattern.test(eligibilityText) && profile.income === 'general') return 'confirm'
-  if (disabilityPattern.test(eligibilityText) && profile.disability === 'no') return 'confirm'
-  if (carePattern.test(eligibilityText) && profile.longTermCare === 'no') return 'confirm'
+  if (incomePattern.test(eligibilityText) && ['general', 'unknown'].includes(profile.income)) return 'confirm'
+  if (disabilityPattern.test(eligibilityText) && ['no', 'unknown'].includes(profile.disability)) return 'confirm'
+  if (carePattern.test(eligibilityText) && ['no', 'unknown'].includes(profile.longTermCare)) return 'confirm'
   return 'likely'
 }
 
