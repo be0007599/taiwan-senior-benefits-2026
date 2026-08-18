@@ -161,7 +161,7 @@ function App() {
 
   return <>
     <header className="site-header">
-      <div className="brand"><Accessibility aria-hidden="true" /><span>長輩福利查詢</span></div>
+      <div className="brand"><Accessibility aria-hidden="true" /><span>長福通</span></div>
       <div className="trust"><ShieldCheck aria-hidden="true" />資料以政府主管機關公告為準</div>
     </header>
 
